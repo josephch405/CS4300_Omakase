@@ -3,9 +3,7 @@ import os
 print(os.environ['HOME'])
 
 
-app_port = 5000
-if "PORT" in os.environ:
-    app_port = os.environ["PORT"]
+app_port = int(os.environ.get('PORT', 8080))
 
 
 if __name__ == "__main__":
