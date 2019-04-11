@@ -1,5 +1,6 @@
 from . import *
 from app.irsystem.models.helpers import *
+from app.irsystem.models.search import find_best_restaurants
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 
 project_name = "Omakase"
@@ -18,6 +19,8 @@ def search():
         data = []
         output_message = ''
     else:
-        output_message = "Your search: " + query
-        data = range(5)
-    return render_template('search.html', name=project_name, netids=net_ids, output_message=output_message, data=data)
+        bizs = list(find_best_restaurants(query)["name"].values)
+        output_message = "Restaurant found: " + bizs[0]
+        data = [1]
+    return render_template('search.html', name=project_name, netids=net_ids,
+                           output_message=output_message, data=data)
