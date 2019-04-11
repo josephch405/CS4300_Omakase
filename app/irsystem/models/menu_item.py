@@ -4,7 +4,7 @@ from .restaurant import *
 class MenuItem(Base):
   __tablename__ = 'menu_items'
 
-  name           = db.Column(db.String(128), nullable=False, unique=True)
+  name           = db.Column(db.String(128), nullable=False)
   category       = db.Column(db.String(128), nullable=False)
   price          = db.Column(db.Float(), nullable=False)
   restaurant_id  = db.Column(db.Integer(), db.ForeignKey(Restaurant.id))
