@@ -21,5 +21,10 @@ class DevelopmentConfig(Config):
   DEVELOPMENT = True
   DEBUG = True
 
+class LocalConfig(Config):
+  DEVELOPMENT = True
+  DEBUG = True
+  SQLALCHEMY_DATABASE_URI = "postgresql://localhost/omakase_db"
+
 class TestingConfig(Config):
   TESTING = True
