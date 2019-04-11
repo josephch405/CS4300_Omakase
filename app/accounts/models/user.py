@@ -3,15 +3,11 @@ from . import *
 class User(Base):
   __tablename__ = 'users'
 
-  email           = db.Column(db.String(128), nullable =False, unique =True)
-  fname           = db.Column(db.String(128), nullable =False)
-  lname           = db.Column(db.String(128), nullable =False)
+  username        = db.Column(db.String(128), nullable =False, unique =True)
   password_digest = db.Column(db.String(192), nullable =False)
 
   def __init__(self, **kwargs):
-    self.email           = kwargs.get('email', None)
-    self.fname           = kwargs.get('fname', None)
-    self.lname           = kwargs.get('lname', None)
+    self.username        = kwargs.get('username', None)
     self.password_digest = generate_password_hash(kwargs.get('password'), None)
 
   def __repr__(self):
