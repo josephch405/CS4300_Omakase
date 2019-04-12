@@ -8,10 +8,10 @@
 {% block body %}
   <div class="container">
     <h1>{{ restaurant_name }}</h1>
-    <ul>
+    <ol>
     {% for menu_item in menu_items %}
       <li>{{ menu_item.name }} - ${{ menu_item.price }}</li>
     {% endfor %}
-    </ul>
+    </ol>
   </div>
 {% endblock %}
