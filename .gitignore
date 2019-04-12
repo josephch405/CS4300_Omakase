@@ -7,3 +7,5 @@ vagrant/a4keypair.pem
 .vscode/
 .DS_Store
 .env
+.gcloudignore
+app.yaml
