@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Futura;
+  src: url("https://cdn.jsdelivr.net/npm/futura-font@1.0.0/FuturaBT-Medium.woff");
+}
+
 #project-name {
   font-size: 55px;
-  font-family:Futura;
-  color: #4285F4;
+  font-family: Futura;
+  color: #4285f4;
   padding: 1em 0;
   text-align: center;
 }
