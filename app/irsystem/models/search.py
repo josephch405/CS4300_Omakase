@@ -3,8 +3,7 @@ import pandas as pd
 import nltk
 import os
 from app import db
-from .restaurant import Restaurant
-from .menu_item import MenuItem
+from .data_models import Restaurant, MenuItem
 
 
 def custom_edit_dist(q, restaurant_name):
