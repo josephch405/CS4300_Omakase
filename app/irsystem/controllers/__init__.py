@@ -26,5 +26,4 @@ from app.irsystem import irsystem
 # Import module models
 from app.accounts.models.user import *
 from app.accounts.models.session import *
-from ..models.restaurant import *
-from ..models.menu_item import *
+from ..models.data_models import *

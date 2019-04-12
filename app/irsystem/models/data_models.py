@@ -28,7 +28,7 @@ class Restaurant(Base):
   name           = db.Column(db.String(128), nullable=False, unique=True)
   url            = db.Column(db.String(128), nullable=False, unique=True)
 
-  menu_items     = db.relationship('MenuItem', backref=backref('menu_items'), lazy=True)
+  menu_items     = db.relationship('MenuItem', backref='restaurant', lazy=True)
 
   def __init__(self, **kwargs):
     self.name           = kwargs.get('name', None)
