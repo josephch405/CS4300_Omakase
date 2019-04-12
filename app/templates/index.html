@@ -1,35 +1,60 @@
-{% extends "base.html" %}
-
-{% block head %}
-  {{ super() }}
-  <link rel="stylesheet" href="/static/index.css">
-  <link rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-        crossorigin="anonymous">
-{% endblock %}
-
-{% block body %}
-  <h1 id="project-name">
-    Omakase <br />
-    おまかせ
-  </h1>
-  <div id="form-container">
-    <form action="{{ urls['search'] }}" class="col-lg-6">
-      <div class="form-group">
-        <div class="input-group">
-          <input
-            id="input"
-            type="text"
-            name="search"
-            class="form-control"
-            placeholder="e.g. {{ restaurant_suggestion }}"
-          />
-          <button type="submit" class="btn btn-info input-group-addon">
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
+{% extends "base.html" %} {% block head %}
+{{ super() }}
+<link rel="stylesheet" href="/static/index.css" />
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+{% endblock %} {% block body %}
+<h1 id="project-name">
+  Omakase <br />
+  おまかせ
+</h1>
+<div id="form-container">
+  <form action="{{ urls['search'] }}" class="col-lg-6">
+    <div class="form-group">
+      <div class="input-group">
+        <input
+          id="input"
+          type="text"
+          name="search"
+          class="form-control"
+          placeholder="e.g. {{ restaurant_suggestion }}"
+        />
+        <button type="submit" class="btn btn-info input-group-addon">
+          <i class="fas fa-search"></i>
+        </button>
       </div>
-    </form>
-  </div>
-{% endblock %}
+    </div>
+  </form>
+</div>
+{% block js %}
+{{ super() }}
+<script>
+  console.log("script");
+  // $("#input").on("input", function() {
+  //   console.log($(this).val());
+  //   $.ajax({ url: "autocomplete?term=" + $(this).val() }).done(data => {
+  //     console.log(data);
+  //     $(this).autocomplete({
+  //       source: data
+  //     });
+  //   });
+  // });
+  $("#input").autocomplete({
+    source: function(req, res) {
+      $.ajax({
+        url: "/autocomplete",
+        data: { term: req.term },
+        dataType: "json",
+        success: res,
+        error: function() {
+          res([]);
+        }
+      });
+    }
+  });
+</script>
+{% endblock %} {% endblock %}
