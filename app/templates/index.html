@@ -45,6 +45,7 @@
   $("#input").autocomplete({
     source: function(req, res) {
       $.ajax({
+        timeout: 5000,
         url: "/autocomplete",
         data: { term: req.term },
         dataType: "json",
