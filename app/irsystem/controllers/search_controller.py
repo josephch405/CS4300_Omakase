@@ -12,7 +12,10 @@ def index():
     return render_template(
         'index.html',
         restaurant_suggestion=rand_restaurant_name,
-        search_url=url_for('irsystem.search'),
+        urls={
+            'index': url_for('irsystem.index'),
+            'search': url_for('irsystem.search'),
+        }
     )
 
 @irsystem.route('/search', methods=['GET'])
@@ -28,4 +31,8 @@ def search():
         'search.html',
         restaurant_name=bizs[0],
         menu_items=menu_items,
+        urls={
+            'index': url_for('irsystem.index'),
+            'search': url_for('irsystem.search'),
+        },
     )
