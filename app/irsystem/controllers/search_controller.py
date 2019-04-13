@@ -34,27 +34,14 @@ def search():
         return redirect(url_for('irsystem.index'))
 
     bizs = list(find_best_restaurants(query)["name"].values)
-<<<<<<< HEAD
-<<<<<<< HEAD
-    menu_items = MenuItem.query.join(
-        Restaurant).filter(Restaurant.name == bizs[0])
-=======
-=======
     menu_items_df = find_best_menu(bizs[0])
->>>>>>> error message if no menu items
     menu_items = [
         {
             "name": getattr(row, "name"),
             "price": getattr(row, "price"),
         }
-<<<<<<< HEAD
-        for row in find_best_menu(bizs[0]).itertuples()
-    ]
->>>>>>> move back to using csv files for static data
-=======
         for row in menu_items_df.itertuples()
     ] if menu_items_df is not None else []
->>>>>>> error message if no menu items
 
     return render_template(
         'search.html',
