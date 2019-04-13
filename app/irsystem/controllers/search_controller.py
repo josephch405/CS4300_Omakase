@@ -8,11 +8,6 @@ from flask import redirect, url_for, Response
 
 @irsystem.route('/', methods=['GET'])
 def index():
-<<<<<<< HEAD
-    rand_restaurant_name = Restaurant.query.order_by(
-        func.random()).first().name
-=======
->>>>>>> move back to using csv files for static data
     return render_template(
         'index.html',
         restaurant_suggestion=get_random_restaurant(),
@@ -40,17 +35,26 @@ def search():
 
     bizs = list(find_best_restaurants(query)["name"].values)
 <<<<<<< HEAD
+<<<<<<< HEAD
     menu_items = MenuItem.query.join(
         Restaurant).filter(Restaurant.name == bizs[0])
 =======
+=======
+    menu_items_df = find_best_menu(bizs[0])
+>>>>>>> error message if no menu items
     menu_items = [
         {
             "name": getattr(row, "name"),
             "price": getattr(row, "price"),
         }
+<<<<<<< HEAD
         for row in find_best_menu(bizs[0]).itertuples()
     ]
 >>>>>>> move back to using csv files for static data
+=======
+        for row in menu_items_df.itertuples()
+    ] if menu_items_df is not None else []
+>>>>>>> error message if no menu items
 
     return render_template(
         'search.html',
