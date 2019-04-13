@@ -2,8 +2,18 @@ import numpy as np
 import pandas as pd
 import nltk
 import os
-from app import db
-from .data_models import Restaurant, MenuItem
+
+
+def csv_path(n):
+    return os.path.join(os.path.dirname(__file__), n)
+
+
+all_reviews_df = pd.read_csv(
+    csv_path("all_reviews.csv"), encoding="unicode_escape")
+all_restaurants_df = pd.read_csv(
+    csv_path("all_restaurants.csv"), encoding="unicode_escape")
+all_menus = pd.read_csv(
+    csv_path("all_menus.csv"), encoding="unicode_escape")
 
 
 def custom_edit_dist(q, restaurant_name):
@@ -20,19 +30,14 @@ def custom_edit_dist(q, restaurant_name):
 
 
 def find_best_restaurants(query):
-    restaurant_names_df = pd.DataFrame(
-        {"name": [r.name for r in Restaurant.query.all()]}
-    )
-    distances = restaurant_names_df["name"].apply(
-        lambda n: custom_edit_dist(query, n)
-    )
+    distances = all_restaurants_df["name"].apply(
+        lambda n: custom_edit_dist(query, n))
     top_10 = distances.sort_values()[:10]
-    return restaurant_names_df.loc[top_10.index]
+    return all_restaurants_df.loc[top_10.index]
 
 
 def find_best_menu(restaurant_name):
-    menu_biz_names_list = MenuItem.query.join(Restaurant).with_entities(Restaurant.name).distinct()
-    menu_biz_names = np.array([m.name for m in menu_biz_names_list])
+    menu_biz_names = all_menus["rest_name"].unique()
 
     # found direct match, return
     if restaurant_name not in menu_biz_names:
@@ -44,5 +49,7 @@ def find_best_menu(restaurant_name):
             return None
         restaurant_name = menu_biz_names[top_10][0]
     # we keep intermediary 10 best menus just in case, can refactor
-    menu_items = MenuItem.query.join(Restaurant).filter(Restaurant.name == restaurant_name)
-    return pd.DataFrame({"name": [m.name for m in menu_items]})
+    return all_menus[all_menus["rest_name"] == restaurant_name]
+
+def get_random_restaurant():
+    return list(all_restaurants_df['name'].sample())[0]
