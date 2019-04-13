@@ -10,7 +10,7 @@
     <h1>{{ restaurant_name }}</h1>
     <ol>
     {% for menu_item in menu_items %}
-      <li>{{ menu_item.name }} - ${{ menu_item.price }}</li>
+      <li>{{ menu_item.name }} - ${{ "%0.2f" % menu_item.price }}</li>
     {% else %}
       <p> Sorry, we don't have the menu for this restaurant. </p>
     {% endfor %}
