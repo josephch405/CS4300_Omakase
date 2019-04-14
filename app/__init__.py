@@ -22,6 +22,24 @@ db_path = os.path.join(
 )
 db = sqlite3.connect(db_path)
 
+# create schema if uninitialized
+c = db.cursor()
+c.executescript("""
+CREATE TABLE IF NOT EXISTS users (
+  user_id INTEGER PRIMARY KEY,
+  username TEXT UNIQUE NOT NULL,
+  password TEXT NOT NULL 
+);
+
+CREATE TABLE IF NOT EXISTS preferences (
+  user_id INTEGER,
+  restaurant TEXT,
+  menu_item TEXT,
+  rating INTEGER,
+  FOREIGN KEY(user_id) REFERENCES users(user_id)
+);
+""")
+
 # Import + Register Blueprints
 from app.irsystem import irsystem as irsystem
 app.register_blueprint(irsystem)
