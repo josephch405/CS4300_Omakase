@@ -7,5 +7,4 @@ vagrant/a4keypair.pem
 .vscode/
 .DS_Store
 .env
-.gcloudignore
-app.yaml
+data/omakase_db.sqlite3

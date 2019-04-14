@@ -1,7 +1,5 @@
 from . import *
-from app.irsystem.models.helpers import *
 from app.irsystem.models.search import find_best_restaurants, find_best_menu, get_random_restaurant
-from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from sqlalchemy.sql.expression import func
 from flask import redirect, url_for, Response
 

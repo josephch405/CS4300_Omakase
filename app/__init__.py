@@ -4,6 +4,7 @@ monkey.patch_all()
 
 # Imports
 import os
+import sqlite3
 from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_socketio import SocketIO
@@ -15,11 +16,13 @@ app.config.from_object(os.environ["APP_SETTINGS"])
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 # DB
-db = SQLAlchemy(app)
+db_path = os.path.join(
+  os.path.dirname(os.path.realpath(__file__)),
+  "../data/omakase_db.sqlite3"
+)
+db = sqlite3.connect(db_path)
 
 # Import + Register Blueprints
-from app.accounts import accounts as accounts
-app.register_blueprint(accounts)
 from app.irsystem import irsystem as irsystem
 app.register_blueprint(irsystem)
 
