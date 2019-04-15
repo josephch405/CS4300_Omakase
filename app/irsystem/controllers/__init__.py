@@ -22,6 +22,3 @@ from app import socketio
 
 # IMPORT THE BLUEPRINT APP OBJECT 
 from app.irsystem import irsystem 
-
-# Import module models
-from ..models.data_models import *
