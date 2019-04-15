@@ -1,5 +1,6 @@
 import bcrypt
 import sqlite3
+import json
 
 from . import *
 from app.irsystem.models.search import find_best_restaurants, find_best_menu, get_random_restaurant
