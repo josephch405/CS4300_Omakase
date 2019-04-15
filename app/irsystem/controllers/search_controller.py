@@ -69,9 +69,10 @@ def login():
                         {"username": username, "hashed_pw": hashed_pw},
                     )
                     session["session_username"] = username
+                    flash("Successfully signed up", "success")
                     return redirect(url_for("irsystem.index"))
             except sqlite3.IntegrityError:
-                flash("Username has already been used. Please try again.")
+                flash("Username has already been used. Please try again.", "danger")
                 return redirect(url_for("irsystem.login"))
         elif "login" in request.form:
             cursor = db.execute(
@@ -82,9 +83,10 @@ def login():
 
             if row is not None and bcrypt.checkpw(password, row["hashed_pw"]):
                 session["session_username"] = username
+                flash("Successfully logged in", "success")
                 return redirect(url_for("irsystem.index"))
             else:
-                flash("Invalid username or password")
+                flash("Invalid username or password", "danger")
                 return redirect(url_for("irsystem.login"))
         else:
             return redirect(url_for('irsystem.login'))
