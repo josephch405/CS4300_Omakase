@@ -21,12 +21,13 @@ db_path = os.path.join(
   "../data/omakase_db.sqlite3"
 )
 db = sqlite3.connect(db_path)
+db.row_factory = sqlite3.Row
 
 # create schema if uninitialized
 c = db.cursor()
 c.executescript("""
 CREATE TABLE IF NOT EXISTS users (
-  user_id INTEGER PRIMARY KEY,
+  user_id INTEGER PRIMARY KEY AUTOINCREMENT,
   username TEXT UNIQUE NOT NULL,
   password TEXT NOT NULL 
 );
