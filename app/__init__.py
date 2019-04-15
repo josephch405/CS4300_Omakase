@@ -29,7 +29,7 @@ c.executescript("""
 CREATE TABLE IF NOT EXISTS users (
   user_id INTEGER PRIMARY KEY AUTOINCREMENT,
   username TEXT UNIQUE NOT NULL,
-  password TEXT NOT NULL 
+  hashed_pw TEXT NOT NULL 
 );
 
 CREATE TABLE IF NOT EXISTS preferences (

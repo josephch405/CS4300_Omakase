@@ -1,3 +1,6 @@
+import bcrypt
+import sqlite3
+
 from . import *
 from app.irsystem.models.search import find_best_restaurants, find_best_menu, get_random_restaurant
 from sqlalchemy.sql.expression import func
@@ -53,12 +56,38 @@ def login():
             'login.html',
         )
     elif request.method == "POST":
-        username = request.form.get("username")
+        username = request.form.get("username").strip()
         password = request.form.get("password")
 
-        session["session_username"] = username
+        if "signup" in request.form:
+            try:
+                with db:
+                    hashed_pw = bcrypt.hashpw(password, bcrypt.gensalt( 12 ))
+                    cursor = db.execute(
+                        "INSERT INTO users (username, hashed_pw) "
+                        "values (:username, :hashed_pw)",
+                        {"username": username, "hashed_pw": hashed_pw},
+                    )
+                    session["session_username"] = username
+                    return redirect(url_for("irsystem.index"))
+            except sqlite3.IntegrityError:
+                flash("Username has already been used. Please try again.")
+                return redirect(url_for("irsystem.login"))
+        elif "login" in request.form:
+            cursor = db.execute(
+                "SELECT hashed_pw FROM users WHERE username = :username",
+                {"username": username},
+            )
+            row = cursor.fetchone()
 
-        return redirect(url_for('irsystem.index'))
+            if row is not None and bcrypt.checkpw(password, row["hashed_pw"]):
+                session["session_username"] = username
+                return redirect(url_for("irsystem.index"))
+            else:
+                flash("Invalid username or password")
+                return redirect(url_for("irsystem.login"))
+        else:
+            return redirect(url_for('irsystem.login'))
 
 @irsystem.route('/logout', methods=['GET'])
 def logout():
