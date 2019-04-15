@@ -13,7 +13,7 @@
   おまかせ
 </h1>
 <div id="form-container">
-  <form action="{{ urls['search'] }}" class="col-lg-6">
+  <form action="{{ url_for('irsystem.search') }}" class="col-lg-6">
     <div class="form-group">
       <div class="input-group">
         <input
@@ -30,7 +30,7 @@
     </div>
   </form>
 </div>
-{% block js %}
+{% endblock %} {% block js %}
 {{ super() }}
 <script>
   // $("#input").on("input", function() {
@@ -57,4 +57,4 @@
     }
   });
 </script>
-{% endblock %} {% endblock %}
+{% endblock %}

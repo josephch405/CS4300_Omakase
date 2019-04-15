@@ -1,7 +1,7 @@
 from . import *
 from app.irsystem.models.search import find_best_restaurants, find_best_menu, get_random_restaurant
 from sqlalchemy.sql.expression import func
-from flask import redirect, url_for, Response
+from flask import redirect, url_for, Response, make_response, session
 
 
 @irsystem.route('/', methods=['GET'])
@@ -9,10 +9,6 @@ def index():
     return render_template(
         'index.html',
         restaurant_suggestion=get_random_restaurant(),
-        urls={
-            'index': url_for('irsystem.index'),
-            'search': url_for('irsystem.search'),
-        }
     )
 
 
@@ -45,8 +41,27 @@ def search():
         'search.html',
         restaurant_name=bizs[0],
         menu_items=menu_items,
-        urls={
-            'index': url_for('irsystem.index'),
-            'search': url_for('irsystem.search'),
-        },
     )
+
+@irsystem.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == "GET":
+        print(request.cookies)
+        if "session_username" in request.cookies:
+            return redirect(url_for('irsystem.index'))
+
+        return render_template(
+            'login.html',
+        )
+    elif request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        session["session_username"] = username
+
+        return redirect(url_for('irsystem.index'))
+
+@irsystem.route('/logout', methods=['GET'])
+def logout():
+    session.pop("session_username", None)
+    return redirect(url_for('irsystem.index'))

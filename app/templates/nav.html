@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="{{ urls['index'] }}">Omakase</a>
+  <a class="navbar-brand" href="{{ url_for('irsystem.index') }}">Omakase</a>
   <button class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -12,11 +12,37 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="{{ urls['index'] }}">Home</a>
+        <a class="nav-link" href="{{ url_for('irsystem.index') }}">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">About</a>
       </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+        {% if 'session_username' not in session %}
+        <a class="btn btn-outline-primary ml-auto" href="{{ url_for('irsystem.login') }}">
+            Login
+        </a>
+        {% else %}
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false">
+                Hi {{ session['session_username'] }}!
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div> -->
+                <a class="dropdown-item" href="{{ url_for('irsystem.logout') }}">Logout</a>
+            </div>
+        </li>
+        {% endif %}
     </ul>
   </div>
 </nav>
