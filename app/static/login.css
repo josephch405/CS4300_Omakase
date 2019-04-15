@@ -2,4 +2,11 @@
   display: flex;
   justify-content: center;
   margin: 2em 0;
+  justify-content: space-around;
+}
+form {
+  width: 30%
+}
+#or-text {
+  align-self: center;
 }

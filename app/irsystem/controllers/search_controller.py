@@ -46,7 +46,6 @@ def search():
 @irsystem.route('/login', methods=['GET', 'POST'])
 def login():
     if request.method == "GET":
-        print(request.cookies)
         if "session_username" in request.cookies:
             return redirect(url_for('irsystem.index'))
 

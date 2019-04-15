@@ -20,29 +20,28 @@
     </ul>
 
     <ul class="navbar-nav ml-auto">
-        {% if 'session_username' not in session %}
-        <a class="btn btn-outline-primary ml-auto" href="{{ url_for('irsystem.login') }}">
-            Login
+      {% if 'session_username' not in session %}
+      <a class="btn btn-outline-primary ml-auto" href="{{ url_for('irsystem.login') }}">
+          Login
+      </a>
+      {% else %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false">
+            Hi {{ session['session_username'] }}!
         </a>
-        {% else %}
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false">
-                Hi {{ session['session_username'] }}!
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <!-- <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div> -->
-                <a class="dropdown-item" href="{{ url_for('irsystem.logout') }}">Logout</a>
-            </div>
-        </li>
-        {% endif %}
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="{{ url_for('irsystem.logout') }}">
+              Logout
+              </a>
+        </div>
+      </li>
+      {% endif %}
     </ul>
   </div>
 </nav>
