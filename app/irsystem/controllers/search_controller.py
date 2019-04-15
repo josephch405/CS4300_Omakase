@@ -1,7 +1,7 @@
 from . import *
 from app.irsystem.models.search import find_best_restaurants, find_best_menu, get_random_restaurant
 from sqlalchemy.sql.expression import func
-from flask import redirect, url_for, Response, make_response, session
+from flask import redirect, url_for, Response, make_response, session, flash
 
 
 @irsystem.route('/', methods=['GET'])

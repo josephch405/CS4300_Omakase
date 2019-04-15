@@ -11,10 +11,30 @@
       rel="stylesheet"
       href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css"
     />
+    <style>
+      .alert {
+        margin: 0;
+      }
+    </style>
     {% endblock %}
   </head>
   <body>
-    {% include "nav.html" %} {% block body %}{% endblock %} {% block js %}
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <div class="alert alert-danger alert-dismissible fade show"
+              role="alert">
+              {{ message }}
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+    {% include "nav.html" %}
+    {% block body %}{% endblock %}
+    {% block js %}
     <script
       src="https://code.jquery.com/jquery-3.4.0.min.js"
       integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
