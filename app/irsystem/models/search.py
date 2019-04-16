@@ -116,6 +116,10 @@ def find_best_menu(restaurant_name):
 def find_top_n_menu_items(restaurant_name, n=20):
     menu = find_best_menu(restaurant_name)
     rev_dish_mtx = get_rev_dish_matrix_for_name(restaurant_name)
+
+    if rev_dish_mtx is None:
+        return None
+
     dish_scores = rev_dish_mtx.sum(axis=0)
 
     best_dish_idx = (-1 * dish_scores).argsort()[:n]
