@@ -1,0 +1,64 @@
+{% extends "base.html" %} {% block head %}
+{{ super() }}
+<link rel="stylesheet" href="/static/login.css" />
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+{% endblock %} {% block body %}
+<div id="form-container">
+  <form action="{{ url_for('irsystem.login') }}" method="POST">
+    <h3 class="text-center">Sign Up</h3>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="username"
+        class="form-control"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        class="form-control"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <button name="signup" class="form-control btn btn-primary">
+        Sign Up
+      </button>
+    </div>
+  </form>
+  <h3 id="or-text">- or -</h3>
+  <form action="{{ url_for('irsystem.login') }}" method="POST">
+    <h3 class="text-center">Login</h3>
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="username"
+        class="form-control"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        class="form-control"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <button name="login" class="form-control btn btn-primary">Login</button>
+    </div>
+  </form>
+</div>
+ {% endblock %}
