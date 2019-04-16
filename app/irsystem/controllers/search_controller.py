@@ -16,6 +16,20 @@ def index():
     )
 
 
+@irsystem.route('/about', methods=['GET'])
+def about():
+    return render_template(
+        'about.html',
+        team_members=[
+            ("Joseph Chuang", "jcc436"),
+            ("Ryan Curtis", "rec284"),
+            ("Tyler Ishikawa", "tyi3"),
+            ("Danyal Motiwalla", "djm453"),
+            ("Jessica Wu", "jlw377"),
+        ]
+    )
+
+
 @irsystem.route('/autocomplete', methods=['GET'])
 def autocomplete():
     search = request.args.get('term')

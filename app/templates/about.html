@@ -1,0 +1,27 @@
+{% extends "base.html" %} {% block head %}
+{{ super() }}
+<link rel="stylesheet" href="/static/index.css" />
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+{% endblock %}
+{% block body %}
+<div class="container">
+  <h1>Why Omakase?</h1>
+  <p>
+    Ever been to a new restaurant and been completely overwhelmed by all of the
+    choices on the menu? Omakase strives to be the app you go to when you need
+    help picking what to eat. Just enter the name of a restaurant and instantly
+    get personalized menu recommendations!
+  </p>
+  <h1>Team Members</h1>
+  <ul>
+  {% for name, netid in team_members %}
+    <li>{{ name }} ({{ netid }})</li>
+  {% endfor %}
+  </ul>
+</div>
+{% endblock %}
