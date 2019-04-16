@@ -7,7 +7,7 @@
 
 {% block body %}
   <div class="container">
-    <h1>{{ restaurant_name }}</h1>
+    <h1>Our recommendations for {{ restaurant_name }}:</h1>
     <ol>
     {% for menu_item in menu_items %}
       <li>{{ menu_item.name }} - ${{ "%0.2f" % menu_item.price }}</li>
