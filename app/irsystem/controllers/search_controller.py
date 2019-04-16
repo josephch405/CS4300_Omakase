@@ -1,6 +1,6 @@
 from . import *
 from app.irsystem.models.helpers import *
-from app.irsystem.models.search import find_best_restaurants, find_best_menu, get_random_restaurant
+from app.irsystem.models.search import find_best_restaurants, find_top_n_menu_items, get_random_restaurant
 from app.irsystem.models.helpers import NumpyEncoder as NumpyEncoder
 from sqlalchemy.sql.expression import func
 from flask import redirect, url_for, Response
@@ -34,7 +34,8 @@ def search():
         return redirect(url_for('irsystem.index'))
 
     bizs = list(find_best_restaurants(query)["name"].values)
-    menu_items_df = find_best_menu(bizs[0])
+    menu_items_df = find_top_n_menu_items(bizs[0])
+
     menu_items = [
         {
             "name": getattr(row, "name"),
