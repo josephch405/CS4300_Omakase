@@ -98,8 +98,20 @@
       menuItem: $("input[name='menu-item-name']").val(),
     })
       .done(function(data) {
-        const thumbsUp = $("<i>", {class: "far fa-thumbs-up"});
-        const thumbsDown = $("<i>", {class: "far fa-thumbs-down"});
+        const thumbsUp = $(
+          "<i>", {
+            class: "far fa-thumbs-up",
+            "data-restaurant": data["rest_name"],
+            "data-menu-item": data["name"],
+          }
+        );
+        const thumbsDown = $(
+          "<i>", {
+            class: "far fa-thumbs-down",
+            "data-restaurant": data["rest_name"],
+            "data-menu-item": data["name"],
+          }
+        );
 
         thumbsUp.click(() => toggleFaClass(thumbsUp, thumbsDown));
         thumbsDown.click(() => toggleFaClass(thumbsDown, thumbsUp));
@@ -108,7 +120,7 @@
         const tr = $("<tr>");
         tr.append($("<td>").text(data["rest_name"]));
         tr.append($("<td>").text(data["name"]));
-        tr.append($("<td>").text(`$${data["price"]}`));
+        tr.append($("<td>").text(`$${data["price"].toFixed(2)}`));
         tr.append($("<td>").html(thumbsUp));
         tr.append($("<td>").html(thumbsDown));
         $("#pref-list").append(tr);
