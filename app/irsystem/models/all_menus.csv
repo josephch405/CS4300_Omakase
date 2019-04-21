@@ -1,9 +1,4 @@
 ,rest_name,category,name,price
-0,Aladdin's Natural Eatery,Drinks,12oz. Coke ,1.55
-1,Aladdin's Natural Eatery,Drinks,12oz. Diet Coke ,1.55
-2,Aladdin's Natural Eatery,Drinks,12oz. Sprite ,1.55
-3,Aladdin's Natural Eatery,Drinks,12oz. Cherry Coke ,1.55
-4,Aladdin's Natural Eatery,Drinks,Bottled Water,1.99
 5,Aladdin's Natural Eatery,Juice,Small Orange Juice,2.75
 6,Aladdin's Natural Eatery,Juice,Large Orange Juice,3.75
 7,Aladdin's Natural Eatery,Juice,Bottled Apple Juice,2.5
@@ -80,11 +75,6 @@
 78,Aladdin's Natural Eatery,Desserts,Baklava,4.5
 79,Aladdin's Natural Eatery,Desserts,Carrot Cake,5.5
 80,Aladdin's Natural Eatery,Desserts,Triple Chocolate Cheesecake,6
-81,Aladdin's Natural Eatery,Drinks,12oz. Coke ,1.55
-82,Aladdin's Natural Eatery,Drinks,12oz. Diet Coke ,1.55
-83,Aladdin's Natural Eatery,Drinks,12oz. Sprite ,1.55
-84,Aladdin's Natural Eatery,Drinks,12oz. Cherry Coke ,1.55
-85,Aladdin's Natural Eatery,Drinks,Bottled Water,1.99
 86,Aladdin's Natural Eatery,Appetizer Pans,Hummus (Half Pan),24
 87,Aladdin's Natural Eatery,Appetizer Pans,Hummus (Full Pan),42
 88,Aladdin's Natural Eatery,Appetizer Pans,Toasted Ravioli (Half Pan),32
@@ -109,11 +99,6 @@
 107,Aladdin's Natural Eatery,Dessert Pans,Triple Chocolate Cake,48
 108,Aladdin's Natural Eatery,Dessert Pans,Flourless Chocolate Torte,4.5
 109,Aladdin's Natural Eatery,Dessert Pans,Baklava,2
-110,Apollo Restaurant,Drinks,12oz. Coke ,1.55
-111,Apollo Restaurant,Drinks,12oz. Diet Coke ,1.55
-112,Apollo Restaurant,Drinks,12oz. Sprite ,1.55
-113,Apollo Restaurant,Drinks,12oz. Cherry Coke ,1.55
-114,Apollo Restaurant,Drinks,Bottled Water,1.99
 115,Apollo Restaurant,Beverages,Bottled Water ,1.5
 116,Apollo Restaurant,Beverages,Orangina (16 oz) ,2.25
 117,Apollo Restaurant,Beverages,Snapple,2.15
@@ -345,11 +330,6 @@
 343,Apollo Restaurant,Vegetarian Special,Vegetarian General Tao's Chicken,12.95
 344,Apollo Restaurant,Vegetarian Special,Vegetarian Chicken w. Mixed Vegetables,12.5
 345,Apollo Restaurant,Vegetarian Special,Vegetarian Sesame Chicken,12.95
-346,Asian Noodle House,Drinks,12oz. Coke ,1.55
-347,Asian Noodle House,Drinks,12oz. Diet Coke ,1.55
-348,Asian Noodle House,Drinks,12oz. Sprite ,1.55
-349,Asian Noodle House,Drinks,12oz. Cherry Coke ,1.55
-350,Asian Noodle House,Drinks,Bottled Water,1.99
 351,Asian Noodle House,Appetizers,Fried Tofu,3.95
 352,Asian Noodle House,Appetizers,Chicken Satay,5.25
 353,Asian Noodle House,Appetizers,Spring Roll,3.95
@@ -448,11 +428,6 @@
 446,Asian Noodle House,House Special Entrees,Roast Duck with Vegetable Casserole,12.95
 447,Asian Noodle House,House Special Entrees,Pork Chop with Thai Curry Sauce,11.95
 448,Asian Noodle House,House Special Entrees,Ginger Onion with Chicken,11.95
-449,Auntie Anne's,Drinks,12oz. Coke ,1.55
-450,Auntie Anne's,Drinks,12oz. Diet Coke ,1.55
-451,Auntie Anne's,Drinks,12oz. Sprite ,1.55
-452,Auntie Anne's,Drinks,12oz. Cherry Coke ,1.55
-453,Auntie Anne's,Drinks,Bottled Water,1.99
 454,Auntie Anne's,Auntie Anne's Drinks, Small Original Lemonade,2.39
 455,Auntie Anne's,Auntie Anne's Drinks,Large frozen lemonade mixer,3.79
 456,Auntie Anne's,Auntie Anne's Drinks,Medium Original Lemonade,2.59
@@ -496,11 +471,6 @@
 494,Auntie Anne's,Catering Items,Bucket of pretzel mini dogs,26.45
 495,Auntie Anne's,Catering Items,Bucket of jalapeno pretzel nuggets,21.45
 496,Auntie Anne's,Catering Items,Bucket of Pepperoni Pretzel Nuggets,22
-497,Bella Pizza,Drinks,12oz. Coke ,1.55
-498,Bella Pizza,Drinks,12oz. Diet Coke ,1.55
-499,Bella Pizza,Drinks,12oz. Sprite ,1.55
-500,Bella Pizza,Drinks,12oz. Cherry Coke ,1.55
-501,Bella Pizza,Drinks,Bottled Water,1.99
 502,Bella Pizza,Pizza,Small Pizza,7.99
 503,Bella Pizza,Pizza,Large Pizza,9.99
 504,Bella Pizza,Pizza,Sheet pizza,19.99
@@ -551,11 +521,6 @@
 549,Bella Pizza,Desserts,Cinnamon Drops,3.49
 550,Bella Pizza,Desserts,Cinnamon Drops,5.99
 551,Bella Pizza,Desserts,Ultimate Chocolate Brownies,2.99
-552,BoL Ithaca,Drinks,12oz. Coke ,1.55
-553,BoL Ithaca,Drinks,12oz. Diet Coke ,1.55
-554,BoL Ithaca,Drinks,12oz. Sprite ,1.55
-555,BoL Ithaca,Drinks,12oz. Cherry Coke ,1.55
-556,BoL Ithaca,Drinks,Bottled Water,1.99
 557,BoL Ithaca,Drinks,Pepsi ,2
 558,BoL Ithaca,Drinks,Diet pepsi ,2
 559,BoL Ithaca,Drinks,Aquafina,1.5
@@ -571,11 +536,6 @@
 569,BoL Ithaca,Create your Own Cold Salad BoL,Green Salad BoL,10.75
 570,BoL Ithaca,Create your Own Cold Salad BoL,Noodle Salad BoL,10.75
 571,BoL Ithaca,Create your Own Cold Salad BoL,Grain Salad BoL,10.75
-572,Buffalo Wild Wings,Drinks,12oz. Coke ,1.55
-573,Buffalo Wild Wings,Drinks,12oz. Diet Coke ,1.55
-574,Buffalo Wild Wings,Drinks,12oz. Sprite ,1.55
-575,Buffalo Wild Wings,Drinks,12oz. Cherry Coke ,1.55
-576,Buffalo Wild Wings,Drinks,Bottled Water,1.99
 577,Buffalo Wild Wings,Drinks,Red Bull Energy Drink,4
 578,Buffalo Wild Wings,Drinks,Red Bull Sugar Free,4.29
 579,Buffalo Wild Wings,Lemonades & Limeades,Blueberry Mint Lemonade,3.49
@@ -652,11 +612,6 @@
 650,Buffalo Wild Wings,Little Buffalo Kid's Meals,Kids Mini Corn Dogs (Kids),4.39
 651,Buffalo Wild Wings,Little Buffalo Kid's Meals,Kids Macaroni and Cheese (Kids),4.39
 652,Buffalo Wild Wings,Little Buffalo Kid's Meals,Kids Cheeseburger Slammer (Kids),5.99
-653,Buffalo Wild Wings,Drinks,12oz. Coke ,1.55
-654,Buffalo Wild Wings,Drinks,12oz. Diet Coke ,1.55
-655,Buffalo Wild Wings,Drinks,12oz. Sprite ,1.55
-656,Buffalo Wild Wings,Drinks,12oz. Cherry Coke ,1.55
-657,Buffalo Wild Wings,Drinks,Bottled Water,1.99
 658,Buffalo Wild Wings,Extras,Extra Ranch,0.6
 659,Buffalo Wild Wings,Extras,Extra Bleu Cheese,0.6
 660,Buffalo Wild Wings,Extras,Party Chips and Salsa,8.49
@@ -685,11 +640,6 @@
 683,Buffalo Wild Wings,Sweet Spot,Party Cheesecake Bites,16.49
 684,Buffalo Wild Wings,Sweet Spot,Whole Chocolate Fudge Cake,42.49
 685,Buffalo Wild Wings,Soda,Soda,6.99
-686,Cafe Pacific,Drinks,12oz. Coke ,1.55
-687,Cafe Pacific,Drinks,12oz. Diet Coke ,1.55
-688,Cafe Pacific,Drinks,12oz. Sprite ,1.55
-689,Cafe Pacific,Drinks,12oz. Cherry Coke ,1.55
-690,Cafe Pacific,Drinks,Bottled Water,1.99
 691,Cafe Pacific,Side Dishes,Chicken Salad with Tofu,6.94
 692,Cafe Pacific,Side Dishes,SIDE OF RICE,2
 693,Cafe Pacific,Side Dishes,Tofu Salad ,6.1
@@ -754,11 +704,6 @@
 752,Cafe Pacific,Ice Cream,Ice Cream,3
 753,Cafe Pacific,Ice Cream,Ice Cream (Maeda En),5.9
 754,Cafe Pacific,Ice Cream,Mochi Ice Cream (Mikawaya),7.85
-755,Calios,Drinks,12oz. Coke ,1.55
-756,Calios,Drinks,12oz. Diet Coke ,1.55
-757,Calios,Drinks,12oz. Sprite ,1.55
-758,Calios,Drinks,12oz. Cherry Coke ,1.55
-759,Calios,Drinks,Bottled Water,1.99
 760,Calios,Appetizers,1/2 Pound Boneless Wings,6.15
 761,Calios,Appetizers,5 Jumbo Chicken Wings,5.99
 762,Calios,Appetizers,Chicken Tenders,6.99
@@ -833,11 +778,6 @@
 831,Calios,Calios,Mac N Cheese Calio,8.32
 832,Calios,Calios,Mac N Dog Calio,8.32
 833,Calios,Calios,Scramble Calio,8.32
-834,College Town Pizza,Drinks,12oz. Coke ,1.55
-835,College Town Pizza,Drinks,12oz. Diet Coke ,1.55
-836,College Town Pizza,Drinks,12oz. Sprite ,1.55
-837,College Town Pizza,Drinks,12oz. Cherry Coke ,1.55
-838,College Town Pizza,Drinks,Bottled Water,1.99
 839,College Town Pizza,Appetizers,Boneless Wings,6.5
 840,College Town Pizza,Appetizers,Chicken Wings,5.99
 841,College Town Pizza,Appetizers,Chicken Wings,9.99
@@ -1012,11 +952,6 @@
 1010,College Town Pizza,Desserts,Tiramisu,2.99
 1011,College Town Pizza,Desserts,Brownies,1.75
 1012,College Town Pizza,Desserts,Baklava,2.99
-1013,Carvel Ice Cream,Drinks,12oz. Coke ,1.55
-1014,Carvel Ice Cream,Drinks,12oz. Diet Coke ,1.55
-1015,Carvel Ice Cream,Drinks,12oz. Sprite ,1.55
-1016,Carvel Ice Cream,Drinks,12oz. Cherry Coke ,1.55
-1017,Carvel Ice Cream,Drinks,Bottled Water,1.99
 1018,Carvel Ice Cream,Carvelanche,Small Carvelanche,4.49
 1019,Carvel Ice Cream,Carvelanche,Regular Carvelanche,5.49
 1020,Carvel Ice Cream,Thick Shakes,Small Thick Shake,3.99
@@ -1029,11 +964,6 @@
 1027,Carvel Ice Cream,Classic Sundaes,Regular Classic Sundae,3.99
 1028,Carvel Ice Cream,Sundae Dashers,Small Sundae Dasher,5.99
 1029,Carvel Ice Cream,Sundae Dashers,Regular Sundae Dashers,6.99
-1030,Chatty Cathy,Drinks,12oz. Coke ,1.55
-1031,Chatty Cathy,Drinks,12oz. Diet Coke ,1.55
-1032,Chatty Cathy,Drinks,12oz. Sprite ,1.55
-1033,Chatty Cathy,Drinks,12oz. Cherry Coke ,1.55
-1034,Chatty Cathy,Drinks,Bottled Water,1.99
 1035,Chatty Cathy,Smoothies,Dior Body Good Smoothie,7.99
 1036,Chatty Cathy,Smoothies,Sun's Out Guns Out Smoothie,7.99
 1037,Chatty Cathy,Smoothies,Pina Colada Smoothie,7.99
@@ -1126,11 +1056,6 @@
 1124,Chatty Cathy,Iced Tea,Large Iced Matcha Tea Latte,4.5
 1125,Chatty Cathy,Iced Tea,Small Iced Chai Matcha Tea Latte,4.25
 1126,Chatty Cathy,Iced Tea,Large Iced Chai Matcha Tea Latte,5
-1127,Chili's,Drinks,12oz. Coke ,1.55
-1128,Chili's,Drinks,12oz. Diet Coke ,1.55
-1129,Chili's,Drinks,12oz. Sprite ,1.55
-1130,Chili's,Drinks,12oz. Cherry Coke ,1.55
-1131,Chili's,Drinks,Bottled Water,1.99
 1132,Chili's,Apps To Share,Southwestern Egg Rolls,9.19
 1133,Chili's,Apps To Share,Margarita Flatbread,8.99
 1134,Chili's,Apps To Share,Triple Dipper,12.19
@@ -1236,11 +1161,6 @@
 1234,Chili's,Party Favorites,Chicken Crispers (10 Count),15
 1235,Chili's,Party Favorites,Chicken Crispers (15 Count),19
 1236,Chili's,Party Favorites,Chicken Crispers (30 Count),38
-1237,CoreLife Eatery,Drinks,12oz. Coke ,1.55
-1238,CoreLife Eatery,Drinks,12oz. Diet Coke ,1.55
-1239,CoreLife Eatery,Drinks,12oz. Sprite ,1.55
-1240,CoreLife Eatery,Drinks,12oz. Cherry Coke ,1.55
-1241,CoreLife Eatery,Drinks,Bottled Water,1.99
 1242,CoreLife Eatery,Beverages,Niagara Bottled Water,1.85
 1243,CoreLife Eatery,Beverages,San Pellegrino,2.65
 1244,CoreLife Eatery,Beverages,Spindrift,2.65
@@ -1341,11 +1261,6 @@
 1339,CoreLife Eatery,Kids Menu,Kids Cranberry and Poppy Salad,4.45
 1340,CoreLife Eatery,Kids Menu,Kids Chicken Noodle Soup,4.45
 1341,CoreLife Eatery,Kids Menu,Kids Power Plates,5.45
-1342,Denny's,Drinks,12oz. Coke ,1.55
-1343,Denny's,Drinks,12oz. Diet Coke ,1.55
-1344,Denny's,Drinks,12oz. Sprite ,1.55
-1345,Denny's,Drinks,12oz. Cherry Coke ,1.55
-1346,Denny's,Drinks,Bottled Water,1.99
 1347,Denny's,Drinks & Shakes,Signature diner blend,2.55
 1348,Denny's,Drinks & Shakes,Cold Brew Coffee,3.19
 1349,Denny's,Drinks & Shakes,Horchata milk shake (660 cal),4.49
@@ -1521,11 +1436,6 @@
 1519,Denny's,Kid's Menu,New York Style Cheesecake,3.99
 1520,Denny's,Kid's Menu,Chocolate Lave Cake,3.89
 1521,Denny's,Kid's Menu,Build Your Own Sundae,3.59
-1522,DiBella's Subs,Drinks,12oz. Coke ,1.55
-1523,DiBella's Subs,Drinks,12oz. Diet Coke ,1.55
-1524,DiBella's Subs,Drinks,12oz. Sprite ,1.55
-1525,DiBella's Subs,Drinks,12oz. Cherry Coke ,1.55
-1526,DiBella's Subs,Drinks,Bottled Water,1.99
 1527,DiBella's Subs,Build Your Own Sub,Build Your Own Sub (Large),11.99
 1528,DiBella's Subs,Build Your Own Sub,Build Your Own Sub (Medium),8.49
 1529,DiBella's Subs,Build Your Own Sub,Build Your Own Sub (Small),6.59
@@ -1687,11 +1597,6 @@
 1685,DiBella's Subs,Sides and More,Large Brewed Iced Tea,2.49
 1686,DiBella's Subs,Sides and More,Cookie,1.49
 1687,DiBella's Subs,Sides and More,12 Pack of Mini Cookies,3.99
-1688,D P Dough,Drinks,12oz. Coke ,1.55
-1689,D P Dough,Drinks,12oz. Diet Coke ,1.55
-1690,D P Dough,Drinks,12oz. Sprite ,1.55
-1691,D P Dough,Drinks,12oz. Cherry Coke ,1.55
-1692,D P Dough,Drinks,Bottled Water,1.99
 1693,D P Dough,Desserts,BIG Fresh Baked Cookies,1.75
 1694,D P Dough,Desserts,BIG Fresh Baked Cookies,4.95
 1695,D P Dough,Desserts,BIG Fresh Baked Cookies,9.5
@@ -1748,11 +1653,6 @@
 1746,D P Dough,Wings & D.P. Dunkers,1/2 Pound Dunkers,7.5
 1747,D P Dough,Wings & D.P. Dunkers,1 Pound Dunkers,14.95
 1748,D P Dough,Wings & D.P. Dunkers,2 Pounds Dunkers,28.95
-1749,Edible Arrangements,Drinks,12oz. Coke ,1.55
-1750,Edible Arrangements,Drinks,12oz. Diet Coke ,1.55
-1751,Edible Arrangements,Drinks,12oz. Sprite ,1.55
-1752,Edible Arrangements,Drinks,12oz. Cherry Coke ,1.55
-1753,Edible Arrangements,Drinks,Bottled Water,1.99
 1754,Edible Arrangements,Chocolate Dipped Fruit Boxes,"Chocolate Dipped Strawberries, Apples & Bananas Box (24 Count)",58.99
 1755,Edible Arrangements,Chocolate Dipped Fruit Boxes,"Chocolate Dipped Strawberries, Apples & Bananas Box (12 Count)",29.99
 1756,Edible Arrangements,Chocolate Dipped Fruit Boxes,"Chocolate Dipped Strawberries, Apples & Bananas Box (6 Count)",19.99
@@ -1802,21 +1702,14 @@
 1800,Edible Arrangements,New Baby,Hello Kitty's Friendship Bouquet  Chocolate Dipped Strawberries (Small),55.99
 1801,Edible Arrangements,New Baby,Bundle of Cheer (Regular),80.98
 1802,Edible Arrangements,New Baby,Bundle of Cheer (Petite),76.98
-1803,Enzo�s Pizzeria,Drinks,12oz. Coke ,1.55
-1804,Enzo�s Pizzeria,Drinks,12oz. Diet Coke ,1.55
-1805,Enzo�s Pizzeria,Drinks,12oz. Sprite ,1.55
-1806,Enzo�s Pizzeria,Drinks,12oz. Cherry Coke ,1.55
-1807,Enzo�s Pizzeria,Drinks,Bottled Water,1.99
 1808,Enzo�s Pizzeria,Drinks,2 Liters,3
 1809,Enzo�s Pizzeria,Drinks,Orange juice,2.75
 1810,Enzo�s Pizzeria,Drinks,Apple Juice,2.75
 1811,Enzo�s Pizzeria,Drinks,Orangina,2.5
 1812,Enzo�s Pizzeria,Drinks,Water,1.99
-1813,Enzo�s Pizzeria,Drinks,Sparkling Water,3.25
 1814,Enzo�s Pizzeria,Drinks,Can Soda,1.5
 1815,Enzo�s Pizzeria,Drinks,Snapple,2.75
 1816,Enzo�s Pizzeria,Drinks,Gatorade,2.75
-1817,Enzo�s Pizzeria,Drinks,Vitamin Water,2.75
 1818,Enzo�s Pizzeria,Drinks,Monster ,3.25
 1819,Enzo�s Pizzeria,Loaded Fries,Greek Feta Fries,8.99
 1820,Enzo�s Pizzeria,Loaded Fries,Spicy Feta Fries,8.99
@@ -2043,11 +1936,6 @@
 2041,Enzo�s Pizzeria,Strombolis & Calzones,Large Cheese Lovers,8.99
 2042,Enzo�s Pizzeria,Strombolis & Calzones,Small Pepperoni Lovers,6.99
 2043,Enzo�s Pizzeria,Strombolis & Calzones,Large Pepperoni Lovers,8.99
-2044,Enzo�s Pizzeria,Drinks,12oz. Coke ,1.55
-2045,Enzo�s Pizzeria,Drinks,12oz. Diet Coke ,1.55
-2046,Enzo�s Pizzeria,Drinks,12oz. Sprite ,1.55
-2047,Enzo�s Pizzeria,Drinks,12oz. Cherry Coke ,1.55
-2048,Enzo�s Pizzeria,Drinks,Bottled Water,1.99
 2049,Enzo�s Pizzeria,Pastas,Pasta with Sauce Half Pan,25
 2050,Enzo�s Pizzeria,Pastas,Sausage and Peppers Half Pan,25
 2051,Enzo�s Pizzeria,Pastas,Pasta with Sauce Full Pan,50
@@ -2080,11 +1968,6 @@
 2078,Enzo�s Pizzeria,Parmesan,Veal Parmesan Half Pan,65
 2079,Enzo�s Pizzeria,Parmesan,Chicken Parmesan Half Pan,55
 2080,Enzo�s Pizzeria,Parmesan,Chicken Parmesan Full Pan,90
-2081,Four Seasons,Drinks,12oz. Coke ,1.55
-2082,Four Seasons,Drinks,12oz. Diet Coke ,1.55
-2083,Four Seasons,Drinks,12oz. Sprite ,1.55
-2084,Four Seasons,Drinks,12oz. Cherry Coke ,1.55
-2085,Four Seasons,Drinks,Bottled Water,1.99
 2086,Four Seasons,Appetizers,Duk Bok Ki,8.95
 2087,Four Seasons,Appetizers,Side of Rice,1.5
 2088,Four Seasons,Appetizers,Large Mandu-Fried or Steamed,9.95
@@ -2148,11 +2031,6 @@
 2146,Four Seasons,Rice,Dolsot Bi Bim Bap,13.95
 2147,Four Seasons,Rice,Ojingoh Dolsot Bi Bim Bap,13.95
 2148,Four Seasons,Rice,Fried Rice,12.95
-2149,Gangnam Station,Drinks,12oz. Coke ,1.55
-2150,Gangnam Station,Drinks,12oz. Diet Coke ,1.55
-2151,Gangnam Station,Drinks,12oz. Sprite ,1.55
-2152,Gangnam Station,Drinks,12oz. Cherry Coke ,1.55
-2153,Gangnam Station,Drinks,Bottled Water,1.99
 2154,Gangnam Station,Appetizer,Sui-Mui (6pcs),5.95
 2155,Gangnam Station,Appetizer,Deep Fried Dumplings (8pcs),7.95
 2156,Gangnam Station,Appetizer,Stir Fried Rice Cake,11.95
@@ -2211,11 +2089,6 @@
 2209,Gangnam Station,Traditional Dishes,Pigs Trotters,30.95
 2210,Gangnam Station,Traditional Dishes,Oh Saam Bol Go Gi,17.95
 2211,Gangnam Station,Traditional Dishes,Mala XiangGuo,15.95
-2212,Gorgers Subs,Drinks,12oz. Coke ,1.55
-2213,Gorgers Subs,Drinks,12oz. Diet Coke ,1.55
-2214,Gorgers Subs,Drinks,12oz. Sprite ,1.55
-2215,Gorgers Subs,Drinks,12oz. Cherry Coke ,1.55
-2216,Gorgers Subs,Drinks,Bottled Water,1.99
 2217,Gorgers Subs,Sides,Small French Fries,2.5
 2218,Gorgers Subs,Sides,Large French Fries,5
 2219,Gorgers Subs,Sides,Small Bacon Cheese Fries,5
@@ -2280,11 +2153,6 @@
 2278,Gorgers Subs,Salads,Chipotle Bacon Salad,9.5
 2279,Gorgers Subs,Salads,Soy Ginger Salad,8
 2280,Gorgers Subs,Salads,Rumble Salad,9.5
-2281,Hai Hong Restaurant,Drinks,12oz. Coke ,1.55
-2282,Hai Hong Restaurant,Drinks,12oz. Diet Coke ,1.55
-2283,Hai Hong Restaurant,Drinks,12oz. Sprite ,1.55
-2284,Hai Hong Restaurant,Drinks,12oz. Cherry Coke ,1.55
-2285,Hai Hong Restaurant,Drinks,Bottled Water,1.99
 2286,Hai Hong Restaurant,Beverages,Juice,2.5
 2287,Hai Hong Restaurant,Beverages,Coffee,2
 2288,Hai Hong Restaurant,Beverages,Tea,2
@@ -2536,11 +2404,6 @@
 2534,Hai Hong Restaurant,Chef's Recommended,Soft Shell Crab w. Black Pepper in Hot Plate,20.95
 2535,Hai Hong Restaurant,Chef's Recommended,Soft Shell Crab,23.95
 2536,Hai Hong Restaurant,Chef's Recommended,Little Neck Clam w. Black Bean Sauce,23.95
-2537,De Tasty Hot Pot,Drinks,12oz. Coke ,1.55
-2538,De Tasty Hot Pot,Drinks,12oz. Diet Coke ,1.55
-2539,De Tasty Hot Pot,Drinks,12oz. Sprite ,1.55
-2540,De Tasty Hot Pot,Drinks,12oz. Cherry Coke ,1.55
-2541,De Tasty Hot Pot,Drinks,Bottled Water,1.99
 2542,De Tasty Hot Pot,Drinks,Iced Red Tea,3
 2543,De Tasty Hot Pot,Drinks,Asamu Milk Tea,3
 2544,De Tasty Hot Pot,Drinks,Aloe Vera Juice,3
@@ -2682,14 +2545,8 @@
 2680,De Tasty Hot Pot,Meat,Stir-fried Pork and Dried Tofu,14.95
 2681,De Tasty Hot Pot,Meat,Sauteed Liver w. Red Chili Pepper,14.95
 2682,De Tasty Hot Pot,Meat,Pork Tofu Shin Roll,16.95
-2683,Jade Garden Restaurant,Drinks,12oz. Coke ,1.55
-2684,Jade Garden Restaurant,Drinks,12oz. Diet Coke ,1.55
-2685,Jade Garden Restaurant,Drinks,12oz. Sprite ,1.55
-2686,Jade Garden Restaurant,Drinks,12oz. Cherry Coke ,1.55
-2687,Jade Garden Restaurant,Drinks,Bottled Water,1.99
 2688,Jade Garden Restaurant,Drinks,Snapple,2.5
 2689,Jade Garden Restaurant,Drinks,Soda,1.5
-2690,Jade Garden Restaurant,Drinks,Bottle of water (Poland Spring),1.5
 2691,Jade Garden Restaurant,Flavored Tea,Mango Tea,3.25
 2692,Jade Garden Restaurant,Flavored Tea,Peach Tea,3.25
 2693,Jade Garden Restaurant,Flavored Tea,Passionfruit Tea,3.25
@@ -3043,11 +2900,6 @@
 3041,Jade Garden Restaurant,Side Order,White Rice (Qt),4
 3042,Jade Garden Restaurant,Side Order,Fortune Cookies,1
 3043,Jade Garden Restaurant,Side Order,Crispy Noodles (per bag),0.75
-3044,Joe's Restaurant,Drinks,12oz. Coke ,1.55
-3045,Joe's Restaurant,Drinks,12oz. Diet Coke ,1.55
-3046,Joe's Restaurant,Drinks,12oz. Sprite ,1.55
-3047,Joe's Restaurant,Drinks,12oz. Cherry Coke ,1.55
-3048,Joe's Restaurant,Drinks,Bottled Water,1.99
 3049,Joe's Restaurant,Appetizers,Toasted Ravioli (Half),36
 3050,Joe's Restaurant,Appetizers,Toasted Ravioli (Full),65
 3051,Joe's Restaurant,Appetizers,Mozzarella Sticks (Half),36
@@ -3109,11 +2961,6 @@
 3107,Joe's Restaurant,Desserts,Cheesecake,88
 3108,Joe's Restaurant,Desserts,Brownies,30
 3109,Joe's Restaurant,Desserts,Cookies,22
-3110,Joe's Restaurant,Drinks,12oz. Coke ,1.55
-3111,Joe's Restaurant,Drinks,12oz. Diet Coke ,1.55
-3112,Joe's Restaurant,Drinks,12oz. Sprite ,1.55
-3113,Joe's Restaurant,Drinks,12oz. Cherry Coke ,1.55
-3114,Joe's Restaurant,Drinks,Bottled Water,1.99
 3115,Joe's Restaurant,Salads,House Salad - Side,5.95
 3116,Joe's Restaurant,Salads,House Salad-Bowl,13.95
 3117,Joe's Restaurant,Salads,Caesar Salad- Side,5.95
@@ -3182,11 +3029,6 @@
 3180,Joe's Restaurant,Desserts,New York Style Cheesecake,9
 3181,Joe's Restaurant,Desserts,6 Layer Chocolate Cake,9
 3182,Joe's Restaurant,Desserts,Purity Vanilla Ice Cream,5
-3183,K-HOUSE Karaoke Lounge & Suites,Drinks,12oz. Coke ,1.55
-3184,K-HOUSE Karaoke Lounge & Suites,Drinks,12oz. Diet Coke ,1.55
-3185,K-HOUSE Karaoke Lounge & Suites,Drinks,12oz. Sprite ,1.55
-3186,K-HOUSE Karaoke Lounge & Suites,Drinks,12oz. Cherry Coke ,1.55
-3187,K-HOUSE Karaoke Lounge & Suites,Drinks,Bottled Water,1.99
 3188,K-HOUSE Karaoke Lounge & Suites,Hot Drinks,Coffee,3
 3189,K-HOUSE Karaoke Lounge & Suites,Hot Drinks,Green Tea,3
 3190,K-HOUSE Karaoke Lounge & Suites,Hot Drinks,Korean Honey Tea,3
@@ -3246,11 +3088,6 @@
 3244,K-HOUSE Karaoke Lounge & Suites,Snacks,Popin' Cookin' Donuts,7
 3245,K-HOUSE Karaoke Lounge & Suites,Snacks,Popin' Cookin' Kawaii Gummy Land,7
 3246,K-HOUSE Karaoke Lounge & Suites,Snacks,Popin' Cookin' Waffle,7
-3247,Kilpatrick's Publick House,Drinks,12oz. Coke ,1.55
-3248,Kilpatrick's Publick House,Drinks,12oz. Diet Coke ,1.55
-3249,Kilpatrick's Publick House,Drinks,12oz. Sprite ,1.55
-3250,Kilpatrick's Publick House,Drinks,12oz. Cherry Coke ,1.55
-3251,Kilpatrick's Publick House,Drinks,Bottled Water,1.99
 3252,Kilpatrick's Publick House,Soup & Salad,French Onion Soup,6
 3253,Kilpatrick's Publick House,Soup & Salad,Small House Salad,5
 3254,Kilpatrick's Publick House,Soup & Salad,Large House Salad,10
@@ -3294,11 +3131,6 @@
 3292,Kilpatrick's Publick House,Sweets,Bailey's Irish Chocolate Chip Cheesecake,8
 3293,Kilpatrick's Publick House,Sweets,Flourless Chocolate Torte,6
 3294,Kilpatrick's Publick House,Sweets,Seasonal Bread Pudding,6
-3295,Koko Korean Restaurant,Drinks,12oz. Coke ,1.55
-3296,Koko Korean Restaurant,Drinks,12oz. Diet Coke ,1.55
-3297,Koko Korean Restaurant,Drinks,12oz. Sprite ,1.55
-3298,Koko Korean Restaurant,Drinks,12oz. Cherry Coke ,1.55
-3299,Koko Korean Restaurant,Drinks,Bottled Water,1.99
 3300,Koko Korean Restaurant,Drinks & Side Orders,Dasani water,2
 3301,Koko Korean Restaurant,Drinks & Side Orders,Soda,2
 3302,Koko Korean Restaurant,Drinks & Side Orders,Korean rice punch,2
@@ -3369,11 +3201,6 @@
 3367,Koko Korean Restaurant,Rice,Bokeum Bap,10.99
 3368,Koko Korean Restaurant,Rice,Korean Omelete Rice,11.99
 3369,Koko Korean Restaurant,Rice,Ja Jang Bap,10.99
-3370,Quik Shoppe & Krispy Krunchy Chicken,Drinks,12oz. Coke ,1.55
-3371,Quik Shoppe & Krispy Krunchy Chicken,Drinks,12oz. Diet Coke ,1.55
-3372,Quik Shoppe & Krispy Krunchy Chicken,Drinks,12oz. Sprite ,1.55
-3373,Quik Shoppe & Krispy Krunchy Chicken,Drinks,12oz. Cherry Coke ,1.55
-3374,Quik Shoppe & Krispy Krunchy Chicken,Drinks,Bottled Water,1.99
 3375,Quik Shoppe & Krispy Krunchy Chicken,Drinks,20 oz. Soda,2.75
 3376,Quik Shoppe & Krispy Krunchy Chicken,Drinks,2 Liter Soda,3.75
 3377,Quik Shoppe & Krispy Krunchy Chicken,Drinks,1 Liter Soda,3.25
@@ -3471,11 +3298,6 @@
 3469,Quik Shoppe & Krispy Krunchy Chicken,Energy Drinks, 12 ozRed Bull Orange,3.99
 3470,Quik Shoppe & Krispy Krunchy Chicken,Energy Drinks,12 oz Red Bull Peach,3.99
 3471,Quik Shoppe & Krispy Krunchy Chicken,Energy Drinks,12 oz Red Bull Red (Cranberry),3.99
-3472,Maru Ramen,Drinks,12oz. Coke ,1.55
-3473,Maru Ramen,Drinks,12oz. Diet Coke ,1.55
-3474,Maru Ramen,Drinks,12oz. Sprite ,1.55
-3475,Maru Ramen,Drinks,12oz. Cherry Coke ,1.55
-3476,Maru Ramen,Drinks,Bottled Water,1.99
 3477,Maru Ramen,Drinks,Ramune,3
 3478,Maru Ramen,Drinks,Oi Ocha Green Tea (Cold),3
 3479,Maru Ramen,Drinks,Hot Green Tea,2
@@ -3520,11 +3342,6 @@
 3518,Maru Ramen,Dessert,Mochi Green Tea Ice Cream,4.5
 3519,Maru Ramen,Dessert,Matcha Donuts & Ice Cream,5
 3520,Maru Ramen,Dessert,Green Tea Ice Cream,3
-3521,Mitsuba,Drinks,12oz. Coke ,1.55
-3522,Mitsuba,Drinks,12oz. Diet Coke ,1.55
-3523,Mitsuba,Drinks,12oz. Sprite ,1.55
-3524,Mitsuba,Drinks,12oz. Cherry Coke ,1.55
-3525,Mitsuba,Drinks,Bottled Water,1.99
 3526,Mitsuba,Appetizers from Kitchen,Edamame ,4.5
 3527,Mitsuba,Appetizers from Kitchen,Gyoza ,5
 3528,Mitsuba,Appetizers from Kitchen,Shumai ,5
@@ -3763,11 +3580,6 @@
 3761,Mitsuba,Sushi and Sashimi a La Carte,1 Piece Sweet Egg ,2
 3762,Mitsuba,Sushi and Sashimi a La Carte,1 Piece Salmon Roe ,2.75
 3763,Mitsuba,Sushi and Sashimi a La Carte,1 Piece Crab Stick ,2
-3764,MIX Kitchen & Bar,Drinks,12oz. Coke ,1.55
-3765,MIX Kitchen & Bar,Drinks,12oz. Diet Coke ,1.55
-3766,MIX Kitchen & Bar,Drinks,12oz. Sprite ,1.55
-3767,MIX Kitchen & Bar,Drinks,12oz. Cherry Coke ,1.55
-3768,MIX Kitchen & Bar,Drinks,Bottled Water,1.99
 3769,MIX Kitchen & Bar,Mussels,Thai Style ,12
 3770,MIX Kitchen & Bar,Mussels,Provencal ,12
 3771,MIX Kitchen & Bar,Mussels,Herbed Tomato Oil,12
@@ -3819,11 +3631,6 @@
 3817,MIX Kitchen & Bar,Plates,Duck Quesadilla,12
 3818,MIX Kitchen & Bar,Plates,Char Grilled Octopus,15
 3819,MIX Kitchen & Bar,Plates,Blue Corn Calamari,11
-3820,Miyake Japanese Restaurant,Drinks,12oz. Coke ,1.55
-3821,Miyake Japanese Restaurant,Drinks,12oz. Diet Coke ,1.55
-3822,Miyake Japanese Restaurant,Drinks,12oz. Sprite ,1.55
-3823,Miyake Japanese Restaurant,Drinks,12oz. Cherry Coke ,1.55
-3824,Miyake Japanese Restaurant,Drinks,Bottled Water,1.99
 3825,Miyake Japanese Restaurant,Appetizers,Shumai,5.95
 3826,Miyake Japanese Restaurant,Appetizers,Gyoza,5.95
 3827,Miyake Japanese Restaurant,Appetizers,Edamame,5.95
@@ -4006,11 +3813,6 @@
 4004,Miyake Japanese Restaurant,Miyake Special Rolls,Oh My God Roll,18.95
 4005,Miyake Japanese Restaurant,Miyake Special Rolls,Crazy Boy,10.95
 4006,Miyake Japanese Restaurant,Miyake Special Rolls,Crazy Girl,12.95
-4007,Moe's Southwest Grill,Drinks,12oz. Coke ,1.55
-4008,Moe's Southwest Grill,Drinks,12oz. Diet Coke ,1.55
-4009,Moe's Southwest Grill,Drinks,12oz. Sprite ,1.55
-4010,Moe's Southwest Grill,Drinks,12oz. Cherry Coke ,1.55
-4011,Moe's Southwest Grill,Drinks,Bottled Water,1.99
 4012,Moe's Southwest Grill,Catering Orders Require 24 Hours Notice,Mini Burrito Appetizer,8
 4013,Moe's Southwest Grill,Catering Orders Require 24 Hours Notice,Box O Burrito,11
 4014,Moe's Southwest Grill,Catering Orders Require 24 Hours Notice,Fajita Bar,12
@@ -4026,11 +3828,6 @@
 4024,Moe's Southwest Grill,Dips,Pico de Gallo Catering Dip,1.99
 4025,Moe's Southwest Grill,Desserts,Cookies (per cookie),0.9
 4026,Moe's Southwest Grill,Desserts,Cinnamon Crisps,1.5
-4027,Moe's Southwest Grill,Drinks,12oz. Coke ,1.55
-4028,Moe's Southwest Grill,Drinks,12oz. Diet Coke ,1.55
-4029,Moe's Southwest Grill,Drinks,12oz. Sprite ,1.55
-4030,Moe's Southwest Grill,Drinks,12oz. Cherry Coke ,1.55
-4031,Moe's Southwest Grill,Drinks,Bottled Water,1.99
 4032,Moe's Southwest Grill,Burritos,Homewrecker,8.49
 4033,Moe's Southwest Grill,Burritos,Homewrecker Jr,7.99
 4034,Moe's Southwest Grill,Burritos,Joey Bag of Donuts,7.99
@@ -4076,11 +3873,6 @@
 4074,Moe's Southwest Grill,Desserts,2 Cookie Special,1.6
 4075,Moe's Southwest Grill,Desserts,Oatmeal Raisin Cookie,0.9
 4076,Moe's Southwest Grill,Desserts,Snickerdoodle Cookie,0.9
-4077,Monks On The Commons,Drinks,12oz. Coke ,1.55
-4078,Monks On The Commons,Drinks,12oz. Diet Coke ,1.55
-4079,Monks On The Commons,Drinks,12oz. Sprite ,1.55
-4080,Monks On The Commons,Drinks,12oz. Cherry Coke ,1.55
-4081,Monks On The Commons,Drinks,Bottled Water,1.99
 4082,Monks On The Commons,Salads,Monks Caesar Salad,12
 4083,Monks On The Commons,Salads,Field Salad ,14
 4084,Monks On The Commons,Desserts,Bruleed Marshmallows,6
@@ -4103,11 +3895,6 @@
 4101,Monks On The Commons,Salads,Seafood Stew,27
 4102,Monks On The Commons,Salads,Chicken Breast,23
 4103,Monks On The Commons,Salads,Pork Chop,23
-4104,Moosewood Restaurant,Drinks,12oz. Coke ,1.55
-4105,Moosewood Restaurant,Drinks,12oz. Diet Coke ,1.55
-4106,Moosewood Restaurant,Drinks,12oz. Sprite ,1.55
-4107,Moosewood Restaurant,Drinks,12oz. Cherry Coke ,1.55
-4108,Moosewood Restaurant,Drinks,Bottled Water,1.99
 4109,Moosewood Restaurant,Salads,House Salad (v) (gf),4
 4110,Moosewood Restaurant,Salads,Thai Rice Bowl (v) (gf),10
 4111,Moosewood Restaurant,Salads,Mediterranean Salad (v) (gf),10
@@ -4145,11 +3932,6 @@
 4143,Moosewood Restaurant,Desserts,Vegan Chocolate Cake,6.5
 4144,Moosewood Restaurant,Desserts,Banana or Carrot Cake,6.5
 4145,Moosewood Restaurant,Desserts,Baked Fruit Crumble (v) (gf),6.5
-4146,New Delhi Diamonds Indian Restaurant,Drinks,12oz. Coke ,1.55
-4147,New Delhi Diamonds Indian Restaurant,Drinks,12oz. Diet Coke ,1.55
-4148,New Delhi Diamonds Indian Restaurant,Drinks,12oz. Sprite ,1.55
-4149,New Delhi Diamonds Indian Restaurant,Drinks,12oz. Cherry Coke ,1.55
-4150,New Delhi Diamonds Indian Restaurant,Drinks,Bottled Water,1.99
 4151,New Delhi Diamonds Indian Restaurant,Beverages,Lassi,2.95
 4152,New Delhi Diamonds Indian Restaurant,Beverages,Mango Lassi,2.95
 4153,New Delhi Diamonds Indian Restaurant,Beverages,Mango Juice,2.95
@@ -4270,11 +4052,6 @@
 4268,New Delhi Diamonds Indian Restaurant,Desserts,Mango Kulfi,3.95
 4269,New Delhi Diamonds Indian Restaurant,Desserts,Gulab Jamun,3.95
 4270,New Delhi Diamonds Indian Restaurant,Desserts,Kheer,2.95
-4271,Nikki Green,Drinks,12oz. Coke ,1.55
-4272,Nikki Green,Drinks,12oz. Diet Coke ,1.55
-4273,Nikki Green,Drinks,12oz. Sprite ,1.55
-4274,Nikki Green,Drinks,12oz. Cherry Coke ,1.55
-4275,Nikki Green,Drinks,Bottled Water,1.99
 4276,Nikki Green,Make Your Own!,Make Your Own Bowl!,12
 4277,Nikki Green,Savory Bowls,Make Your Own Bowl,12
 4278,Nikki Green,Savory Bowls,Beetbox Bowl,15
@@ -4315,11 +4092,6 @@
 4313,Nikki Green,Smoothies,Chai It Out Smoothie,9
 4314,Nikki Green,Smoothies,Nikki Who? Smoothie,9
 4315,Nikki Green,Smoothies,Everybunny Smoothie,9
-4316,Oishii Bowl,Drinks,12oz. Coke ,1.55
-4317,Oishii Bowl,Drinks,12oz. Diet Coke ,1.55
-4318,Oishii Bowl,Drinks,12oz. Sprite ,1.55
-4319,Oishii Bowl,Drinks,12oz. Cherry Coke ,1.55
-4320,Oishii Bowl,Drinks,Bottled Water,1.99
 4321,Oishii Bowl,Rice Bowl,Katsu Don,8.5
 4322,Oishii Bowl,Rice Bowl,Oyako Don,8.5
 4323,Oishii Bowl,Rice Bowl,Buta Don,8.5
@@ -4354,11 +4126,6 @@
 4352,Oishii Bowl,Beverages,Iced Green Tea Latte,2.99
 4353,Oishii Bowl,Beverages,Taro Latte,2.99
 4354,Oishii Bowl,Beverages,Thai Iced Tea,2.99
-4355,Old Mexico,Drinks,12oz. Coke ,1.55
-4356,Old Mexico,Drinks,12oz. Diet Coke ,1.55
-4357,Old Mexico,Drinks,12oz. Sprite ,1.55
-4358,Old Mexico,Drinks,12oz. Cherry Coke ,1.55
-4359,Old Mexico,Drinks,Bottled Water,1.99
 4360,Old Mexico,A La Carte,1 Chicken & Cheese Quesadilla,3.99
 4361,Old Mexico,A La Carte,Cheese Quesadilla,2.99
 4362,Old Mexico,A La Carte,1 Grilled Chicken Quesadilla,4.99
@@ -4498,11 +4265,6 @@
 4496,Old Mexico,Fajitas,Shrimp Fajitas,16.5
 4497,Old Mexico,Fajitas,Fajitas Vallarta,17.5
 4498,Old Mexico,Desserts,Flan,3.99
-4499,Old Mexico,Drinks,12oz. Coke ,1.55
-4500,Old Mexico,Drinks,12oz. Diet Coke ,1.55
-4501,Old Mexico,Drinks,12oz. Sprite ,1.55
-4502,Old Mexico,Drinks,12oz. Cherry Coke ,1.55
-4503,Old Mexico,Drinks,Bottled Water,1.99
 4504,Old Mexico,Fajita Bar,Fajita Bar Per Person,11.99
 4505,Old Mexico,Fajita Bar,Fajita Bar for 10 People,105.99
 4506,Old Mexico,Fajita Bar,Fajita Bar for 20 People,199.99
@@ -4518,11 +4280,6 @@
 4516,Old Mexico,Salad Bar,Salad Bar Per Person,8.99
 4517,Old Mexico,Salad Bar,Salad Bar for 10 People,79.99
 4518,Old Mexico,Salad Bar,Salad Bar for 20 People,149.99
-4519,Papa John's Pizza,Drinks,12oz. Coke ,1.55
-4520,Papa John's Pizza,Drinks,12oz. Diet Coke ,1.55
-4521,Papa John's Pizza,Drinks,12oz. Sprite ,1.55
-4522,Papa John's Pizza,Drinks,12oz. Cherry Coke ,1.55
-4523,Papa John's Pizza,Drinks,Bottled Water,1.99
 4524,Papa John's Pizza,Specialty Pizzas,Small Tuscan Six Cheese,12.99
 4525,Papa John's Pizza,Specialty Pizzas,Medium Tuscan Six Cheese,15.99
 4526,Papa John's Pizza,Specialty Pizzas,Large Tuscan Six Cheese,18.99
@@ -4637,11 +4394,6 @@
 4635,Papa John's Pizza,Salad,Large Salad,29
 4636,Papa John's Pizza,Desserts,Mega Chocolate Chip Cookie ,6
 4637,Papa John's Pizza,Desserts,Double Chocolate Chip Brownie,6
-4638,Papa John's Pizza,Drinks,12oz. Coke ,1.55
-4639,Papa John's Pizza,Drinks,12oz. Diet Coke ,1.55
-4640,Papa John's Pizza,Drinks,12oz. Sprite ,1.55
-4641,Papa John's Pizza,Drinks,12oz. Cherry Coke ,1.55
-4642,Papa John's Pizza,Drinks,Bottled Water,1.99
 4643,Papa John's Pizza,Party Packs,Small Pizza Party Pack,69
 4644,Papa John's Pizza,Party Packs,Small Calzone Party Pack,69
 4645,Papa John's Pizza,Party Packs,Medium Pizza Party Pack,169
@@ -4653,11 +4405,6 @@
 4651,Papa John's Pizza,Special Catering Menu,Large Catering,549
 4652,Papa John's Pizza,Special Catering Menu,Large Salad Tray,29
 4653,Papa John's Pizza,Special Catering Menu,Small Salad Tray,19
-4654,Pat's Pizzeria - Ithaca,Drinks,12oz. Coke ,1.55
-4655,Pat's Pizzeria - Ithaca,Drinks,12oz. Diet Coke ,1.55
-4656,Pat's Pizzeria - Ithaca,Drinks,12oz. Sprite ,1.55
-4657,Pat's Pizzeria - Ithaca,Drinks,12oz. Cherry Coke ,1.55
-4658,Pat's Pizzeria - Ithaca,Drinks,Bottled Water,1.99
 4659,Pat's Pizzeria - Ithaca,Drinks,20 oz. Aquafina,1.85
 4660,Pat's Pizzeria - Ithaca,Drinks,2 Liter Soda,2.55
 4661,Pat's Pizzeria - Ithaca,Drinks,20 oz Gatorade,2.13
@@ -4807,11 +4554,6 @@
 4805,Pat's Pizzeria - Ithaca,Desserts,Apple Pie Logs,6.99
 4806,Pat's Pizzeria - Ithaca,Desserts,Extra Caramel Cups,0.93
 4807,Pat's Pizzeria - Ithaca,Desserts,Extra Icing,0.93
-4808,Plantation Bar and Grill,Drinks,12oz. Coke ,1.55
-4809,Plantation Bar and Grill,Drinks,12oz. Diet Coke ,1.55
-4810,Plantation Bar and Grill,Drinks,12oz. Sprite ,1.55
-4811,Plantation Bar and Grill,Drinks,12oz. Cherry Coke ,1.55
-4812,Plantation Bar and Grill,Drinks,Bottled Water,1.99
 4813,Plantation Bar and Grill,Appetizers,Half Order Jumbo Chicken Wings,6.99
 4814,Plantation Bar and Grill,Appetizers,Full Order Jumbo Chicken Wings,10.99
 4815,Plantation Bar and Grill,Appetizers,Half Order Boneless Chicken Wings,6.99
@@ -4864,11 +4606,6 @@
 4862,Plantation Bar and Grill,Burgers,Smokehouse Cheeseburger,11.99
 4863,Plantation Bar and Grill,Burgers,Texas Style Cheeseburger,11.99
 4864,Plantation Bar and Grill,Burgers,Half Pound Angus Burger,9.99
-4865,Plum Tree Restaurant,Drinks,12oz. Coke ,1.55
-4866,Plum Tree Restaurant,Drinks,12oz. Diet Coke ,1.55
-4867,Plum Tree Restaurant,Drinks,12oz. Sprite ,1.55
-4868,Plum Tree Restaurant,Drinks,12oz. Cherry Coke ,1.55
-4869,Plum Tree Restaurant,Drinks,Bottled Water,1.99
 4870,Plum Tree Restaurant,Appetizers,Edamame,4.95
 4871,Plum Tree Restaurant,Appetizers,Hijiki,4.95
 4872,Plum Tree Restaurant,Appetizers,Crispy rice with Spicy Tuna,11.95
@@ -5096,12 +4833,6 @@
 5094,Plum Tree Restaurant,Drinks,Cranberry Juice,2.95
 5095,Plum Tree Restaurant,Drinks,Lemonade,2.95
 5096,Plum Tree Restaurant,Drinks,Japanese Marble Soda,2.95
-5097,Plum Tree Restaurant,Drinks,Sparkling Water,2.95
-5098,Purity Ice Cream,Drinks,12oz. Coke ,1.55
-5099,Purity Ice Cream,Drinks,12oz. Diet Coke ,1.55
-5100,Purity Ice Cream,Drinks,12oz. Sprite ,1.55
-5101,Purity Ice Cream,Drinks,12oz. Cherry Coke ,1.55
-5102,Purity Ice Cream,Drinks,Bottled Water,1.99
 5103,Purity Ice Cream,Cupcakes,6pk of Assorted Cupcakes,11.7
 5104,Purity Ice Cream,Ice Cream Cake,Ice Cream Cake,21.5
 5105,Purity Ice Cream,Ice Cream Cake,Ice Cream Sheet Cake,39.99
@@ -5169,11 +4900,6 @@
 5167,Purity Ice Cream,Milkshakes,Boston Milkshake,8.33
 5168,Purity Ice Cream,Milkshakes,Monster Milkshake,8.95
 5169,Purity Ice Cream,Milkshakes,Hurricane Shake,6.39
-5170,Rogan's Corner,Drinks,12oz. Coke ,1.55
-5171,Rogan's Corner,Drinks,12oz. Diet Coke ,1.55
-5172,Rogan's Corner,Drinks,12oz. Sprite ,1.55
-5173,Rogan's Corner,Drinks,12oz. Cherry Coke ,1.55
-5174,Rogan's Corner,Drinks,Bottled Water,1.99
 5175,Rogan's Corner,Hot Subs,Meatball Parmigiana Sub,5.5
 5176,Rogan's Corner,Hot Subs,Philly Cheese Steak Sub,5.5
 5177,Rogan's Corner,Hot Subs,Pilgrim Sub,5.5
@@ -5300,13 +5026,11 @@
 5298,Rogan's Corner,Drinks,Mug Root Beer,1.99
 5299,Rogan's Corner,Drinks,Mountain Dew,1.99
 5300,Rogan's Corner,Drinks,Coke,1.99
-5301,Rogan's Corner,Drinks,Diet Coke,1.99
 5302,Rogan's Corner,Drinks,Dr. Pepper,1.99
 5303,Rogan's Corner,Drinks,Pepsi 2L,2.99
 5304,Rogan's Corner,Drinks,Diet Pepsi 2L,2.99
 5305,Rogan's Corner,Drinks,Mountain Dew 2L,2.99
 5306,Rogan's Corner,Drinks,Coke 2L,2.99
-5307,Rogan's Corner,Drinks,Diet Coke 2L,2.99
 5308,Rogan's Corner,Drinks,Dr. Pepper 2L,2.99
 5309,Rogan's Corner,Breakfast Sandwiches,"Sausage, Egg & Cheese Sandwich",3.99
 5310,Rogan's Corner,Breakfast Sandwiches,"Bacon, Egg, & Cheese Sandwich",3.99
@@ -5371,11 +5095,6 @@
 5369,Rogan's Corner,Side Orders,Garlic Bread w. Cheese,3.99
 5370,Rogan's Corner,Side Orders,Deep Fried Cheese Curds,4.99
 5371,Rogan's Corner,Side Orders,Buffalo Cheese Curds,4.99
-5372,Sangam Indian Cuisine,Drinks,12oz. Coke ,1.55
-5373,Sangam Indian Cuisine,Drinks,12oz. Diet Coke ,1.55
-5374,Sangam Indian Cuisine,Drinks,12oz. Sprite ,1.55
-5375,Sangam Indian Cuisine,Drinks,12oz. Cherry Coke ,1.55
-5376,Sangam Indian Cuisine,Drinks,Bottled Water,1.99
 5377,Sangam Indian Cuisine,Soups,Vegetable Soup,2.99
 5378,Sangam Indian Cuisine,Soups,Coconut Soup,2.99
 5379,Sangam Indian Cuisine,Soups,Murgh Shorba,3.49
@@ -5526,11 +5245,6 @@
 5524,Sangam Indian Cuisine,Sea Foods,Fish Jalfrazi,14.95
 5525,Sangam Indian Cuisine,Sea Foods,Fish Curry,13.95
 5526,Sangam Indian Cuisine,Sea Foods,Goa Fish Curry,13.95
-5527,Shortstop Deli,Drinks,12oz. Coke ,1.55
-5528,Shortstop Deli,Drinks,12oz. Diet Coke ,1.55
-5529,Shortstop Deli,Drinks,12oz. Sprite ,1.55
-5530,Shortstop Deli,Drinks,12oz. Cherry Coke ,1.55
-5531,Shortstop Deli,Drinks,Bottled Water,1.99
 5532,Shortstop Deli,Bottled Drinks,Bottled Soda,1.89
 5533,Shortstop Deli,Bottled Drinks,Bottled Tea,2.65
 5534,Shortstop Deli,Bottled Drinks,Bottled Snapple,3.29
@@ -5645,11 +5359,6 @@
 5643,Shortstop Deli,Sandwiches and Subs,Veggie (Grand Slam),6.99
 5644,Shortstop Deli,Sandwiches and Subs,Veggie (Double),5.59
 5645,Shortstop Deli,Sandwiches and Subs,Veggie (Single),4.79
-5646,Sicilian Delight,Drinks,12oz. Coke ,1.55
-5647,Sicilian Delight,Drinks,12oz. Diet Coke ,1.55
-5648,Sicilian Delight,Drinks,12oz. Sprite ,1.55
-5649,Sicilian Delight,Drinks,12oz. Cherry Coke ,1.55
-5650,Sicilian Delight,Drinks,Bottled Water,1.99
 5651,Sicilian Delight,Appetizers & Extras,Mozzarella Sticks,6.5
 5652,Sicilian Delight,Appetizers & Extras,Boneless Wings,6.99
 5653,Sicilian Delight,Appetizers & Extras,Garlic Knots,1.5
@@ -5713,11 +5422,6 @@
 5711,Sicilian Delight,Specialty Pizzas,Primavera Large,19.99
 5712,Sicilian Delight,Specialty Pizzas,Deluxe Delight X-Large,21.99
 5713,Sicilian Delight,Specialty Pizzas,Deluxe Delight Large,19.99
-5714,Sicilian Delight,Drinks,12oz. Coke ,1.55
-5715,Sicilian Delight,Drinks,12oz. Diet Coke ,1.55
-5716,Sicilian Delight,Drinks,12oz. Sprite ,1.55
-5717,Sicilian Delight,Drinks,12oz. Cherry Coke ,1.55
-5718,Sicilian Delight,Drinks,Bottled Water,1.99
 5719,Sicilian Delight,Pasta Salads,Mediterranean Salad Half,35
 5720,Sicilian Delight,Pasta Salads,Mediterranean Salad Full,65
 5721,Sicilian Delight,Pasta Salads,Ziti Chicken Caesar Salad Half,35
@@ -5771,15 +5475,9 @@
 5769,Sicilian Delight,Salads,Greek Salad Full,55
 5770,Sicilian Delight,Salads,Walnut Salad Full,30
 5771,Sicilian Delight,Salads,Walnut Salad Half,55
-5772,Souvlaki House,Drinks,12oz. Coke ,1.55
-5773,Souvlaki House,Drinks,12oz. Diet Coke ,1.55
-5774,Souvlaki House,Drinks,12oz. Sprite ,1.55
-5775,Souvlaki House,Drinks,12oz. Cherry Coke ,1.55
-5776,Souvlaki House,Drinks,Bottled Water,1.99
 5777,Souvlaki House,Drinks,Coke,2
 5778,Souvlaki House,Drinks,Sprite,2
 5779,Souvlaki House,Drinks,Root Beer,2
-5780,Souvlaki House,Drinks,Diet coke,2
 5781,Souvlaki House,Drinks,Iced Tea,2
 5782,Souvlaki House,Drinks,Juice,2.5
 5783,Souvlaki House,Drinks,Coffee,2
@@ -5966,11 +5664,6 @@
 5964,Souvlaki House,Desserts,Baklava,4
 5965,Souvlaki House,Desserts,Cheesecake,4
 5966,Souvlaki House,Desserts,Chocolate Cake,5
-5967,Spicy Asian,Drinks,12oz. Coke ,1.55
-5968,Spicy Asian,Drinks,12oz. Diet Coke ,1.55
-5969,Spicy Asian,Drinks,12oz. Sprite ,1.55
-5970,Spicy Asian,Drinks,12oz. Cherry Coke ,1.55
-5971,Spicy Asian,Drinks,Bottled Water,1.99
 5972,Spicy Asian,Extra Rice,Pint Extra White Rice,1.75
 5973,Spicy Asian,Extra Rice,Quart Extra White Rice,3.25
 5974,Spicy Asian,Extra Rice,Pint Extra Brown Rice,2
@@ -6182,7 +5875,6 @@
 6180,Spicy Asian,Drinks,Saranac Root Beer,2.25
 6181,Spicy Asian,Drinks,Saranac Ginger Orange Cream,2.25
 6182,Spicy Asian,Drinks,Saranac Shirley Temple,2.25
-6183,Spicy Asian,Drinks,Aquafina Water 20 oz,1
 6184,Spicy Asian,Drinks,Iced Tea,1.5
 6185,Spicy Asian,Drinks,Thai Tea,2.5
 6186,Spicy Asian,Drinks,Chinese Herbal Drink,2.5
@@ -6191,11 +5883,6 @@
 6189,Spicy Asian,Drinks,Wangwang Milk Drink,2.5
 6190,Spicy Asian,Bubble Tea,Plain Bubble Tea,3.25
 6191,Spicy Asian,Bubble Tea,Bubble Tea with Milk,3.5
-6192,The State Diner,Drinks,12oz. Coke ,1.55
-6193,The State Diner,Drinks,12oz. Diet Coke ,1.55
-6194,The State Diner,Drinks,12oz. Sprite ,1.55
-6195,The State Diner,Drinks,12oz. Cherry Coke ,1.55
-6196,The State Diner,Drinks,Bottled Water,1.99
 6197,The State Diner,Breakfast,Two Eggs,4.99
 6198,The State Diner,Breakfast,Two Eggs with Sliced Ham,8.98
 6199,The State Diner,Breakfast,Two Eggs with Bacon,8.98
@@ -6417,11 +6104,6 @@
 6415,The State Diner,Desserts,Assorted Pie,3.99
 6416,The State Diner,Desserts,Assorted Cream Pie,4.25
 6417,The State Diner,Desserts,Pie Ala Mode,5.99
-6418,Subway,Drinks,12oz. Coke ,1.55
-6419,Subway,Drinks,12oz. Diet Coke ,1.55
-6420,Subway,Drinks,12oz. Sprite ,1.55
-6421,Subway,Drinks,12oz. Cherry Coke ,1.55
-6422,Subway,Drinks,Bottled Water,1.99
 6423,Subway,Drinks,1 Gallon Sweetened Tea,5.29
 6424,Subway,Drinks,1 Gallon Unsweetened Tea,5.29
 6425,Subway,Signature Platters,Classic Signature Platter,49.99
@@ -6445,11 +6127,6 @@
 6443,Subway,Desserts,Cookies by the Dozen,6.49
 6444,Subway,Desserts,Cookie Platter,18.99
 6445,Subway,Desserts,Dessert Platter,36.99
-6446,Subway,Drinks,12oz. Coke ,1.55
-6447,Subway,Drinks,12oz. Diet Coke ,1.55
-6448,Subway,Drinks,12oz. Sprite ,1.55
-6449,Subway,Drinks,12oz. Cherry Coke ,1.55
-6450,Subway,Drinks,Bottled Water,1.99
 6451,Subway,Drinks,1 Gallon Sweetened Tea,5.29
 6452,Subway,Drinks,1 Gallon Unsweetened Tea,5.29
 6453,Subway,Signature Platters,Classic Signature Platter,49.99
@@ -6473,11 +6150,6 @@
 6471,Subway,Desserts,Cookies by the Dozen,6.49
 6472,Subway,Desserts,Cookie Platter,18.99
 6473,Subway,Desserts,Dessert Platter,36.99
-6474,Subway,Drinks,12oz. Coke ,1.55
-6475,Subway,Drinks,12oz. Diet Coke ,1.55
-6476,Subway,Drinks,12oz. Sprite ,1.55
-6477,Subway,Drinks,12oz. Cherry Coke ,1.55
-6478,Subway,Drinks,Bottled Water,1.99
 6479,Subway,Signature Subs,"Cold Cut Combo 6""",5.69
 6480,Subway,Signature Subs,Cold Cut Combo Footlong,8.19
 6481,Subway,Signature Subs,Cold Cut Combo Salad,7.89
@@ -6541,11 +6213,6 @@
 6539,Subway,Beverages,Bottled Beverage,2.79
 6540,Subway,Beverages,Chocolate Milk,2.19
 6541,Subway,Beverages,Milk,2.19
-6542,Subway,Drinks,12oz. Coke ,1.55
-6543,Subway,Drinks,12oz. Diet Coke ,1.55
-6544,Subway,Drinks,12oz. Sprite ,1.55
-6545,Subway,Drinks,12oz. Cherry Coke ,1.55
-6546,Subway,Drinks,Bottled Water,1.99
 6547,Subway,Signature Subs,"Cold Cut Combo 6""",5.69
 6548,Subway,Signature Subs,Cold Cut Combo Footlong,8.19
 6549,Subway,Signature Subs,Cold Cut Combo Salad,7.89
@@ -6608,11 +6275,6 @@
 6606,Subway,Beverages,Bottled Beverage,2
 6607,Subway,Beverages,Chocolate Milk,1.79
 6608,Subway,Beverages,Milk,1.79
-6609,Sushi Osaka,Drinks,12oz. Coke ,1.55
-6610,Sushi Osaka,Drinks,12oz. Diet Coke ,1.55
-6611,Sushi Osaka,Drinks,12oz. Sprite ,1.55
-6612,Sushi Osaka,Drinks,12oz. Cherry Coke ,1.55
-6613,Sushi Osaka,Drinks,Bottled Water,1.99
 6614,Sushi Osaka,Soft Drinks,Unsweetened ice tea,2
 6615,Sushi Osaka,Soft Drinks,Sparkling Water,3
 6616,Sushi Osaka,Soft Drinks,Soda,1.75
@@ -6819,11 +6481,6 @@
 6817,Sushi Osaka,Sushi Bar Dinner Entrees,Vegetarian Maki,13.95
 6818,Sushi Osaka,Sushi Bar Dinner Entrees,Sushi for 2,41.95
 6819,Sushi Osaka,Sushi Bar Dinner Entrees,Osaka Boat,51.95
-6820,Ten Forward Cafe,Drinks,12oz. Coke ,1.55
-6821,Ten Forward Cafe,Drinks,12oz. Diet Coke ,1.55
-6822,Ten Forward Cafe,Drinks,12oz. Sprite ,1.55
-6823,Ten Forward Cafe,Drinks,12oz. Cherry Coke ,1.55
-6824,Ten Forward Cafe,Drinks,Bottled Water,1.99
 6825,Ten Forward Cafe,Star Truck,Mac n' Cheese,7
 6826,Ten Forward Cafe,Star Truck,Space Garbage Nachos,12
 6827,Ten Forward Cafe,Star Truck,BBQ Tacos,7.75
@@ -6840,11 +6497,6 @@
 6838,Ten Forward Cafe,Breakfast,Breakfast sandwich,6.95
 6839,Ten Forward Cafe,Breakfast,Biscuits and Veggie Sausage Gravy,9.95
 6840,Ten Forward Cafe,Breakfast,Toast or toasted biscuit,3.55
-6841,Thai Basil,Drinks,12oz. Coke ,1.55
-6842,Thai Basil,Drinks,12oz. Diet Coke ,1.55
-6843,Thai Basil,Drinks,12oz. Sprite ,1.55
-6844,Thai Basil,Drinks,12oz. Cherry Coke ,1.55
-6845,Thai Basil,Drinks,Bottled Water,1.99
 6846,Thai Basil,Beverages,Black Hot Tea,2.5
 6847,Thai Basil,Beverages,Green Hot Tea,2.5
 6848,Thai Basil,Beverages,Jasmine Hot Tea,2.5
@@ -6945,11 +6597,6 @@
 6943,Thai Basil,Desserts,Sticky Rice with Fresh Mango,6.95
 6944,Thai Basil,Desserts,Taro pearl Coconut Cream,5.95
 6945,Thai Basil,Desserts,Thai Donut,5.95
-6946,Vietnam Restaurant,Drinks,12oz. Coke ,1.55
-6947,Vietnam Restaurant,Drinks,12oz. Diet Coke ,1.55
-6948,Vietnam Restaurant,Drinks,12oz. Sprite ,1.55
-6949,Vietnam Restaurant,Drinks,12oz. Cherry Coke ,1.55
-6950,Vietnam Restaurant,Drinks,Bottled Water,1.99
 6951,Vietnam Restaurant,Beverages,Apricot Juice,3.5
 6952,Vietnam Restaurant,Beverages,Mango Juice,3.5
 6953,Vietnam Restaurant,Beverages,Guava Juice,3.5
@@ -7024,11 +6671,6 @@
 7022,Vietnam Restaurant,House Specials,Grilled Chicken with Vermicelli,11.95
 7023,Vietnam Restaurant,House Specials,Grilled Chicken with Shredded Pork Vermicelli,11.95
 7024,Vietnam Restaurant,House Specials,Grilled Chicken Meat Roll Vermicelli,11.95
-7025,Waffle Frolic,Drinks,12oz. Coke ,1.55
-7026,Waffle Frolic,Drinks,12oz. Diet Coke ,1.55
-7027,Waffle Frolic,Drinks,12oz. Sprite ,1.55
-7028,Waffle Frolic,Drinks,12oz. Cherry Coke ,1.55
-7029,Waffle Frolic,Drinks,Bottled Water,1.99
 7030,Waffle Frolic,Sandwiches and More,Roasted Garlic and Portabella,7
 7031,Waffle Frolic,Sandwiches and More,Smokin' Hot,8.15
 7032,Waffle Frolic,Sandwiches and More,The Kimcheese,7
@@ -7157,17 +6799,5 @@
 7155,Waffle Frolic,Pastries,Chocolate Chip Cookies,1.5
 7156,Waffle Frolic,Pastries,Carrot Walnut Bread,2
 7157,Waffle Frolic,Pastries,Brownies,2
-7158,Drinks,Drinks,12oz. Coke ,1.55
-7159,Drinks,Drinks,12oz. Diet Coke ,1.55
-7160,Drinks,Drinks,12oz. Sprite ,1.55
-7161,Drinks,Drinks,12oz. Cherry Coke ,1.55
-7162,Drinks,Drinks,Bottled Water,1.99
 7163,Drinks,Utensils,Utensils,0.35
-7164,Drinks,Soft Drinks - 6 Packs,6 Pack of Coke ,6.99
-7165,Drinks,Soft Drinks - 6 Packs,6 Pack of Diet Coke,6.99
-7166,Drinks,Soft Drinks - 6 Packs,6 Pack of Sprite,6.99
-7167,Drinks,Soft Drinks - 6 Packs,6 Pack of Cherry Coke,6.99
-7168,Drinks,Soft Drinks - 2 Liter,Diet Coke 2 Liter,3.49
-7169,Drinks,Soft Drinks - 2 Liter,Coke 2 Liter,3.49
-7170,Drinks,Soft Drinks - 2 Liter,Sprite 2 Liter,3.49
 7171,Drinks,Soft Drinks - 2 Liter,Cherry Coke 2 Liter,3.49
