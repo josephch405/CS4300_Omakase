@@ -49,10 +49,10 @@
 47,Aladdin's Natural Eatery,Pitas,Shishkebab Pita,8
 48,Aladdin's Natural Eatery,Pitas,Eggplant Pita,7.5
 49,Aladdin's Natural Eatery,Pitas,Falafel Pita,8
-50,Aladdin's Natural Eatery,Salads, Garden Salad ,7.25
+50,Aladdin's Natural Eatery,Salads,Garden Salad ,7.25
 51,Aladdin's Natural Eatery,Salads,Small Greek Salad,5.75
 52,Aladdin's Natural Eatery,Salads,Large Greek Salad,7.75
-53,Aladdin's Natural Eatery,Salads, Spinach Salad,7.5
+53,Aladdin's Natural Eatery,Salads,Spinach Salad,7.5
 54,Aladdin's Natural Eatery,Salads,Caesar Salad,7.5
 55,Aladdin's Natural Eatery,Salads,Roman Salad,9
 56,Aladdin's Natural Eatery,Salads,Mediterranean Salad,9
@@ -118,17 +118,17 @@
 116,Apollo Restaurant,Beverages,Orangina (16 oz) ,2.25
 117,Apollo Restaurant,Beverages,Snapple,2.15
 118,Apollo Restaurant,Appetizers,Egg Roll,1.5
-119,Apollo Restaurant,Appetizers,Crab Rangoon (8),5.5
-120,Apollo Restaurant,Appetizers,Fried Fantail Shrimp (5),6.95
-121,Apollo Restaurant,Appetizers,Fried Chicken Wings (6),6.95
-122,Apollo Restaurant,Appetizers,Teriyaki Chicken on Stick (4) ,5.95
-123,Apollo Restaurant,Appetizers,Chicken Nuggets (6),4.75
-124,Apollo Restaurant,Appetizers,BBQ Spare Ribs (6) ,9.95
+119,Apollo Restaurant,Appetizers,Crab Rangoon,5.5
+120,Apollo Restaurant,Appetizers,Fried Fantail Shrimp,6.95
+121,Apollo Restaurant,Appetizers,Fried Chicken Wings,6.95
+122,Apollo Restaurant,Appetizers,Teriyaki Chicken on Stick ,5.95
+123,Apollo Restaurant,Appetizers,Chicken Nuggets,4.75
+124,Apollo Restaurant,Appetizers,BBQ Spare Ribs ,9.95
 125,Apollo Restaurant,Appetizers,Boneless Spare Ribs,7.75
-126,Apollo Restaurant,Appetizers,Dumplings (8) ,5.95
+126,Apollo Restaurant,Appetizers,Dumplings ,5.95
 127,Apollo Restaurant,Appetizers,Scallion Pancakes,4.95
 128,Apollo Restaurant,Appetizers,Fried Dough,4.25
-129,Apollo Restaurant,Appetizers,Steamed Pork Buns (10),5.5
+129,Apollo Restaurant,Appetizers,Steamed Pork Buns,5.5
 130,Apollo Restaurant,Appetizers,Fried Scallops ,4.95
 131,Apollo Restaurant,Soups,Pint Wonton Soup ,2.95
 132,Apollo Restaurant,Soups,Quart Wonton Soup ,5.5
@@ -350,104 +350,104 @@
 348,Asian Noodle House,Drinks,12oz. Sprite ,1.55
 349,Asian Noodle House,Drinks,12oz. Cherry Coke ,1.55
 350,Asian Noodle House,Drinks,Bottled Water,1.99
-351,Asian Noodle House,Appetizers,1. Fried Tofu,3.95
-352,Asian Noodle House,Appetizers,2. Chicken Satay,5.25
-353,Asian Noodle House,Appetizers,3. Spring Roll,3.95
-354,Asian Noodle House,Appetizers,4. Basil Roll,3.95
-355,Asian Noodle House,Appetizers,5. Gyoza,4.25
-356,Asian Noodle House,Appetizers,6. Malaysian Roti,4.25
-357,Asian Noodle House,Appetizers,7. Fried Fish Cake,4.25
-358,Asian Noodle House,Soup,8. Tom Yum Goong,3.5
-359,Asian Noodle House,Soup,9. Tom Kha Kai,3.5
-360,Asian Noodle House,Soup,10. Fish Ball Soup,3.5
-361,Asian Noodle House,Soup,11. Wonton Soup,3.5
-362,Asian Noodle House,Soup,12. Vegetable Soup,3.5
-363,Asian Noodle House,Salad,13. Japanese Salad,3.95
-364,Asian Noodle House,Salad,14. Thai Salad,3.95
-365,Asian Noodle House,Rice,15. Hoi Nam Chicken on Rice,8.95
-366,Asian Noodle House,Rice,16. Roast Duck and BBQ Pork on Rice,10.25
-367,Asian Noodle House,Rice,17. Beef Stewed on Rice,9.95
-368,Asian Noodle House,Rice,18. Roast Duck on Rice,9.95
-369,Asian Noodle House,Noodle Soup,19. Vegetable Noodle Soup,8.95
-370,Asian Noodle House,Noodle Soup,20. Wonton Noodle Soup,8.95
-371,Asian Noodle House,Noodle Soup,21. Chicken Noodle Soup,8.95
-372,Asian Noodle House,Noodle Soup,22. Fish Ball Noodle Soup,8.95
-373,Asian Noodle House,Noodle Soup,23. Fish Cake Noodle Soup,8.95
-374,Asian Noodle House,Noodle Soup,24. Roast Duck Noodle Soup,9.95
-375,Asian Noodle House,Noodle Soup,25. Fish Cake and Chicken Noodle Soup,9.25
-376,Asian Noodle House,Noodle Soup,26. Fish Ball and Chicken Noodle Soup,9.25
-377,Asian Noodle House,Noodle Soup,27. Spicy Tom Yum Chicken Noodle Soup,8.95
-378,Asian Noodle House,Noodle Soup,28. Spicy Tom Yum Fish Cake Chicken Noodle Soup,8.95
-379,Asian Noodle House,Noodle Soup,29. Beef Stewed Noodle Soup,9.95
-380,Asian Noodle House,Noodle Soup,30. Spicy Tom Yum Shrimp Noodle Soup,9.25
-381,Asian Noodle House,Noodle Soup,31. Shrimp Noodle Soup,9.25
-382,Asian Noodle House,Noodle Soup,32. Fish Ball and Fish Cake Noodle Soup,9.25
-383,Asian Noodle House,Noodle Soup,33. Shrimp and Fish Cake Noodle Soup,9.25
-384,Asian Noodle House,Noodle Soup,34. Seafood Noodle Soup,9.25
-385,Asian Noodle House,Noodle Soup,35. Spicy Tom Yum Seafood Noodle Soup,9.25
-386,Asian Noodle House,Stir Fried Rice or Noodle,36. Pineapple Fried Rice,10.25
-387,Asian Noodle House,Stir Fried Rice or Noodle,37. Curry Fried Rice,10.25
-388,Asian Noodle House,Stir Fried Rice or Noodle,38. Spicy Basil Fried Rice,10.95
-389,Asian Noodle House,Stir Fried Rice or Noodle,39. Grilled Chicken with Peanut Sauce,9.95
-390,Asian Noodle House,Stir Fried Rice or Noodle,40. Fried Tofu with Peanut Sauce,9.95
-391,Asian Noodle House,Stir Fried Rice or Noodle,41. Spicy Curry Chicken Noodle,10.95
-392,Asian Noodle House,Stir Fried Rice or Noodle,42. Pad Thai,10.95
-393,Asian Noodle House,Stir Fried Rice or Noodle,43. Soy Sauce Noodle,10.95
-394,Asian Noodle House,Stir Fried Rice or Noodle,44. Spicy Basil Noodle,10.95
-395,Asian Noodle House,Entrees,45. Spicy Kra Prow,11.95
-396,Asian Noodle House,Entrees,46. Spicy Prik-Pao,11.95
-397,Asian Noodle House,Entrees,47. Ma Muang Hamipan,11.95
-398,Asian Noodle House,Entrees,48. Salmon Teriyaki,14.95
-399,Asian Noodle House,Entrees,49. Thai Curry,11.95
-400,Asian Noodle House,Entrees,50. Thai Curry Seafood,14.95
-401,Asian Noodle House,Entrees,51. Chicken Tamarind,11.95
-402,Asian Noodle House,Entrees,52. Chicken Teriyaki,12.25
-403,Asian Noodle House,Entrees,53. Lemon Grass Chicken,12.25
-404,Asian Noodle House,Entrees,54. Spicy Basil Roast Duck,15.95
-405,Asian Noodle House,Entrees,55. Thai Curry Roast Duck,15.95
-406,Asian Noodle House,House Special Entrees,S1. House Special Noodle Soup,9.25
-407,Asian Noodle House,House Special Entrees,S2. Chicken Vermicelli Noodle Soup,8.95
-408,Asian Noodle House,House Special Entrees,S3. BBQ Pork Ho Fun Noodle Soup,8.95
-409,Asian Noodle House,House Special Entrees,S4. Shredded Duck with Pickled Cabbage Mai Fun Soup,9.25
-410,Asian Noodle House,House Special Entrees,S5. Fish Ball Ho Fun Noodle Soup,8.95
-411,Asian Noodle House,House Special Entrees,S6. Ginger Sauce over Rice,9.25
-412,Asian Noodle House,House Special Entrees,S7. Pork Chops with Onions over Rice,9.25
-413,Asian Noodle House,House Special Entrees,S8. Vegetable Teriyaki Sauce over Rice,9.25
-414,Asian Noodle House,House Special Entrees,S9. Steamed Chicken with Scallion Ginger over Rice,8.95
-415,Asian Noodle House,House Special Entrees,S10. Young Chow Fried Rice,10.25
-416,Asian Noodle House,House Special Entrees,S11. Seafood House Special Fried Rice,10.25
-417,Asian Noodle House,House Special Entrees,S12. Beef with Tomato over Rice,9.25
-418,Asian Noodle House,House Special Entrees,S13. Beef with Black Bean Sauce over Rice,9.25
-419,Asian Noodle House,House Special Entrees,S14. Baby Shrimp with Eggs over Rice,9.25
-420,Asian Noodle House,House Special Entrees,S14. Beef with Eggs over Rice,9.25
-421,Asian Noodle House,House Special Entrees,S15. BBQ Pork over Rice,8.95
-422,Asian Noodle House,House Special Entrees,S16. Ho Fun Stir Fry with Black Bean Sauce,11.95
-423,Asian Noodle House,House Special Entrees,S17. Sub Gum Ho Fun,11.95
-424,Asian Noodle House,House Special Entrees,S18. Seafood Scrambled Egg Stir Fried Ho Fun,12.95
-425,Asian Noodle House,House Special Entrees,S19. Singapore Mai Fun,10.95
-426,Asian Noodle House,House Special Entrees,S20. Ha Moon Mai Fun,10.95
-427,Asian Noodle House,House Special Entrees,S21. Crispy Fried Noodle,11.95
-428,Asian Noodle House,House Special Entrees,S21. Seafood Crispy Fried Noodle,12.95
-429,Asian Noodle House,House Special Entrees,S22. Stir Fried Udon with XO Sauce,11.95
-430,Asian Noodle House,House Special Entrees,S23. Le Mein,10.25
-431,Asian Noodle House,House Special Entrees,S24. General Tso's Chicken,11.95
-432,Asian Noodle House,House Special Entrees,S25. Sesame Chicken,11.95
-433,Asian Noodle House,House Special Entrees,S26. Brocoli with Brown Sauce,11.95
-434,Asian Noodle House,House Special Entrees,S26. Brocoli with Shrimp and Brown Sauce,12.95
-435,Asian Noodle House,House Special Entrees,S27. PekingPork Chop with Onions,11.95
-436,Asian Noodle House,House Special Entrees,S28. Salt and Pepper with Pork Chop,11.95
-437,Asian Noodle House,House Special Entrees,S29. Pork Chop with Black Pepper,11.95
-438,Asian Noodle House,House Special Entrees,S30. Buddhit Delight with Red Bean Curd Sauce,11.95
-439,Asian Noodle House,House Special Entrees,S31. Mixed Vegetable,11.95
-440,Asian Noodle House,House Special Entrees,S31. Shrimp with Mixed Vegetable and Shrimp,12.95
-441,Asian Noodle House,House Special Entrees,S33. Ginger Sauce with Onions,11.95
-442,Asian Noodle House,House Special Entrees,S34. Happy Family Casserole,12.95
-443,Asian Noodle House,House Special Entrees,S35. Bean Curd with Seafood Casserole,13.95
-444,Asian Noodle House,House Special Entrees,S36. Satay with Mung Bean Noodle Casserol,12.95
-445,Asian Noodle House,House Special Entrees,S37. Spicy Tofu with Hot Pot,11.95
-446,Asian Noodle House,House Special Entrees,S38. Roast Duck with Vegetable Casserole,12.95
-447,Asian Noodle House,House Special Entrees,S39. Pork Chop with Thai Curry Sauce,11.95
-448,Asian Noodle House,House Special Entrees,S40. Ginger Onion with Chicken,11.95
+351,Asian Noodle House,Appetizers,Fried Tofu,3.95
+352,Asian Noodle House,Appetizers,Chicken Satay,5.25
+353,Asian Noodle House,Appetizers,Spring Roll,3.95
+354,Asian Noodle House,Appetizers,Basil Roll,3.95
+355,Asian Noodle House,Appetizers,Gyoza,4.25
+356,Asian Noodle House,Appetizers,Malaysian Roti,4.25
+357,Asian Noodle House,Appetizers,Fried Fish Cake,4.25
+358,Asian Noodle House,Soup,Tom Yum Goong,3.5
+359,Asian Noodle House,Soup,Tom Kha Kai,3.5
+360,Asian Noodle House,Soup,Fish Ball Soup,3.5
+361,Asian Noodle House,Soup,Wonton Soup,3.5
+362,Asian Noodle House,Soup,Vegetable Soup,3.5
+363,Asian Noodle House,Salad,Japanese Salad,3.95
+364,Asian Noodle House,Salad,Thai Salad,3.95
+365,Asian Noodle House,Rice,Hoi Nam Chicken on Rice,8.95
+366,Asian Noodle House,Rice,Roast Duck and BBQ Pork on Rice,10.25
+367,Asian Noodle House,Rice,Beef Stewed on Rice,9.95
+368,Asian Noodle House,Rice,Roast Duck on Rice,9.95
+369,Asian Noodle House,Noodle Soup,Vegetable Noodle Soup,8.95
+370,Asian Noodle House,Noodle Soup,Wonton Noodle Soup,8.95
+371,Asian Noodle House,Noodle Soup,Chicken Noodle Soup,8.95
+372,Asian Noodle House,Noodle Soup,Fish Ball Noodle Soup,8.95
+373,Asian Noodle House,Noodle Soup,Fish Cake Noodle Soup,8.95
+374,Asian Noodle House,Noodle Soup,Roast Duck Noodle Soup,9.95
+375,Asian Noodle House,Noodle Soup,Fish Cake and Chicken Noodle Soup,9.25
+376,Asian Noodle House,Noodle Soup,Fish Ball and Chicken Noodle Soup,9.25
+377,Asian Noodle House,Noodle Soup,Spicy Tom Yum Chicken Noodle Soup,8.95
+378,Asian Noodle House,Noodle Soup,Spicy Tom Yum Fish Cake Chicken Noodle Soup,8.95
+379,Asian Noodle House,Noodle Soup,Beef Stewed Noodle Soup,9.95
+380,Asian Noodle House,Noodle Soup,Spicy Tom Yum Shrimp Noodle Soup,9.25
+381,Asian Noodle House,Noodle Soup,Shrimp Noodle Soup,9.25
+382,Asian Noodle House,Noodle Soup,Fish Ball and Fish Cake Noodle Soup,9.25
+383,Asian Noodle House,Noodle Soup,Shrimp and Fish Cake Noodle Soup,9.25
+384,Asian Noodle House,Noodle Soup,Seafood Noodle Soup,9.25
+385,Asian Noodle House,Noodle Soup,Spicy Tom Yum Seafood Noodle Soup,9.25
+386,Asian Noodle House,Stir Fried Rice or Noodle,Pineapple Fried Rice,10.25
+387,Asian Noodle House,Stir Fried Rice or Noodle,Curry Fried Rice,10.25
+388,Asian Noodle House,Stir Fried Rice or Noodle,Spicy Basil Fried Rice,10.95
+389,Asian Noodle House,Stir Fried Rice or Noodle,Grilled Chicken with Peanut Sauce,9.95
+390,Asian Noodle House,Stir Fried Rice or Noodle,Fried Tofu with Peanut Sauce,9.95
+391,Asian Noodle House,Stir Fried Rice or Noodle,Spicy Curry Chicken Noodle,10.95
+392,Asian Noodle House,Stir Fried Rice or Noodle,Pad Thai,10.95
+393,Asian Noodle House,Stir Fried Rice or Noodle,Soy Sauce Noodle,10.95
+394,Asian Noodle House,Stir Fried Rice or Noodle,Spicy Basil Noodle,10.95
+395,Asian Noodle House,Entrees,Spicy Kra Prow,11.95
+396,Asian Noodle House,Entrees,Spicy Prik-Pao,11.95
+397,Asian Noodle House,Entrees,Ma Muang Hamipan,11.95
+398,Asian Noodle House,Entrees,Salmon Teriyaki,14.95
+399,Asian Noodle House,Entrees,Thai Curry,11.95
+400,Asian Noodle House,Entrees,Thai Curry Seafood,14.95
+401,Asian Noodle House,Entrees,Chicken Tamarind,11.95
+402,Asian Noodle House,Entrees,Chicken Teriyaki,12.25
+403,Asian Noodle House,Entrees,Lemon Grass Chicken,12.25
+404,Asian Noodle House,Entrees,Spicy Basil Roast Duck,15.95
+405,Asian Noodle House,Entrees,Thai Curry Roast Duck,15.95
+406,Asian Noodle House,House Special Entrees,House Special Noodle Soup,9.25
+407,Asian Noodle House,House Special Entrees,Chicken Vermicelli Noodle Soup,8.95
+408,Asian Noodle House,House Special Entrees,BBQ Pork Ho Fun Noodle Soup,8.95
+409,Asian Noodle House,House Special Entrees,Shredded Duck with Pickled Cabbage Mai Fun Soup,9.25
+410,Asian Noodle House,House Special Entrees,Fish Ball Ho Fun Noodle Soup,8.95
+411,Asian Noodle House,House Special Entrees,Ginger Sauce over Rice,9.25
+412,Asian Noodle House,House Special Entrees,Pork Chops with Onions over Rice,9.25
+413,Asian Noodle House,House Special Entrees,Vegetable Teriyaki Sauce over Rice,9.25
+414,Asian Noodle House,House Special Entrees,Steamed Chicken with Scallion Ginger over Rice,8.95
+415,Asian Noodle House,House Special Entrees,Young Chow Fried Rice,10.25
+416,Asian Noodle House,House Special Entrees,Seafood House Special Fried Rice,10.25
+417,Asian Noodle House,House Special Entrees,Beef with Tomato over Rice,9.25
+418,Asian Noodle House,House Special Entrees,Beef with Black Bean Sauce over Rice,9.25
+419,Asian Noodle House,House Special Entrees,Baby Shrimp with Eggs over Rice,9.25
+420,Asian Noodle House,House Special Entrees,Beef with Eggs over Rice,9.25
+421,Asian Noodle House,House Special Entrees,BBQ Pork over Rice,8.95
+422,Asian Noodle House,House Special Entrees,Ho Fun Stir Fry with Black Bean Sauce,11.95
+423,Asian Noodle House,House Special Entrees,Sub Gum Ho Fun,11.95
+424,Asian Noodle House,House Special Entrees,Seafood Scrambled Egg Stir Fried Ho Fun,12.95
+425,Asian Noodle House,House Special Entrees,Singapore Mai Fun,10.95
+426,Asian Noodle House,House Special Entrees,Ha Moon Mai Fun,10.95
+427,Asian Noodle House,House Special Entrees,Crispy Fried Noodle,11.95
+428,Asian Noodle House,House Special Entrees,Seafood Crispy Fried Noodle,12.95
+429,Asian Noodle House,House Special Entrees,Stir Fried Udon with XO Sauce,11.95
+430,Asian Noodle House,House Special Entrees,Le Mein,10.25
+431,Asian Noodle House,House Special Entrees,General Tso's Chicken,11.95
+432,Asian Noodle House,House Special Entrees,Sesame Chicken,11.95
+433,Asian Noodle House,House Special Entrees,Brocoli with Brown Sauce,11.95
+434,Asian Noodle House,House Special Entrees,Brocoli with Shrimp and Brown Sauce,12.95
+435,Asian Noodle House,House Special Entrees,PekingPork Chop with Onions,11.95
+436,Asian Noodle House,House Special Entrees,Salt and Pepper with Pork Chop,11.95
+437,Asian Noodle House,House Special Entrees,Pork Chop with Black Pepper,11.95
+438,Asian Noodle House,House Special Entrees,Buddhit Delight with Red Bean Curd Sauce,11.95
+439,Asian Noodle House,House Special Entrees,Mixed Vegetable,11.95
+440,Asian Noodle House,House Special Entrees,Shrimp with Mixed Vegetable and Shrimp,12.95
+441,Asian Noodle House,House Special Entrees,Ginger Sauce with Onions,11.95
+442,Asian Noodle House,House Special Entrees,Happy Family Casserole,12.95
+443,Asian Noodle House,House Special Entrees,Bean Curd with Seafood Casserole,13.95
+444,Asian Noodle House,House Special Entrees,Satay with Mung Bean Noodle Casserol,12.95
+445,Asian Noodle House,House Special Entrees,Spicy Tofu with Hot Pot,11.95
+446,Asian Noodle House,House Special Entrees,Roast Duck with Vegetable Casserole,12.95
+447,Asian Noodle House,House Special Entrees,Pork Chop with Thai Curry Sauce,11.95
+448,Asian Noodle House,House Special Entrees,Ginger Onion with Chicken,11.95
 449,Auntie Anne's,Drinks,12oz. Coke ,1.55
 450,Auntie Anne's,Drinks,12oz. Diet Coke ,1.55
 451,Auntie Anne's,Drinks,12oz. Sprite ,1.55
@@ -543,14 +543,14 @@
 541,Bella Pizza,Drinks,Snapple,2
 542,Bella Pizza,Drinks,Tea,1.75
 543,Bella Pizza,Sides,Ultimate Cheesy Garlic Bread,4.99
-544,Bella Pizza,Sides,Garlic Parm Knots (5),2.99
-545,Bella Pizza,Sides,Garlic Parm Knots (10),4.99
+544,Bella Pizza,Sides,Garlic Parm Knots,2.99
+545,Bella Pizza,Sides,Garlic Parm Knots,4.99
 546,Bella Pizza,Sides,Bread N Sauce,2.5
 547,Bella Pizza,Sides,House Salad,2.99
 548,Bella Pizza,Sides,Caesar Salad,3.49
-549,Bella Pizza,Desserts,Cinnamon Drops (16),3.49
-550,Bella Pizza,Desserts,Cinnamon Drops (32),5.99
-551,Bella Pizza,Desserts,Ultimate Chocolate Brownies (3),2.99
+549,Bella Pizza,Desserts,Cinnamon Drops,3.49
+550,Bella Pizza,Desserts,Cinnamon Drops,5.99
+551,Bella Pizza,Desserts,Ultimate Chocolate Brownies,2.99
 552,BoL Ithaca,Drinks,12oz. Coke ,1.55
 553,BoL Ithaca,Drinks,12oz. Diet Coke ,1.55
 554,BoL Ithaca,Drinks,12oz. Sprite ,1.55
@@ -566,8 +566,8 @@
 564,BoL Ithaca,Drinks,San Pellegrino,3.25
 565,BoL Ithaca,Create Your Own Hot Soup BoL,Ramen Soup BoL,12
 566,BoL Ithaca,Create Your Own Hot Soup BoL,Dumpling Soup BoL,12
-567,BoL Ithaca,Dumplings,Steamed Chicken Dumplings (4),6.75
-568,BoL Ithaca,Dumplings,Steamed Pork Dumplings (4),6.75
+567,BoL Ithaca,Dumplings,Steamed Chicken Dumplings,6.75
+568,BoL Ithaca,Dumplings,Steamed Pork Dumplings,6.75
 569,BoL Ithaca,Create your Own Cold Salad BoL,Green Salad BoL,10.75
 570,BoL Ithaca,Create your Own Cold Salad BoL,Noodle Salad BoL,10.75
 571,BoL Ithaca,Create your Own Cold Salad BoL,Grain Salad BoL,10.75
@@ -690,44 +690,44 @@
 688,Cafe Pacific,Drinks,12oz. Sprite ,1.55
 689,Cafe Pacific,Drinks,12oz. Cherry Coke ,1.55
 690,Cafe Pacific,Drinks,Bottled Water,1.99
-691,Cafe Pacific,Side Dishes,1. Chicken Salad with Tofu,6.94
+691,Cafe Pacific,Side Dishes,Chicken Salad with Tofu,6.94
 692,Cafe Pacific,Side Dishes,SIDE OF RICE,2
-693,Cafe Pacific,Side Dishes,2. Tofu Salad ,6.1
-694,Cafe Pacific,Side Dishes,3.  Steamed Shrimp Dumpling,5.25
-695,Cafe Pacific,Side Dishes,4.  Edamame,4.95
-696,Cafe Pacific,Side Dishes,5.  Gyoza,4.95
-697,Cafe Pacific,Side Dishes,6. Age Tofu,4.95
-698,Cafe Pacific,Side Dishes,7. Spicy Tofu,5.25
+693,Cafe Pacific,Side Dishes,Tofu Salad ,6.1
+694,Cafe Pacific,Side Dishes, Steamed Shrimp Dumpling,5.25
+695,Cafe Pacific,Side Dishes, Edamame,4.95
+696,Cafe Pacific,Side Dishes, Gyoza,4.95
+697,Cafe Pacific,Side Dishes,Age Tofu,4.95
+698,Cafe Pacific,Side Dishes,Spicy Tofu,5.25
 699,Cafe Pacific,Side Dishes,Korokke Appetizer,4.25
-700,Cafe Pacific,Noodle Dishes,8. Miso Ramen,8.99
-701,Cafe Pacific,Noodle Dishes,9. Shoyu Ramen,8.99
+700,Cafe Pacific,Noodle Dishes,Miso Ramen,8.99
+701,Cafe Pacific,Noodle Dishes,Shoyu Ramen,8.99
 702,Cafe Pacific,Noodle Dishes,Tempura Udon,10.49
-703,Cafe Pacific,Noodle Dishes,10. Chicken Udon Noodle Soup,8.99
+703,Cafe Pacific,Noodle Dishes,Chicken Udon Noodle Soup,8.99
 704,Cafe Pacific,Noodle Dishes,Tempura Soba,10.49
-705,Cafe Pacific,Noodle Dishes,10. Vegetable Udon Noodle Soup,8.99
-706,Cafe Pacific,Noodle Dishes,11. Kitsune Udon,8.99
-707,Cafe Pacific,Noodle Dishes,12. Vegetable Yakiudon,8.99
-708,Cafe Pacific,Noodle Dishes,12. Chicken Yakiudon,8.99
-709,Cafe Pacific,Noodle Dishes,13. Udon Noodle Soup,8.99
-710,Cafe Pacific,Noodle Dishes,14. Yakisoba,8.99
-711,Cafe Pacific,Noodle Dishes,15. Kashiwa Soba,8.99
-712,Cafe Pacific,Noodle Dishes,16. Sansai Soba,8.99
-713,Cafe Pacific,Noodle Dishes,17. Zaru Soba,8.99
-714,Cafe Pacific,Noodle Dishes,17. Zaru Udon,8.99
-715,Cafe Pacific,Special Entrees,18. Sukiyaki ,12.49
-716,Cafe Pacific,Special Entrees,19. Seafood Sukiyaki,14.95
-717,Cafe Pacific,Special Entrees,20. Nabeyaki Udon,11.99
-718,Cafe Pacific,Special Entrees,21. Salmon Teriyaki,12.49
-719,Cafe Pacific,Special Entrees,22. Spicy Seafood Nabe,14.95
-720,Cafe Pacific,Entrees,23. Japanese Curry Rice,8.98
-721,Cafe Pacific,Entrees,24. Katsu Curry,9.7
-722,Cafe Pacific,Entrees,25. Unagi Don,21
-723,Cafe Pacific,Entrees,26. Chicken Agemono,9.7
-724,Cafe Pacific,Entrees,26. Pork Agemono,9.7
-725,Cafe Pacific,Entrees,27. Yakiniku Don,9.7
-726,Cafe Pacific,Entrees,28. Katsu Don,8.98
-727,Cafe Pacific,Entrees,29. Oyako Don,8.98
-728,Cafe Pacific,Entrees,30. Buta Kimchee,8.98
+705,Cafe Pacific,Noodle Dishes,Vegetable Udon Noodle Soup,8.99
+706,Cafe Pacific,Noodle Dishes,Kitsune Udon,8.99
+707,Cafe Pacific,Noodle Dishes,Vegetable Yakiudon,8.99
+708,Cafe Pacific,Noodle Dishes,Chicken Yakiudon,8.99
+709,Cafe Pacific,Noodle Dishes,Udon Noodle Soup,8.99
+710,Cafe Pacific,Noodle Dishes,Yakisoba,8.99
+711,Cafe Pacific,Noodle Dishes,Kashiwa Soba,8.99
+712,Cafe Pacific,Noodle Dishes,Sansai Soba,8.99
+713,Cafe Pacific,Noodle Dishes,Zaru Soba,8.99
+714,Cafe Pacific,Noodle Dishes,Zaru Udon,8.99
+715,Cafe Pacific,Special Entrees,Sukiyaki ,12.49
+716,Cafe Pacific,Special Entrees,Seafood Sukiyaki,14.95
+717,Cafe Pacific,Special Entrees,Nabeyaki Udon,11.99
+718,Cafe Pacific,Special Entrees,Salmon Teriyaki,12.49
+719,Cafe Pacific,Special Entrees,Spicy Seafood Nabe,14.95
+720,Cafe Pacific,Entrees,Japanese Curry Rice,8.98
+721,Cafe Pacific,Entrees,Katsu Curry,9.7
+722,Cafe Pacific,Entrees,Unagi Don,21
+723,Cafe Pacific,Entrees,Chicken Agemono,9.7
+724,Cafe Pacific,Entrees,Pork Agemono,9.7
+725,Cafe Pacific,Entrees,Yakiniku Don,9.7
+726,Cafe Pacific,Entrees,Katsu Don,8.98
+727,Cafe Pacific,Entrees,Oyako Don,8.98
+728,Cafe Pacific,Entrees,Buta Kimchee,8.98
 729,Cafe Pacific,Entrees,Kaki Fri,11.99
 730,Cafe Pacific,Japanese Sweets,Single Mochi,2.99
 731,Cafe Pacific,Japanese Sweets,Mitarashi Dango,4.99
@@ -1692,13 +1692,13 @@
 1690,D P Dough,Drinks,12oz. Sprite ,1.55
 1691,D P Dough,Drinks,12oz. Cherry Coke ,1.55
 1692,D P Dough,Drinks,Bottled Water,1.99
-1693,D P Dough,Desserts,BIG Fresh Baked Cookies (1),1.75
-1694,D P Dough,Desserts,BIG Fresh Baked Cookies (3),4.95
-1695,D P Dough,Desserts,BIG Fresh Baked Cookies (6),9.5
+1693,D P Dough,Desserts,BIG Fresh Baked Cookies,1.75
+1694,D P Dough,Desserts,BIG Fresh Baked Cookies,4.95
+1695,D P Dough,Desserts,BIG Fresh Baked Cookies,9.5
 1696,D P Dough,Desserts,Blueberry Pie Zone,9.5
 1697,D P Dough,Desserts,Cherry Pie Zone,9.5
 1698,D P Dough,Desserts,Apple Pie Zone,9.5
-1699,D P Dough,Desserts,Cinnamon Stix (10),5.95
+1699,D P Dough,Desserts,Cinnamon Stix,5.95
 1700,D P Dough,Fresh Baked Calzones,Make Your Own Calzone,9.5
 1701,D P Dough,Fresh Baked Calzones,Cheeze Zone,9.5
 1702,D P Dough,Fresh Baked Calzones,Combat Zone,9.5
@@ -1832,7 +1832,7 @@
 1830,Enzo�s Pizzeria,Appetizers,Onion Rings (Large),4.99
 1831,Enzo�s Pizzeria,Appetizers,Mozzarella Sticks,6.99
 1832,Enzo�s Pizzeria,Appetizers,Chicken Tenders,6.99
-1833,Enzo�s Pizzeria,Appetizers,Garlic Knots (5),1.5
+1833,Enzo�s Pizzeria,Appetizers,Garlic Knots,1.5
 1834,Enzo�s Pizzeria,Appetizers,Calamari Rings,9.99
 1835,Enzo�s Pizzeria,Appetizers,Soup of the Day,5.99
 1836,Enzo�s Pizzeria,Appetizers,Fried Dough,5
@@ -2085,26 +2085,26 @@
 2083,Four Seasons,Drinks,12oz. Sprite ,1.55
 2084,Four Seasons,Drinks,12oz. Cherry Coke ,1.55
 2085,Four Seasons,Drinks,Bottled Water,1.99
-2086,Four Seasons,Appetizers,1. Duk Bok Ki,8.95
+2086,Four Seasons,Appetizers,Duk Bok Ki,8.95
 2087,Four Seasons,Appetizers,Side of Rice,1.5
-2088,Four Seasons,Appetizers,4. Large Mandu-Fried or Steamed,9.95
-2089,Four Seasons,Appetizers,5. Large Gochoo Pajun,12.95
-2090,Four Seasons,Appetizers,5. Small Gochoo Pajun,8.95
-2091,Four Seasons,Appetizers,6. Large Kimchi Pajun,12.95
-2092,Four Seasons,Appetizers,6. Small Kimchi Pajun,8.95
-2093,Four Seasons,Appetizers,7. Large Haemul Pajun,13.95
-2094,Four Seasons,Appetizers,7. Small Haemul Pajun,8.95
-2095,Four Seasons,Appetizers,8. Large Vegetarian Pajun,12.95
-2096,Four Seasons,Appetizers,8. Small Vegetarian Pajun,8.95
-2097,Four Seasons,Authentic Korean BBQ,14. La Kalbi,18.95
-2098,Four Seasons,Authentic Korean BBQ,15. Bulgogi,14.95
-2099,Four Seasons,Authentic Korean BBQ,16. Dwaeji Bulgogi Gui,14.95
-2100,Four Seasons,Authentic Korean BBQ,17. Dak Bulgogi Gui,14.95
-2101,Four Seasons,Authentic Korean BBQ,18. Saeng Samkyupsal Gui,14.95
-2102,Four Seasons,Authentic Korean BBQ,19. Sae Woo Gui,14.95
-2103,Four Seasons,Authentic Korean BBQ,20. Joo Mul Luk Gui,14.95
-2104,Four Seasons,Fish,55. Go Deung U Gui,15.95
-2105,Four Seasons,Fish,56. Salmon Gui,16.95
+2088,Four Seasons,Appetizers,Large Mandu-Fried or Steamed,9.95
+2089,Four Seasons,Appetizers,Large Gochoo Pajun,12.95
+2090,Four Seasons,Appetizers,Small Gochoo Pajun,8.95
+2091,Four Seasons,Appetizers,Large Kimchi Pajun,12.95
+2092,Four Seasons,Appetizers,Small Kimchi Pajun,8.95
+2093,Four Seasons,Appetizers,Large Haemul Pajun,13.95
+2094,Four Seasons,Appetizers,Small Haemul Pajun,8.95
+2095,Four Seasons,Appetizers,Large Vegetarian Pajun,12.95
+2096,Four Seasons,Appetizers,Small Vegetarian Pajun,8.95
+2097,Four Seasons,Authentic Korean BBQ,La Kalbi,18.95
+2098,Four Seasons,Authentic Korean BBQ,Bulgogi,14.95
+2099,Four Seasons,Authentic Korean BBQ,Dwaeji Bulgogi Gui,14.95
+2100,Four Seasons,Authentic Korean BBQ,Dak Bulgogi Gui,14.95
+2101,Four Seasons,Authentic Korean BBQ,Saeng Samkyupsal Gui,14.95
+2102,Four Seasons,Authentic Korean BBQ,Sae Woo Gui,14.95
+2103,Four Seasons,Authentic Korean BBQ,Joo Mul Luk Gui,14.95
+2104,Four Seasons,Fish,Go Deung U Gui,15.95
+2105,Four Seasons,Fish,Salmon Gui,16.95
 2106,Four Seasons,BBQ Combination,BBQ Combo A,39.95
 2107,Four Seasons,BBQ Combination,BBQ Combo B,39.95
 2108,Four Seasons,Box,A. Kal Bi Box,14.95
@@ -2112,105 +2112,105 @@
 2110,Four Seasons,Box,C. Chicken Box,13.95
 2111,Four Seasons,Box,D. Pork Box,13.95
 2112,Four Seasons,Box,E. Salmon Box,14.95
-2113,Four Seasons,Teriyaki,21. Tofu Teriyaki,12.95
-2114,Four Seasons,Teriyaki,22. Salmon Teriyaki,16.95
-2115,Four Seasons,Teriyaki,23. Chicken Teriyaki,14.95
-2116,Four Seasons,Noodles,24. Cham Bong,12.95
-2117,Four Seasons,Noodles,25. Woo Dong,12.95
-2118,Four Seasons,Noodles,26. Mool Naeng Myeon,11.95
-2119,Four Seasons,Noodles,27. Bi Bim Naeng Myeon,12.95
-2120,Four Seasons,Noodles,28. Yaki Soba,13.95
-2121,Four Seasons,Noodles,29. Jap Chae,13.95
+2113,Four Seasons,Teriyaki,Tofu Teriyaki,12.95
+2114,Four Seasons,Teriyaki,Salmon Teriyaki,16.95
+2115,Four Seasons,Teriyaki,Chicken Teriyaki,14.95
+2116,Four Seasons,Noodles,Cham Bong,12.95
+2117,Four Seasons,Noodles,Woo Dong,12.95
+2118,Four Seasons,Noodles,Mool Naeng Myeon,11.95
+2119,Four Seasons,Noodles,Bi Bim Naeng Myeon,12.95
+2120,Four Seasons,Noodles,Yaki Soba,13.95
+2121,Four Seasons,Noodles,Jap Chae,13.95
 2122,Four Seasons,Stir-Fry,Khan Pong Sea Woo,15.95
-2123,Four Seasons,Stew,30. Samgyetang,14.95
-2124,Four Seasons,Stew,31. Yook Gae Jang,13.95
-2125,Four Seasons,Stew,32. Kimchi Chige,11.95
-2126,Four Seasons,Stew,33. Boo Dae Chi Ge,14.95
-2127,Four Seasons,Stew,34. Daegu Mae Un Tang,14.95
-2128,Four Seasons,Stew,35. Soon Tofu Chige,11.95
-2129,Four Seasons,Stew,36. Dan Jang Chige,11.95
-2130,Four Seasons,Stew,37. Duk Mandu Guk,11.95
-2131,Four Seasons,Stew,38. Mandu Guk,11.95
-2132,Four Seasons,Stew,39. Gam Ja Tang,14.95
-2133,Four Seasons,Stew,40. Tofu Jun Gol,12.95
-2134,Four Seasons,Stew,41. Kalbi Tang,13.95
-2135,Four Seasons,Casserole,42. Gam Ja Jeon Gol,33.95
-2136,Four Seasons,Casserole,43. Boo Dae Jeon Gol,33.95
-2137,Four Seasons,Casserole,44. Hae Mool Jeon Gol,33.95
-2138,Four Seasons,Chef's Specialties,45. Chicken Katsu,14.95
-2139,Four Seasons,Chef's Specialties,45. Pork Katsu,14.95
-2140,Four Seasons,Chef's Specialties,46. Oh Jing Uh Bok Eum,14.95
-2141,Four Seasons,Chef's Specialties,47. Jaeyook Kimchi,14.95
-2142,Four Seasons,Chef's Specialties,48. Chicken Bok Um,14.95
-2143,Four Seasons,Chef's Specialties,49. Tofu Bokum,12.95
-2144,Four Seasons,Chef's Specialties,50. Jaeyook Bokum,14.95
-2145,Four Seasons,Rice,51. Bi Bim Bap,11.95
-2146,Four Seasons,Rice,52. Dolsot Bi Bim Bap,13.95
-2147,Four Seasons,Rice,53. Ojingoh Dolsot Bi Bim Bap,13.95
-2148,Four Seasons,Rice,54. Fried Rice,12.95
+2123,Four Seasons,Stew,Samgyetang,14.95
+2124,Four Seasons,Stew,Yook Gae Jang,13.95
+2125,Four Seasons,Stew,Kimchi Chige,11.95
+2126,Four Seasons,Stew,Boo Dae Chi Ge,14.95
+2127,Four Seasons,Stew,Daegu Mae Un Tang,14.95
+2128,Four Seasons,Stew,Soon Tofu Chige,11.95
+2129,Four Seasons,Stew,Dan Jang Chige,11.95
+2130,Four Seasons,Stew,Duk Mandu Guk,11.95
+2131,Four Seasons,Stew,Mandu Guk,11.95
+2132,Four Seasons,Stew,Gam Ja Tang,14.95
+2133,Four Seasons,Stew,Tofu Jun Gol,12.95
+2134,Four Seasons,Stew,Kalbi Tang,13.95
+2135,Four Seasons,Casserole,Gam Ja Jeon Gol,33.95
+2136,Four Seasons,Casserole,Boo Dae Jeon Gol,33.95
+2137,Four Seasons,Casserole,Hae Mool Jeon Gol,33.95
+2138,Four Seasons,Chef's Specialties,Chicken Katsu,14.95
+2139,Four Seasons,Chef's Specialties,Pork Katsu,14.95
+2140,Four Seasons,Chef's Specialties,Oh Jing Uh Bok Eum,14.95
+2141,Four Seasons,Chef's Specialties,Jaeyook Kimchi,14.95
+2142,Four Seasons,Chef's Specialties,Chicken Bok Um,14.95
+2143,Four Seasons,Chef's Specialties,Tofu Bokum,12.95
+2144,Four Seasons,Chef's Specialties,Jaeyook Bokum,14.95
+2145,Four Seasons,Rice,Bi Bim Bap,11.95
+2146,Four Seasons,Rice,Dolsot Bi Bim Bap,13.95
+2147,Four Seasons,Rice,Ojingoh Dolsot Bi Bim Bap,13.95
+2148,Four Seasons,Rice,Fried Rice,12.95
 2149,Gangnam Station,Drinks,12oz. Coke ,1.55
 2150,Gangnam Station,Drinks,12oz. Diet Coke ,1.55
 2151,Gangnam Station,Drinks,12oz. Sprite ,1.55
 2152,Gangnam Station,Drinks,12oz. Cherry Coke ,1.55
 2153,Gangnam Station,Drinks,Bottled Water,1.99
-2154,Gangnam Station,Appetizer,A1. Sui-Mui (6pcs),5.95
-2155,Gangnam Station,Appetizer,A2. Deep Fried Dumplings (8pcs),7.95
-2156,Gangnam Station,Appetizer,A3. Stir Fried Rice Cake,11.95
-2157,Gangnam Station,Appetizer,A4. Rayman with Rice Cake,12.95
-2158,Gangnam Station,Appetizer,A5. Fried Chicken Wings (6pcs),8.95
-2159,Gangnam Station,Appetizer,A6. Corn Pancake,11.95
-2160,Gangnam Station,Appetizer,A7. Seafood Pajun,12.95
-2161,Gangnam Station,Rice,R1. Vegetable Fried Rice,10.95
-2162,Gangnam Station,Rice,R2. Kimchi Fried Rice,12.95
+2154,Gangnam Station,Appetizer,Sui-Mui (6pcs),5.95
+2155,Gangnam Station,Appetizer,Deep Fried Dumplings (8pcs),7.95
+2156,Gangnam Station,Appetizer,Stir Fried Rice Cake,11.95
+2157,Gangnam Station,Appetizer,Rayman with Rice Cake,12.95
+2158,Gangnam Station,Appetizer,Fried Chicken Wings (6pcs),8.95
+2159,Gangnam Station,Appetizer,Corn Pancake,11.95
+2160,Gangnam Station,Appetizer,Seafood Pajun,12.95
+2161,Gangnam Station,Rice,Vegetable Fried Rice,10.95
+2162,Gangnam Station,Rice,Kimchi Fried Rice,12.95
 2163,Gangnam Station,Rice,R3.Chicken Fried Rice,11.95
-2164,Gangnam Station,Rice,R4. Beef Fried Rice,12.95
-2165,Gangnam Station,Rice,R5. Special Fried Rice,14.95
-2166,Gangnam Station,Rice,R6. Jiajang Over Fried Rice,11.95
-2167,Gangnam Station,Rice,R7. Jjam-Pong with Rice,12.95
-2168,Gangnam Station,Rice,R8. Hot Stone Pot Bibimbap,14.95
-2169,Gangnam Station,Rice,R9. Omurice,13.95
+2164,Gangnam Station,Rice,Beef Fried Rice,12.95
+2165,Gangnam Station,Rice,Special Fried Rice,14.95
+2166,Gangnam Station,Rice,Jiajang Over Fried Rice,11.95
+2167,Gangnam Station,Rice,Jjam-Pong with Rice,12.95
+2168,Gangnam Station,Rice,Hot Stone Pot Bibimbap,14.95
+2169,Gangnam Station,Rice,Omurice,13.95
 2170,Gangnam Station,Side Orders,Side of Rice,2
 2171,Gangnam Station,Side Orders,Fried Egg Side,0.5
-2172,Gangnam Station,Noodles,N1. Ja Jang Myun,10.95
-2173,Gangnam Station,Noodles,N2. Jjam Pong,12.95
-2174,Gangnam Station,Noodles,N3. Bokgeum Jjam Pong,13.95
-2175,Gangnam Station,Noodles,N4. Japchae ,13.95
-2176,Gangnam Station,Noodles,N5. Kimchi Fried Ramyun ,11.95
-2177,Gangnam Station,Soup,S1. Kimchi Jjigae,12.95
-2178,Gangnam Station,Soup,S2. DwenJang Jjigae,10.95
-2179,Gangnam Station,Soup,S3. Soon Dooboo ,10.95
-2180,Gangnam Station,Soup,S4. Kam Ja Tang,14.95
-2181,Gangnam Station,Soup,S5. Budae Jigae,14.95
-2182,Gangnam Station,Soup,S6. Yuk Gae Jang,14.95
-2183,Gangnam Station,Soup,S7. Yache Tofu Tang ,11.95
-2184,Gangnam Station,Soup,S8. Gom Tang,17.95
-2185,Gangnam Station,Soup,S9. Seafood Nurongji Tang,14.95
-2186,Gangnam Station,Soup,S10. Samgye Tang ,17.95
-2187,Gangnam Station,Traditional Dishes,T1. Dong Go Baechu ,13.95
-2188,Gangnam Station,Traditional Dishes,T2. Busut Tofu ,14.95
-2189,Gangnam Station,Traditional Dishes,T3. Home Style Tofu,13.95
-2190,Gangnam Station,Traditional Dishes,T4. Mapo Tofu,12.95
-2191,Gangnam Station,Traditional Dishes,T5.  Tofu with Garlic Sauce,13.95
-2192,Gangnam Station,Traditional Dishes,T6. Eggplant with Garlic Sauce,13.95
-2193,Gangnam Station,Traditional Dishes,T7.  Eggplant with Bean Sauce,14.95
-2194,Gangnam Station,Traditional Dishes,T8.  Tomato with Egg,13.95
-2195,Gangnam Station,Traditional Dishes,T9. Bok Choy,13.95
-2196,Gangnam Station,Traditional Dishes,T10. Sauteed Bean Curd in Hot Pepper Sauce,13.95
-2197,Gangnam Station,Traditional Dishes,T11.  Mooshu Pork ,13.95
-2198,Gangnam Station,Traditional Dishes,T12. Shredded Beef with Vegetables in Special Hot Sauce,15.95
-2199,Gangnam Station,Traditional Dishes,T13. Jeyuk Kimchi ,14.95
-2200,Gangnam Station,Traditional Dishes,T14. Tang Soo Yuk ,14.95
-2201,Gangnam Station,Traditional Dishes,T15. Ggan Poong Gi,14.95
-2202,Gangnam Station,Traditional Dishes,T16. Ggan Poong Yuk - Pork ,14.95
-2203,Gangnam Station,Traditional Dishes,T17. Ra Jo Gi,14.95
-2204,Gangnam Station,Traditional Dishes,T18. Ra Jo Yuk ,14.95
-2205,Gangnam Station,Traditional Dishes,T19. Stir Fried Spicy Squid,15.95
-2206,Gangnam Station,Traditional Dishes,T20. Seafood with Japanese Tofu,16.95
-2207,Gangnam Station,Traditional Dishes,T21. Bulgogi,18.95
-2208,Gangnam Station,Traditional Dishes,T22. LA Galbi,21.95
-2209,Gangnam Station,Traditional Dishes,T23. Pigs Trotters,30.95
-2210,Gangnam Station,Traditional Dishes,T26. Oh Saam Bol Go Gi,17.95
-2211,Gangnam Station,Traditional Dishes,T27. Mala XiangGuo,15.95
+2172,Gangnam Station,Noodles,Ja Jang Myun,10.95
+2173,Gangnam Station,Noodles,Jjam Pong,12.95
+2174,Gangnam Station,Noodles,Bokgeum Jjam Pong,13.95
+2175,Gangnam Station,Noodles,Japchae ,13.95
+2176,Gangnam Station,Noodles,Kimchi Fried Ramyun ,11.95
+2177,Gangnam Station,Soup,Kimchi Jjigae,12.95
+2178,Gangnam Station,Soup,DwenJang Jjigae,10.95
+2179,Gangnam Station,Soup,Soon Dooboo ,10.95
+2180,Gangnam Station,Soup,Kam Ja Tang,14.95
+2181,Gangnam Station,Soup,Budae Jigae,14.95
+2182,Gangnam Station,Soup,Yuk Gae Jang,14.95
+2183,Gangnam Station,Soup,Yache Tofu Tang ,11.95
+2184,Gangnam Station,Soup,Gom Tang,17.95
+2185,Gangnam Station,Soup,Seafood Nurongji Tang,14.95
+2186,Gangnam Station,Soup,Samgye Tang ,17.95
+2187,Gangnam Station,Traditional Dishes,Dong Go Baechu ,13.95
+2188,Gangnam Station,Traditional Dishes,Busut Tofu ,14.95
+2189,Gangnam Station,Traditional Dishes,Home Style Tofu,13.95
+2190,Gangnam Station,Traditional Dishes,Mapo Tofu,12.95
+2191,Gangnam Station,Traditional Dishes, Tofu with Garlic Sauce,13.95
+2192,Gangnam Station,Traditional Dishes,Eggplant with Garlic Sauce,13.95
+2193,Gangnam Station,Traditional Dishes, Eggplant with Bean Sauce,14.95
+2194,Gangnam Station,Traditional Dishes, Tomato with Egg,13.95
+2195,Gangnam Station,Traditional Dishes,Bok Choy,13.95
+2196,Gangnam Station,Traditional Dishes,Sauteed Bean Curd in Hot Pepper Sauce,13.95
+2197,Gangnam Station,Traditional Dishes, Mooshu Pork ,13.95
+2198,Gangnam Station,Traditional Dishes,Shredded Beef with Vegetables in Special Hot Sauce,15.95
+2199,Gangnam Station,Traditional Dishes,Jeyuk Kimchi ,14.95
+2200,Gangnam Station,Traditional Dishes,Tang Soo Yuk ,14.95
+2201,Gangnam Station,Traditional Dishes,Ggan Poong Gi,14.95
+2202,Gangnam Station,Traditional Dishes,Ggan Poong Yuk - Pork ,14.95
+2203,Gangnam Station,Traditional Dishes,Ra Jo Gi,14.95
+2204,Gangnam Station,Traditional Dishes,Ra Jo Yuk ,14.95
+2205,Gangnam Station,Traditional Dishes,Stir Fried Spicy Squid,15.95
+2206,Gangnam Station,Traditional Dishes,Seafood with Japanese Tofu,16.95
+2207,Gangnam Station,Traditional Dishes,Bulgogi,18.95
+2208,Gangnam Station,Traditional Dishes,LA Galbi,21.95
+2209,Gangnam Station,Traditional Dishes,Pigs Trotters,30.95
+2210,Gangnam Station,Traditional Dishes,Oh Saam Bol Go Gi,17.95
+2211,Gangnam Station,Traditional Dishes,Mala XiangGuo,15.95
 2212,Gorgers Subs,Drinks,12oz. Coke ,1.55
 2213,Gorgers Subs,Drinks,12oz. Diet Coke ,1.55
 2214,Gorgers Subs,Drinks,12oz. Sprite ,1.55
@@ -2288,226 +2288,226 @@
 2286,Hai Hong Restaurant,Beverages,Juice,2.5
 2287,Hai Hong Restaurant,Beverages,Coffee,2
 2288,Hai Hong Restaurant,Beverages,Tea,2
-2289,Hai Hong Restaurant,Appetizers,1. Vegetable Spring Roll (2),5.5
-2290,Hai Hong Restaurant,Appetizers,2. Egg Roll (2),5.5
-2291,Hai Hong Restaurant,Appetizers,"3. Spring Roll, Shanghai Style (2)",6
-2292,Hai Hong Restaurant,Appetizers,4. Fried Scallion Pancake (1),5.95
-2293,Hai Hong Restaurant,Appetizers,5. Fried Wonton (6),5.5
-2294,Hai Hong Restaurant,Appetizers,6. Dumplings (8),8.5
-2295,Hai Hong Restaurant,Appetizers,7. Cold Noodles,9.95
-2296,Hai Hong Restaurant,Appetizers,8. Leeks Dumpling Steamed (8),9.5
-2297,Hai Hong Restaurant,Appetizers,9. Barbecued Spare Ribs (4),10.95
-2298,Hai Hong Restaurant,Appetizers,10. Barbecued Pork,9.95
-2299,Hai Hong Restaurant,Appetizers,11. Fantail Shrimp (5),9.95
-2300,Hai Hong Restaurant,Appetizers,12. Chicken Teriyaki,8.95
-2301,Hai Hong Restaurant,Appetizers,13. Pu Pu Platter,17.95
-2302,Hai Hong Restaurant,Soup,14. Hot & Sour Soup,4
-2303,Hai Hong Restaurant,Soup,15. Wonton Soup,4
-2304,Hai Hong Restaurant,Soup,16. Egg Drop Soup,4
-2305,Hai Hong Restaurant,Soup,17. Chicken & Corn Soup,5
-2306,Hai Hong Restaurant,Soup,18. Sliced Pork w. Seasonal Veg. Soup (2),10.95
-2307,Hai Hong Restaurant,Soup,19. Vegetable & Bean Curd Soup (2),9.95
-2308,Hai Hong Restaurant,Soup,20. Salted Egg w. Mustard Green & Sliced Pork (2),10.95
-2309,Hai Hong Restaurant,Soup,21. Crab Meat Soup (2),14.95
-2310,Hai Hong Restaurant,Soup,22. Stewed Fish Maw Soup,14.95
-2311,Hai Hong Restaurant,Soup,23. Seafood & Bean Curd Soup (2),14.95
-2312,Hai Hong Restaurant,Lo Mein,24. Vegetable Lo Mein,11.95
-2313,Hai Hong Restaurant,Lo Mein,25. Beef Lo Mein,11.95
-2314,Hai Hong Restaurant,Lo Mein,26. Roast Pork Lo Mein,11.95
-2315,Hai Hong Restaurant,Lo Mein,27. Chicken Lo Mein,11.95
-2316,Hai Hong Restaurant,Lo Mein,28. Shrimp Lo Mein,12.95
-2317,Hai Hong Restaurant,Lo Mein,29. Mandarin Lo Mein,12.95
-2318,Hai Hong Restaurant,Lo Mein,30. Chow Fun,12.95
-2319,Hai Hong Restaurant,Lo Mein,31. Mandarin Pan Fried Noodle,17.95
-2320,Hai Hong Restaurant,Lo Mein,32. Fresh Veg. Pan Fried Noodle,16.95
-2321,Hai Hong Restaurant,Lo Mein,33. Fresh Seafood Pan Fried Noodle,19.95
-2322,Hai Hong Restaurant,Lo Mein,34. E Fu Noodles,17.95
-2323,Hai Hong Restaurant,Lo Mein,35. Beef Stew in Noodle Soup,11.95
-2324,Hai Hong Restaurant,Lo Mein,36. Singapore Mei Fun,12.95
-2325,Hai Hong Restaurant,Fried Rice,37. Vegetable Fried Rice,10.95
-2326,Hai Hong Restaurant,Fried Rice,38. Roast Pork Fried Rice,10.95
-2327,Hai Hong Restaurant,Fried Rice,39. Beef Fried Rice,10.95
-2328,Hai Hong Restaurant,Fried Rice,40. Chicken Fried Rice,10.95
-2329,Hai Hong Restaurant,Fried Rice,41. Shrimp Fried Rice,11.95
-2330,Hai Hong Restaurant,Fried Rice,42. Mandarin Fried Rice,12.95
-2331,Hai Hong Restaurant,Fried Rice,43. House Special Fried Rice,13.95
-2332,Hai Hong Restaurant,Fried Rice,44. Salted Fish Fried Rice,15.95
+2289,Hai Hong Restaurant,Appetizers,Vegetable Spring Roll,5.5
+2290,Hai Hong Restaurant,Appetizers,Egg Roll,5.5
+2291,Hai Hong Restaurant,Appetizers,"Spring Roll, Shanghai Style",6
+2292,Hai Hong Restaurant,Appetizers,Fried Scallion Pancake,5.95
+2293,Hai Hong Restaurant,Appetizers,Fried Wonton,5.5
+2294,Hai Hong Restaurant,Appetizers,Dumplings,8.5
+2295,Hai Hong Restaurant,Appetizers,Cold Noodles,9.95
+2296,Hai Hong Restaurant,Appetizers,Leeks Dumpling Steamed,9.5
+2297,Hai Hong Restaurant,Appetizers,Barbecued Spare Ribs,10.95
+2298,Hai Hong Restaurant,Appetizers,Barbecued Pork,9.95
+2299,Hai Hong Restaurant,Appetizers,Fantail Shrimp,9.95
+2300,Hai Hong Restaurant,Appetizers,Chicken Teriyaki,8.95
+2301,Hai Hong Restaurant,Appetizers,Pu Pu Platter,17.95
+2302,Hai Hong Restaurant,Soup,Hot & Sour Soup,4
+2303,Hai Hong Restaurant,Soup,Wonton Soup,4
+2304,Hai Hong Restaurant,Soup,Egg Drop Soup,4
+2305,Hai Hong Restaurant,Soup,Chicken & Corn Soup,5
+2306,Hai Hong Restaurant,Soup,Sliced Pork w. Seasonal Veg. Soup,10.95
+2307,Hai Hong Restaurant,Soup,Vegetable & Bean Curd Soup,9.95
+2308,Hai Hong Restaurant,Soup,Salted Egg w. Mustard Green & Sliced Pork,10.95
+2309,Hai Hong Restaurant,Soup,Crab Meat Soup,14.95
+2310,Hai Hong Restaurant,Soup,Stewed Fish Maw Soup,14.95
+2311,Hai Hong Restaurant,Soup,Seafood & Bean Curd Soup,14.95
+2312,Hai Hong Restaurant,Lo Mein,Vegetable Lo Mein,11.95
+2313,Hai Hong Restaurant,Lo Mein,Beef Lo Mein,11.95
+2314,Hai Hong Restaurant,Lo Mein,Roast Pork Lo Mein,11.95
+2315,Hai Hong Restaurant,Lo Mein,Chicken Lo Mein,11.95
+2316,Hai Hong Restaurant,Lo Mein,Shrimp Lo Mein,12.95
+2317,Hai Hong Restaurant,Lo Mein,Mandarin Lo Mein,12.95
+2318,Hai Hong Restaurant,Lo Mein,Chow Fun,12.95
+2319,Hai Hong Restaurant,Lo Mein,Mandarin Pan Fried Noodle,17.95
+2320,Hai Hong Restaurant,Lo Mein,Fresh Veg. Pan Fried Noodle,16.95
+2321,Hai Hong Restaurant,Lo Mein,Fresh Seafood Pan Fried Noodle,19.95
+2322,Hai Hong Restaurant,Lo Mein,E Fu Noodles,17.95
+2323,Hai Hong Restaurant,Lo Mein,Beef Stew in Noodle Soup,11.95
+2324,Hai Hong Restaurant,Lo Mein,Singapore Mei Fun,12.95
+2325,Hai Hong Restaurant,Fried Rice,Vegetable Fried Rice,10.95
+2326,Hai Hong Restaurant,Fried Rice,Roast Pork Fried Rice,10.95
+2327,Hai Hong Restaurant,Fried Rice,Beef Fried Rice,10.95
+2328,Hai Hong Restaurant,Fried Rice,Chicken Fried Rice,10.95
+2329,Hai Hong Restaurant,Fried Rice,Shrimp Fried Rice,11.95
+2330,Hai Hong Restaurant,Fried Rice,Mandarin Fried Rice,12.95
+2331,Hai Hong Restaurant,Fried Rice,House Special Fried Rice,13.95
+2332,Hai Hong Restaurant,Fried Rice,Salted Fish Fried Rice,15.95
 2333,Hai Hong Restaurant,Fried Rice,Jasmine Rice (Pt),4
 2334,Hai Hong Restaurant,Fried Rice,Jasmine Rice (Qt),5
-2335,Hai Hong Restaurant,Seafood,45. Sauteed Scallops,17.95
-2336,Hai Hong Restaurant,Seafood,46. Scallops w. Garlic Sauce,17.95
-2337,Hai Hong Restaurant,Seafood,47. Kang Pao Squid,17.95
-2338,Hai Hong Restaurant,Seafood,48. Kang Pao Scallops,17.95
-2339,Hai Hong Restaurant,Seafood,49. Shrimp w. Walnuts,17.95
-2340,Hai Hong Restaurant,Seafood,50. Shrimp w. Oyster Sauce,17.95
-2341,Hai Hong Restaurant,Seafood,51. Shrimp w. Snow Peas,17.95
-2342,Hai Hong Restaurant,Seafood,52. Shrimp Peking Style,17.95
-2343,Hai Hong Restaurant,Seafood,53. Shrimp Broccoli,17.95
-2344,Hai Hong Restaurant,Seafood,54. Shrimp w. Cashew Nuts,17.95
-2345,Hai Hong Restaurant,Seafood,55. Tempura Shrimp,17.95
-2346,Hai Hong Restaurant,Seafood,56. Shrimp w. Lobster Sauce,17.95
-2347,Hai Hong Restaurant,Seafood,57. Sweet & Soup Shrimp,17.95
-2348,Hai Hong Restaurant,Seafood,58. Shrimp w. Black Bean Sauce,17.95
-2349,Hai Hong Restaurant,Seafood,59. Shrimp w. Ginger Sauce,17.95
-2350,Hai Hong Restaurant,Seafood,60. Shrimp w. Garlic Sauce,17.95
-2351,Hai Hong Restaurant,Seafood,61. Moo Shu Shrimp,16.95
-2352,Hai Hong Restaurant,Seafood,62. Squid w. Garlic Sauce,17.95
-2353,Hai Hong Restaurant,Seafood,63. Chinese Eggplant & Shrimp,16.95
-2354,Hai Hong Restaurant,Seafood,64. Crispy Squid in Salt & Pepper,17.95
-2355,Hai Hong Restaurant,Seafood,65. Sauteed Squid w. Green Pepper & Black Bean Sauce,17.95
-2356,Hai Hong Restaurant,Seafood,66. Crispy Scallops in Salt & Pepper,17.95
-2357,Hai Hong Restaurant,Seafood,67. Fresh Squid w. Chinese Veg.,17.95
-2358,Hai Hong Restaurant,Seafood,68. Crispy Shrimp in Salt & Pepper,17.95
-2359,Hai Hong Restaurant,Seafood,69. Mandarin Triple Crown,18.95
-2360,Hai Hong Restaurant,Seafood,70. Crispy Shrimp & Scallops,18.95
-2361,Hai Hong Restaurant,Seafood,71. Chinese Bok Choy,16.95
-2362,Hai Hong Restaurant,Seafood,72. Snow Peas Green w. Crab Meat,21.95
-2363,Hai Hong Restaurant,Dim Sum,1. Steamed Dumplings w. Veg & Peanuts,4.99
-2364,Hai Hong Restaurant,Dim Sum,2. Steamed Dumplings w. Leeks,4.99
-2365,Hai Hong Restaurant,Dim Sum,3. Fried Dumplings,4.99
-2366,Hai Hong Restaurant,Dim Sum,4. Steamed Dumplings,4.99
-2367,Hai Hong Restaurant,Dim Sum,5. Stuffed Green Peppers,4.99
-2368,Hai Hong Restaurant,Dim Sum,6. Stuffed Bean Curds,4.99
-2369,Hai Hong Restaurant,Dim Sum,7. Roast Pork Buns,4.99
-2370,Hai Hong Restaurant,Dim Sum,8. Hai Hong Bun,4.99
-2371,Hai Hong Restaurant,Dim Sum,9. Rice Crepes w. Dry Shrimps,4.99
-2372,Hai Hong Restaurant,Dim Sum,10. Tripe in Genger Sauce,4.99
-2373,Hai Hong Restaurant,Dim Sum,"11. Fried Sweet Sesame Balls, Cantonese Style",4.99
-2374,Hai Hong Restaurant,Dim Sum,12. Steamed Lotus Bean Buns,4.99
-2375,Hai Hong Restaurant,Dim Sum,13. Steamed Custard Cream Buns,4.99
-2376,Hai Hong Restaurant,Dim Sum,14. Steamed Dumpling w. Chicken Mushroom,4.99
-2377,Hai Hong Restaurant,Dim Sum,15. Steamed Shredded Pork Dumplings,5.49
-2378,Hai Hong Restaurant,Dim Sum,16. Steamed Spare Ribs w. Black Bean Sauce,5.49
-2379,Hai Hong Restaurant,Dim Sum,17. Steamed Chicken Feet,5.49
-2380,Hai Hong Restaurant,Dim Sum,18. Steamed Squid w. Shrimp Paste,5.49
-2381,Hai Hong Restaurant,Dim Sum,19. Steamed Bean Curd Rolls w. Oyster Sauce,5.49
-2382,Hai Hong Restaurant,Dim Sum,20. Stuffed Eggplants,5.49
-2383,Hai Hong Restaurant,Dim Sum,21. Taro Pies,5.99
-2384,Hai Hong Restaurant,Dim Sum,22. Turnip Cakes,5.49
-2385,Hai Hong Restaurant,Dim Sum,23. Preserved Egg w. Lean Pork Congee,5.49
-2386,Hai Hong Restaurant,Dim Sum,24. Crispy Egg Tarts,5.99
-2387,Hai Hong Restaurant,Dim Sum,25. Deep Fried Bean Curd Rolls w. Shrimp,5.49
-2388,Hai Hong Restaurant,Dim Sum,26. Shrimp Pies,5.49
-2389,Hai Hong Restaurant,Dim Sum,27. Steamed Veal Ribs w. Black Pepper Sauce,5.99
-2390,Hai Hong Restaurant,Dim Sum,28. Chinese Mushrooms w. Shrimp Meat,5.49
-2391,Hai Hong Restaurant,Dim Sum,29. Shanghai Spring Rolls,5.49
-2392,Hai Hong Restaurant,Dim Sum,30. Vegetable Rolls,5.49
-2393,Hai Hong Restaurant,Dim Sum,31. Crispy Fish Ball,5.49
-2394,Hai Hong Restaurant,Dim Sum,32. Curry Fish Ball,5.49
-2395,Hai Hong Restaurant,Dim Sum,33. Green Scallion Pancake,5.49
-2396,Hai Hong Restaurant,Dim Sum,34. Steamed Juicy Pork Buns,5.99
-2397,Hai Hong Restaurant,Dim Sum,35. Curry Squid,5.99
-2398,Hai Hong Restaurant,Dim Sum,36. Steamed Shrimp Dumplings,5.99
-2399,Hai Hong Restaurant,Dim Sum,37. Fried Shrimps Mixed w. Taro,5.99
-2400,Hai Hong Restaurant,Dim Sum,38. Crispy Squid in Salt & Pepper,5.99
-2401,Hai Hong Restaurant,Dim Sum,39. Steamed Glutinous Rice w. Chicken,5.99
-2402,Hai Hong Restaurant,Dim Sum,40. Steamed Glutinous Rice Dumplings,5.99
-2403,Hai Hong Restaurant,Dim Sum,41. Shrimp Chive Dumplings,5.99
-2404,Hai Hong Restaurant,Dim Sum,42. Beef Rice Roll,5.99
-2405,Hai Hong Restaurant,Dim Sum,43. Shrimp Rice Roll,5.99
-2406,Hai Hong Restaurant,Dim Sum,44. Chinese Vegetable in Oyster Sauce,7.95
-2407,Hai Hong Restaurant,Dim Sum,45. Chinese Broccoli in Oyster Sauce,7.95
-2408,Hai Hong Restaurant,Dim Sum,46. Shrimp Wonton Soup,7.95
-2409,Hai Hong Restaurant,Dim Sum,47. Shrimp Wonton Noodle Soup,9.95
-2410,Hai Hong Restaurant,Dim Sum,48. Beef Brisket Noodle Soup,9.95
-2411,Hai Hong Restaurant,Dim Sum,49. Beef Brisket w. Flat Rice Noodle Soup,9.95
-2412,Hai Hong Restaurant,Dim Sum,50. Vegetable Noodle w. Soy Sauce,9.95
-2413,Hai Hong Restaurant,Dim Sum,"51. Rice Noodle, Singapore Style",12.95
-2414,Hai Hong Restaurant,Dim Sum,52. Sliced Chicken Pan Fried Noodle,13.95
-2415,Hai Hong Restaurant,Dim Sum,53. Beef Pan Fried Noodle,13.95
-2416,Hai Hong Restaurant,Dim Sum,54. Shrimp Pan Fried Noodle,15.95
-2417,Hai Hong Restaurant,Dim Sum,55. Fresh Seafood Pan Fried Noodle,18.95
-2418,Hai Hong Restaurant,Dim Sum,"56. Beef Chow Fun, Dry Fried Style",11.95
-2419,Hai Hong Restaurant,Dim Sum,57. Beef Chow Fun in Black Bean Sauce,12.95
-2420,Hai Hong Restaurant,Dim Sum,58. Shrimp Chow Fun,12.95
-2421,Hai Hong Restaurant,Dim Sum,59. Vegetable E Fu Noodle,13.95
-2422,Hai Hong Restaurant,Dim Sum,60. Braised E Fu Noodle w. Crab Meat,18.95
-2423,Hai Hong Restaurant,Dim Sum,61. Chinese Sausage Fried Rice,12.95
-2424,Hai Hong Restaurant,Dim Sum,62. Roast Duck,10.95
-2425,Hai Hong Restaurant,Dim Sum,63. Soy Sauce Chicken,9.95
-2426,Hai Hong Restaurant,Dim Sum,65. Soft Shell Crab,10.95
-2427,Hai Hong Restaurant,Beef,73. Beef w. Garlic Sauce,15.95
-2428,Hai Hong Restaurant,Beef,74. Beef Hunan Style,15.95
-2429,Hai Hong Restaurant,Beef,75. Sauteed Beef w. Scallions,15.95
-2430,Hai Hong Restaurant,Beef,76. Beef w. Mushrooms,15.95
-2431,Hai Hong Restaurant,Beef,77. Beef w. Broccoli,15.95
-2432,Hai Hong Restaurant,Beef,78. Shredded Beef Szechuan Style,17.95
-2433,Hai Hong Restaurant,Beef,79. Beef w. Snow Peas,15.95
-2434,Hai Hong Restaurant,Beef,80. Beef w. Chinese Mushrooms & Bamboo Shoots,15.95
-2435,Hai Hong Restaurant,Beef,81. Kang Pao Beef,15.95
-2436,Hai Hong Restaurant,Beef,82. Moo Shu Beef,15.95
-2437,Hai Hong Restaurant,Beef,83. Pepper Steak,15.95
-2438,Hai Hong Restaurant,Beef,84. Beef in Orange Flavor,17.95
-2439,Hai Hong Restaurant,Beef,85. Beef Peking Style,17.95
-2440,Hai Hong Restaurant,Beef,86. Sesame Beef,17.95
-2441,Hai Hong Restaurant,Pork,87. Moo Shu Pork,14.95
-2442,Hai Hong Restaurant,Pork,88. Sauteed Pork w. Scallions,14.95
-2443,Hai Hong Restaurant,Pork,89. Twice Cooked Pork,14.95
-2444,Hai Hong Restaurant,Pork,90. Barbecued Pork w. Broccoli,14.95
-2445,Hai Hong Restaurant,Pork,91. Barbecued Pork w. Snow Peas,14.95
-2446,Hai Hong Restaurant,Pork,92. Sweet & Sour Pork,14.95
-2447,Hai Hong Restaurant,Pork,93. Shredded Pork w. Garlic Sauce,14.95
-2448,Hai Hong Restaurant,Pork,94. Shredded Pork w. Brown Sauce,14.95
-2449,Hai Hong Restaurant,Pork,95. Pork Hunan Style,14.95
+2335,Hai Hong Restaurant,Seafood,Sauteed Scallops,17.95
+2336,Hai Hong Restaurant,Seafood,Scallops w. Garlic Sauce,17.95
+2337,Hai Hong Restaurant,Seafood,Kang Pao Squid,17.95
+2338,Hai Hong Restaurant,Seafood,Kang Pao Scallops,17.95
+2339,Hai Hong Restaurant,Seafood,Shrimp w. Walnuts,17.95
+2340,Hai Hong Restaurant,Seafood,Shrimp w. Oyster Sauce,17.95
+2341,Hai Hong Restaurant,Seafood,Shrimp w. Snow Peas,17.95
+2342,Hai Hong Restaurant,Seafood,Shrimp Peking Style,17.95
+2343,Hai Hong Restaurant,Seafood,Shrimp Broccoli,17.95
+2344,Hai Hong Restaurant,Seafood,Shrimp w. Cashew Nuts,17.95
+2345,Hai Hong Restaurant,Seafood,Tempura Shrimp,17.95
+2346,Hai Hong Restaurant,Seafood,Shrimp w. Lobster Sauce,17.95
+2347,Hai Hong Restaurant,Seafood,Sweet & Soup Shrimp,17.95
+2348,Hai Hong Restaurant,Seafood,Shrimp w. Black Bean Sauce,17.95
+2349,Hai Hong Restaurant,Seafood,Shrimp w. Ginger Sauce,17.95
+2350,Hai Hong Restaurant,Seafood,Shrimp w. Garlic Sauce,17.95
+2351,Hai Hong Restaurant,Seafood,Moo Shu Shrimp,16.95
+2352,Hai Hong Restaurant,Seafood,Squid w. Garlic Sauce,17.95
+2353,Hai Hong Restaurant,Seafood,Chinese Eggplant & Shrimp,16.95
+2354,Hai Hong Restaurant,Seafood,Crispy Squid in Salt & Pepper,17.95
+2355,Hai Hong Restaurant,Seafood,Sauteed Squid w. Green Pepper & Black Bean Sauce,17.95
+2356,Hai Hong Restaurant,Seafood,Crispy Scallops in Salt & Pepper,17.95
+2357,Hai Hong Restaurant,Seafood,Fresh Squid w. Chinese Veg.,17.95
+2358,Hai Hong Restaurant,Seafood,Crispy Shrimp in Salt & Pepper,17.95
+2359,Hai Hong Restaurant,Seafood,Mandarin Triple Crown,18.95
+2360,Hai Hong Restaurant,Seafood,Crispy Shrimp & Scallops,18.95
+2361,Hai Hong Restaurant,Seafood,Chinese Bok Choy,16.95
+2362,Hai Hong Restaurant,Seafood,Snow Peas Green w. Crab Meat,21.95
+2363,Hai Hong Restaurant,Dim Sum,Steamed Dumplings w. Veg & Peanuts,4.99
+2364,Hai Hong Restaurant,Dim Sum,Steamed Dumplings w. Leeks,4.99
+2365,Hai Hong Restaurant,Dim Sum,Fried Dumplings,4.99
+2366,Hai Hong Restaurant,Dim Sum,Steamed Dumplings,4.99
+2367,Hai Hong Restaurant,Dim Sum,Stuffed Green Peppers,4.99
+2368,Hai Hong Restaurant,Dim Sum,Stuffed Bean Curds,4.99
+2369,Hai Hong Restaurant,Dim Sum,Roast Pork Buns,4.99
+2370,Hai Hong Restaurant,Dim Sum,Hai Hong Bun,4.99
+2371,Hai Hong Restaurant,Dim Sum,Rice Crepes w. Dry Shrimps,4.99
+2372,Hai Hong Restaurant,Dim Sum,Tripe in Genger Sauce,4.99
+2373,Hai Hong Restaurant,Dim Sum,"Fried Sweet Sesame Balls, Cantonese Style",4.99
+2374,Hai Hong Restaurant,Dim Sum,Steamed Lotus Bean Buns,4.99
+2375,Hai Hong Restaurant,Dim Sum,Steamed Custard Cream Buns,4.99
+2376,Hai Hong Restaurant,Dim Sum,Steamed Dumpling w. Chicken Mushroom,4.99
+2377,Hai Hong Restaurant,Dim Sum,Steamed Shredded Pork Dumplings,5.49
+2378,Hai Hong Restaurant,Dim Sum,Steamed Spare Ribs w. Black Bean Sauce,5.49
+2379,Hai Hong Restaurant,Dim Sum,Steamed Chicken Feet,5.49
+2380,Hai Hong Restaurant,Dim Sum,Steamed Squid w. Shrimp Paste,5.49
+2381,Hai Hong Restaurant,Dim Sum,Steamed Bean Curd Rolls w. Oyster Sauce,5.49
+2382,Hai Hong Restaurant,Dim Sum,Stuffed Eggplants,5.49
+2383,Hai Hong Restaurant,Dim Sum,Taro Pies,5.99
+2384,Hai Hong Restaurant,Dim Sum,Turnip Cakes,5.49
+2385,Hai Hong Restaurant,Dim Sum,Preserved Egg w. Lean Pork Congee,5.49
+2386,Hai Hong Restaurant,Dim Sum,Crispy Egg Tarts,5.99
+2387,Hai Hong Restaurant,Dim Sum,Deep Fried Bean Curd Rolls w. Shrimp,5.49
+2388,Hai Hong Restaurant,Dim Sum,Shrimp Pies,5.49
+2389,Hai Hong Restaurant,Dim Sum,Steamed Veal Ribs w. Black Pepper Sauce,5.99
+2390,Hai Hong Restaurant,Dim Sum,Chinese Mushrooms w. Shrimp Meat,5.49
+2391,Hai Hong Restaurant,Dim Sum,Shanghai Spring Rolls,5.49
+2392,Hai Hong Restaurant,Dim Sum,Vegetable Rolls,5.49
+2393,Hai Hong Restaurant,Dim Sum,Crispy Fish Ball,5.49
+2394,Hai Hong Restaurant,Dim Sum,Curry Fish Ball,5.49
+2395,Hai Hong Restaurant,Dim Sum,Green Scallion Pancake,5.49
+2396,Hai Hong Restaurant,Dim Sum,Steamed Juicy Pork Buns,5.99
+2397,Hai Hong Restaurant,Dim Sum,Curry Squid,5.99
+2398,Hai Hong Restaurant,Dim Sum,Steamed Shrimp Dumplings,5.99
+2399,Hai Hong Restaurant,Dim Sum,Fried Shrimps Mixed w. Taro,5.99
+2400,Hai Hong Restaurant,Dim Sum,Crispy Squid in Salt & Pepper,5.99
+2401,Hai Hong Restaurant,Dim Sum,Steamed Glutinous Rice w. Chicken,5.99
+2402,Hai Hong Restaurant,Dim Sum,Steamed Glutinous Rice Dumplings,5.99
+2403,Hai Hong Restaurant,Dim Sum,Shrimp Chive Dumplings,5.99
+2404,Hai Hong Restaurant,Dim Sum,Beef Rice Roll,5.99
+2405,Hai Hong Restaurant,Dim Sum,Shrimp Rice Roll,5.99
+2406,Hai Hong Restaurant,Dim Sum,Chinese Vegetable in Oyster Sauce,7.95
+2407,Hai Hong Restaurant,Dim Sum,Chinese Broccoli in Oyster Sauce,7.95
+2408,Hai Hong Restaurant,Dim Sum,Shrimp Wonton Soup,7.95
+2409,Hai Hong Restaurant,Dim Sum,Shrimp Wonton Noodle Soup,9.95
+2410,Hai Hong Restaurant,Dim Sum,Beef Brisket Noodle Soup,9.95
+2411,Hai Hong Restaurant,Dim Sum,Beef Brisket w. Flat Rice Noodle Soup,9.95
+2412,Hai Hong Restaurant,Dim Sum,Vegetable Noodle w. Soy Sauce,9.95
+2413,Hai Hong Restaurant,Dim Sum,"Rice Noodle, Singapore Style",12.95
+2414,Hai Hong Restaurant,Dim Sum,Sliced Chicken Pan Fried Noodle,13.95
+2415,Hai Hong Restaurant,Dim Sum,Beef Pan Fried Noodle,13.95
+2416,Hai Hong Restaurant,Dim Sum,Shrimp Pan Fried Noodle,15.95
+2417,Hai Hong Restaurant,Dim Sum,Fresh Seafood Pan Fried Noodle,18.95
+2418,Hai Hong Restaurant,Dim Sum,"Beef Chow Fun, Dry Fried Style",11.95
+2419,Hai Hong Restaurant,Dim Sum,Beef Chow Fun in Black Bean Sauce,12.95
+2420,Hai Hong Restaurant,Dim Sum,Shrimp Chow Fun,12.95
+2421,Hai Hong Restaurant,Dim Sum,Vegetable E Fu Noodle,13.95
+2422,Hai Hong Restaurant,Dim Sum,Braised E Fu Noodle w. Crab Meat,18.95
+2423,Hai Hong Restaurant,Dim Sum,Chinese Sausage Fried Rice,12.95
+2424,Hai Hong Restaurant,Dim Sum,Roast Duck,10.95
+2425,Hai Hong Restaurant,Dim Sum,Soy Sauce Chicken,9.95
+2426,Hai Hong Restaurant,Dim Sum,Soft Shell Crab,10.95
+2427,Hai Hong Restaurant,Beef,Beef w. Garlic Sauce,15.95
+2428,Hai Hong Restaurant,Beef,Beef Hunan Style,15.95
+2429,Hai Hong Restaurant,Beef,Sauteed Beef w. Scallions,15.95
+2430,Hai Hong Restaurant,Beef,Beef w. Mushrooms,15.95
+2431,Hai Hong Restaurant,Beef,Beef w. Broccoli,15.95
+2432,Hai Hong Restaurant,Beef,Shredded Beef Szechuan Style,17.95
+2433,Hai Hong Restaurant,Beef,Beef w. Snow Peas,15.95
+2434,Hai Hong Restaurant,Beef,Beef w. Chinese Mushrooms & Bamboo Shoots,15.95
+2435,Hai Hong Restaurant,Beef,Kang Pao Beef,15.95
+2436,Hai Hong Restaurant,Beef,Moo Shu Beef,15.95
+2437,Hai Hong Restaurant,Beef,Pepper Steak,15.95
+2438,Hai Hong Restaurant,Beef,Beef in Orange Flavor,17.95
+2439,Hai Hong Restaurant,Beef,Beef Peking Style,17.95
+2440,Hai Hong Restaurant,Beef,Sesame Beef,17.95
+2441,Hai Hong Restaurant,Pork,Moo Shu Pork,14.95
+2442,Hai Hong Restaurant,Pork,Sauteed Pork w. Scallions,14.95
+2443,Hai Hong Restaurant,Pork,Twice Cooked Pork,14.95
+2444,Hai Hong Restaurant,Pork,Barbecued Pork w. Broccoli,14.95
+2445,Hai Hong Restaurant,Pork,Barbecued Pork w. Snow Peas,14.95
+2446,Hai Hong Restaurant,Pork,Sweet & Sour Pork,14.95
+2447,Hai Hong Restaurant,Pork,Shredded Pork w. Garlic Sauce,14.95
+2448,Hai Hong Restaurant,Pork,Shredded Pork w. Brown Sauce,14.95
+2449,Hai Hong Restaurant,Pork,Pork Hunan Style,14.95
 2450,Hai Hong Restaurant,Desserts,Leechee Nuts,3.95
 2451,Hai Hong Restaurant,Desserts,Fried Ice Cream,3.95
-2452,Hai Hong Restaurant,Go Ba,96. Beef Go Ba,15.95
-2453,Hai Hong Restaurant,Go Ba,97. Sliced Chicken Go Ba,14.95
-2454,Hai Hong Restaurant,Go Ba,98. Shrimp Go Ba,16.95
-2455,Hai Hong Restaurant,Go Ba,99. Subgum Go Ba,16.95
-2456,Hai Hong Restaurant,Go Ba,100. Seafood Go Ba,18.95
-2457,Hai Hong Restaurant,Go Ba,101. Sizzling Two Delicacies,18.95
-2458,Hai Hong Restaurant,Go Ba,102. Mixed Vegetable Go Ba,14.95
-2459,Hai Hong Restaurant,Poultry,103. Sweet & Sour Chicken,14.95
-2460,Hai Hong Restaurant,Poultry,104. Chicken w. Cashew Nuts,14.95
-2461,Hai Hong Restaurant,Poultry,105. Kang Pao Chicken,14.95
-2462,Hai Hong Restaurant,Poultry,106. Chicken w. Mushrooms,14.95
-2463,Hai Hong Restaurant,Poultry,107. Pineapple Chicken,14.95
-2464,Hai Hong Restaurant,Poultry,108. Moo Shu Chicken,14.95
-2465,Hai Hong Restaurant,Poultry,109. Hunan Sliced Chicken,14.95
-2466,Hai Hong Restaurant,Poultry,110. Sliced Chicken w. Garlic Sauce,14.95
-2467,Hai Hong Restaurant,Poultry,111. Chicken w. Walnuts,14.95
-2468,Hai Hong Restaurant,Poultry,112. Chicken w. Broccoli,14.95
-2469,Hai Hong Restaurant,Poultry,113. Mixed Vegs. w. Chicken,15.95
-2470,Hai Hong Restaurant,Poultry,114. Sliced Chicken w. Snow Peas.,15.95
-2471,Hai Hong Restaurant,Poultry,115. Chicken in Orange Flavor,16.95
-2472,Hai Hong Restaurant,Poultry,116. General Tso's Chicken,16.95
-2473,Hai Hong Restaurant,Poultry,117. Sesame Chicken,16.95
-2474,Hai Hong Restaurant,Poultry,118. Fresh Scallops w. Tenderly Sliced Chicken,17.95
-2475,Hai Hong Restaurant,Poultry,119. Chow San Shien,17.95
-2476,Hai Hong Restaurant,Poultry,120. Happy Family,18.95
-2477,Hai Hong Restaurant,Curry,121. Beef Curry,17.95
-2478,Hai Hong Restaurant,Curry,122. Chicken Curry,16.95
-2479,Hai Hong Restaurant,Curry,123. Mixed Vegetable Curry,15.95
-2480,Hai Hong Restaurant,Curry,124. Shrimp Curry,18.95
-2481,Hai Hong Restaurant,Curry,125. Seafood Curry,19.95
-2482,Hai Hong Restaurant,Casserole,126. Seabass Fish Filled in Casserole,20.95
-2483,Hai Hong Restaurant,Casserole,127. Salted Fish & Sliced Chicken Eggplant in Casserole,18.95
-2484,Hai Hong Restaurant,Casserole,128. Seafood in Casserole,20.95
-2485,Hai Hong Restaurant,Casserole,129. Salted Fish & Sliced Chicken Tofu in Casserole,16.95
-2486,Hai Hong Restaurant,Casserole,130. Eggplant w. Garlic Sauce in Casserole,16.95
-2487,Hai Hong Restaurant,Casserole,131. Satay Beef Cellophane Noodles in Casserole,17.95
-2488,Hai Hong Restaurant,Casserole,132. Satay Seafood Cellophane Noodles in Casserole,20.95
-2489,Hai Hong Restaurant,Casserole,133. Flank Steak in Casserole,18.95
-2490,Hai Hong Restaurant,Vegetables,134. Braised Bean Curd w. Veg,14.95
-2491,Hai Hong Restaurant,Vegetables,135. Moo Shu Vegs.,14.95
-2492,Hai Hong Restaurant,Vegetables,136. Mixed Vegs. Hunan Style,14.95
-2493,Hai Hong Restaurant,Vegetables,137. Bean Curd Szechuan Style,14.95
-2494,Hai Hong Restaurant,Vegetables,138. Broccoli & Mushrooms w. Oyster Sauce,14.95
-2495,Hai Hong Restaurant,Vegetables,139. Mixed Vegetables,14.95
-2496,Hai Hong Restaurant,Vegetables,140. Eggplant w. Garlic Sauce,14.95
-2497,Hai Hong Restaurant,Vegetables,141. Sauteed String Beans,14.95
-2498,Hai Hong Restaurant,Vegetables,142. Bean Curd Country Style,14.95
-2499,Hai Hong Restaurant,Vegetables,143. Bean Curd w. Oyster Sauce,14.95
-2500,Hai Hong Restaurant,Vegetables,144. Broccoli & Mushrooms w. Garlic Sauce,14.95
-2501,Hai Hong Restaurant,Vegetables,145. Mushroom w. Vegetable,16.95
-2502,Hai Hong Restaurant,Vegetables,146. Baby Bok Choy in Fresh Garlic,16.95
-2503,Hai Hong Restaurant,Vegetables,147. Baby Choy Sum in Fresh Garlic,16.95
-2504,Hai Hong Restaurant,Vegetables,148. Baby Chinese Broccoli in Fresh Garlic,16.95
-2505,Hai Hong Restaurant,Vegetables,149. Snow Peas Green w. Fresh Garlic,18.95
-2506,Hai Hong Restaurant,Vegetables,151. Snow Peas Green w. Chicken Broth,19.95
-2507,Hai Hong Restaurant,Vegetables,152. Water Spinach w. Shrimp Paste or Tofu Paste,18.95
-2508,Hai Hong Restaurant,Vegetables,153. Snow Peas Greens w. Preserved & Salted Egg,18.95
+2452,Hai Hong Restaurant,Go Ba,Beef Go Ba,15.95
+2453,Hai Hong Restaurant,Go Ba,Sliced Chicken Go Ba,14.95
+2454,Hai Hong Restaurant,Go Ba,Shrimp Go Ba,16.95
+2455,Hai Hong Restaurant,Go Ba,Subgum Go Ba,16.95
+2456,Hai Hong Restaurant,Go Ba,Seafood Go Ba,18.95
+2457,Hai Hong Restaurant,Go Ba,Sizzling Two Delicacies,18.95
+2458,Hai Hong Restaurant,Go Ba,Mixed Vegetable Go Ba,14.95
+2459,Hai Hong Restaurant,Poultry,Sweet & Sour Chicken,14.95
+2460,Hai Hong Restaurant,Poultry,Chicken w. Cashew Nuts,14.95
+2461,Hai Hong Restaurant,Poultry,Kang Pao Chicken,14.95
+2462,Hai Hong Restaurant,Poultry,Chicken w. Mushrooms,14.95
+2463,Hai Hong Restaurant,Poultry,Pineapple Chicken,14.95
+2464,Hai Hong Restaurant,Poultry,Moo Shu Chicken,14.95
+2465,Hai Hong Restaurant,Poultry,Hunan Sliced Chicken,14.95
+2466,Hai Hong Restaurant,Poultry,Sliced Chicken w. Garlic Sauce,14.95
+2467,Hai Hong Restaurant,Poultry,Chicken w. Walnuts,14.95
+2468,Hai Hong Restaurant,Poultry,Chicken w. Broccoli,14.95
+2469,Hai Hong Restaurant,Poultry,Mixed Vegs. w. Chicken,15.95
+2470,Hai Hong Restaurant,Poultry,Sliced Chicken w. Snow Peas.,15.95
+2471,Hai Hong Restaurant,Poultry,Chicken in Orange Flavor,16.95
+2472,Hai Hong Restaurant,Poultry,General Tso's Chicken,16.95
+2473,Hai Hong Restaurant,Poultry,Sesame Chicken,16.95
+2474,Hai Hong Restaurant,Poultry,Fresh Scallops w. Tenderly Sliced Chicken,17.95
+2475,Hai Hong Restaurant,Poultry,Chow San Shien,17.95
+2476,Hai Hong Restaurant,Poultry,Happy Family,18.95
+2477,Hai Hong Restaurant,Curry,Beef Curry,17.95
+2478,Hai Hong Restaurant,Curry,Chicken Curry,16.95
+2479,Hai Hong Restaurant,Curry,Mixed Vegetable Curry,15.95
+2480,Hai Hong Restaurant,Curry,Shrimp Curry,18.95
+2481,Hai Hong Restaurant,Curry,Seafood Curry,19.95
+2482,Hai Hong Restaurant,Casserole,Seabass Fish Filled in Casserole,20.95
+2483,Hai Hong Restaurant,Casserole,Salted Fish & Sliced Chicken Eggplant in Casserole,18.95
+2484,Hai Hong Restaurant,Casserole,Seafood in Casserole,20.95
+2485,Hai Hong Restaurant,Casserole,Salted Fish & Sliced Chicken Tofu in Casserole,16.95
+2486,Hai Hong Restaurant,Casserole,Eggplant w. Garlic Sauce in Casserole,16.95
+2487,Hai Hong Restaurant,Casserole,Satay Beef Cellophane Noodles in Casserole,17.95
+2488,Hai Hong Restaurant,Casserole,Satay Seafood Cellophane Noodles in Casserole,20.95
+2489,Hai Hong Restaurant,Casserole,Flank Steak in Casserole,18.95
+2490,Hai Hong Restaurant,Vegetables,Braised Bean Curd w. Veg,14.95
+2491,Hai Hong Restaurant,Vegetables,Moo Shu Vegs.,14.95
+2492,Hai Hong Restaurant,Vegetables,Mixed Vegs. Hunan Style,14.95
+2493,Hai Hong Restaurant,Vegetables,Bean Curd Szechuan Style,14.95
+2494,Hai Hong Restaurant,Vegetables,Broccoli & Mushrooms w. Oyster Sauce,14.95
+2495,Hai Hong Restaurant,Vegetables,Mixed Vegetables,14.95
+2496,Hai Hong Restaurant,Vegetables,Eggplant w. Garlic Sauce,14.95
+2497,Hai Hong Restaurant,Vegetables,Sauteed String Beans,14.95
+2498,Hai Hong Restaurant,Vegetables,Bean Curd Country Style,14.95
+2499,Hai Hong Restaurant,Vegetables,Bean Curd w. Oyster Sauce,14.95
+2500,Hai Hong Restaurant,Vegetables,Broccoli & Mushrooms w. Garlic Sauce,14.95
+2501,Hai Hong Restaurant,Vegetables,Mushroom w. Vegetable,16.95
+2502,Hai Hong Restaurant,Vegetables,Baby Bok Choy in Fresh Garlic,16.95
+2503,Hai Hong Restaurant,Vegetables,Baby Choy Sum in Fresh Garlic,16.95
+2504,Hai Hong Restaurant,Vegetables,Baby Chinese Broccoli in Fresh Garlic,16.95
+2505,Hai Hong Restaurant,Vegetables,Snow Peas Green w. Fresh Garlic,18.95
+2506,Hai Hong Restaurant,Vegetables,Snow Peas Green w. Chicken Broth,19.95
+2507,Hai Hong Restaurant,Vegetables,Water Spinach w. Shrimp Paste or Tofu Paste,18.95
+2508,Hai Hong Restaurant,Vegetables,Snow Peas Greens w. Preserved & Salted Egg,18.95
 2509,Hai Hong Restaurant,Chef's Recommended,Crispy Whole Fish,25.95
 2510,Hai Hong Restaurant,Chef's Recommended,Steamed Seabass or Flounder,39.95
 2511,Hai Hong Restaurant,Chef's Recommended,Stir Fried Flounder Fillet with Black Bean Sauce,39.95
@@ -2544,144 +2544,144 @@
 2542,De Tasty Hot Pot,Drinks,Iced Red Tea,3
 2543,De Tasty Hot Pot,Drinks,Asamu Milk Tea,3
 2544,De Tasty Hot Pot,Drinks,Aloe Vera Juice,3
-2545,De Tasty Hot Pot,Appetizers / Dim Sum,A1. Spring Roll (2),2.95
-2546,De Tasty Hot Pot,Appetizers / Dim Sum,A2. Steamed Dumplings,5.95
-2547,De Tasty Hot Pot,Appetizers / Dim Sum,A2. Pan Fried Dumplings,5.95
-2548,De Tasty Hot Pot,Appetizers / Dim Sum,A3. Dumpling in Red Chili Oil,6.95
-2549,De Tasty Hot Pot,Appetizers / Dim Sum,A5. Beef Tendon with Chili and Pepper Oil,11.95
-2550,De Tasty Hot Pot,Appetizers / Dim Sum,A4. Edamame ,4.95
-2551,De Tasty Hot Pot,Appetizers / Dim Sum,A6. Sliced Pork with Fresh Garlic and Soy Sauce,9.95
-2552,De Tasty Hot Pot,Appetizers / Dim Sum,A7. Dan Dan Noodle with Minced Pork,8.95
-2553,De Tasty Hot Pot,Appetizers / Dim Sum,A8. Scallion Pancake,4.95
-2554,De Tasty Hot Pot,Appetizers / Dim Sum,A9. Shredded Potato w. Spicy Sauce,6.95
-2555,De Tasty Hot Pot,Appetizers / Dim Sum,A10. Green Bean Sheet Jelly with Special Sauce,14.95
-2556,De Tasty Hot Pot,Appetizers / Dim Sum,A11. Small steamed Juicy Buns,8
-2557,De Tasty Hot Pot,Appetizers / Dim Sum,A12. Spicy Vegetable Noodles,6.95
-2558,De Tasty Hot Pot,Appetizers / Dim Sum,A13. Shanghai Wonton Soup,10.95
-2559,De Tasty Hot Pot,Appetizers / Dim Sum,A14. Chicken Fried Dumplings,8
+2545,De Tasty Hot Pot,Appetizers / Dim Sum,Spring Roll,2.95
+2546,De Tasty Hot Pot,Appetizers / Dim Sum,Steamed Dumplings,5.95
+2547,De Tasty Hot Pot,Appetizers / Dim Sum,Pan Fried Dumplings,5.95
+2548,De Tasty Hot Pot,Appetizers / Dim Sum,Dumpling in Red Chili Oil,6.95
+2549,De Tasty Hot Pot,Appetizers / Dim Sum,Beef Tendon with Chili and Pepper Oil,11.95
+2550,De Tasty Hot Pot,Appetizers / Dim Sum,Edamame ,4.95
+2551,De Tasty Hot Pot,Appetizers / Dim Sum,Sliced Pork with Fresh Garlic and Soy Sauce,9.95
+2552,De Tasty Hot Pot,Appetizers / Dim Sum,Dan Dan Noodle with Minced Pork,8.95
+2553,De Tasty Hot Pot,Appetizers / Dim Sum,Scallion Pancake,4.95
+2554,De Tasty Hot Pot,Appetizers / Dim Sum,Shredded Potato w. Spicy Sauce,6.95
+2555,De Tasty Hot Pot,Appetizers / Dim Sum,Green Bean Sheet Jelly with Special Sauce,14.95
+2556,De Tasty Hot Pot,Appetizers / Dim Sum,Small steamed Juicy Buns,8
+2557,De Tasty Hot Pot,Appetizers / Dim Sum,Spicy Vegetable Noodles,6.95
+2558,De Tasty Hot Pot,Appetizers / Dim Sum,Shanghai Wonton Soup,10.95
+2559,De Tasty Hot Pot,Appetizers / Dim Sum,Chicken Fried Dumplings,8
 2560,De Tasty Hot Pot,Appetizers / Dim Sum,A15 Spicy Beef Tendons,11.95
 2561,De Tasty Hot Pot,Appetizers / Dim Sum,Side of Rice,4
-2562,De Tasty Hot Pot,Soup,S2. Meatball Cabbage Soup,12.95
-2563,De Tasty Hot Pot,Soup,S1. Small Hot and Sour Soup,4.5
-2564,De Tasty Hot Pot,Soup,S1. Large Hot and Sour Soup,8.95
-2565,De Tasty Hot Pot,Soup,S3. Egg Drop Soup w. Minced Beef,10.95
-2566,De Tasty Hot Pot,Soup,S4. Large Egg Drop Soup,8.95
-2567,De Tasty Hot Pot,Soup,S5. Triple House Lamb Soup,12.95
-2568,De Tasty Hot Pot,Beef and Lamb,B1. Boiled Sliced Steak and Vegetables with Roasted Chili Pepper Sauce,16.95
-2569,De Tasty Hot Pot,Beef and Lamb,B2. Boiled Sliced Steak and Tofu with Roasted Chili Pepper Sauce,16.95
-2570,De Tasty Hot Pot,Beef and Lamb,B3. Shredded Beef Sauteed with Little Hot Peppers,15.95
-2571,De Tasty Hot Pot,Beef and Lamb,B4. Sliced Beef with Cumin Powder and Dry Chili,16.95
-2572,De Tasty Hot Pot,Beef and Lamb,B5. Sliced Lamb with Cumin Powder and Dry Chili,16.95
-2573,De Tasty Hot Pot,Beef and Lamb,B6. Sauteed Beef with Scallion and Onion,15.95
-2574,De Tasty Hot Pot,Beef and Lamb,B7. Beef Triple House Spicy Pot,20.95
-2575,De Tasty Hot Pot,Beef and Lamb,B8. Sliced and Sauteed Lamb with Cilantro,17.95
-2576,De Tasty Hot Pot,Beef and Lamb,B9. Beef with Broccoli,14.95
-2577,De Tasty Hot Pot,Beef and Lamb,B10. Crispy Beef w. Orange Sauce,15.95
-2578,De Tasty Hot Pot,Casserole,C1. Boiled Sour Cabbage Pork with Rice Noodles,15.95
-2579,De Tasty Hot Pot,Casserole,C2. Mixed Vegetables with Pork Casseole,15.95
-2580,De Tasty Hot Pot,Casserole,C3. Spare Ribs with String Beans in Casserole,15.95
-2581,De Tasty Hot Pot,Casserole,C4. Pig Feet Casserole,15.95
-2582,De Tasty Hot Pot,Casserole,C5. Beef Brisket Casserole,16.95
-2583,De Tasty Hot Pot,Casserole,C6. Eggplant with Garlic Sauce Casserole,12.95
-2584,De Tasty Hot Pot,Casserole,C7. Braised Tofu Casserole,12.95
-2585,De Tasty Hot Pot,Chefs Special,CF 1. Braised yellow Croaker Fish,27.95
-2586,De Tasty Hot Pot,Chefs Special,CF 2. Whole Fish with Spicy Bean Sauce,26.95
-2587,De Tasty Hot Pot,Chefs Special,CF 3. Szechaun Style Whole Baked Fish,29.95
-2588,De Tasty Hot Pot,Chefs Special,CF 4. Steamed Fish Filet with Green Pepper and Pepper Sauce,18.95
-2589,De Tasty Hot Pot,Chefs Special,CF 5. Chicken w. Mushroom & Vermicelli,20.95
+2562,De Tasty Hot Pot,Soup,Meatball Cabbage Soup,12.95
+2563,De Tasty Hot Pot,Soup,Small Hot and Sour Soup,4.5
+2564,De Tasty Hot Pot,Soup,Large Hot and Sour Soup,8.95
+2565,De Tasty Hot Pot,Soup,Egg Drop Soup w. Minced Beef,10.95
+2566,De Tasty Hot Pot,Soup,Large Egg Drop Soup,8.95
+2567,De Tasty Hot Pot,Soup,Triple House Lamb Soup,12.95
+2568,De Tasty Hot Pot,Beef and Lamb,Boiled Sliced Steak and Vegetables with Roasted Chili Pepper Sauce,16.95
+2569,De Tasty Hot Pot,Beef and Lamb,Boiled Sliced Steak and Tofu with Roasted Chili Pepper Sauce,16.95
+2570,De Tasty Hot Pot,Beef and Lamb,Shredded Beef Sauteed with Little Hot Peppers,15.95
+2571,De Tasty Hot Pot,Beef and Lamb,Sliced Beef with Cumin Powder and Dry Chili,16.95
+2572,De Tasty Hot Pot,Beef and Lamb,Sliced Lamb with Cumin Powder and Dry Chili,16.95
+2573,De Tasty Hot Pot,Beef and Lamb,Sauteed Beef with Scallion and Onion,15.95
+2574,De Tasty Hot Pot,Beef and Lamb,Beef Triple House Spicy Pot,20.95
+2575,De Tasty Hot Pot,Beef and Lamb,Sliced and Sauteed Lamb with Cilantro,17.95
+2576,De Tasty Hot Pot,Beef and Lamb,Beef with Broccoli,14.95
+2577,De Tasty Hot Pot,Beef and Lamb,Crispy Beef w. Orange Sauce,15.95
+2578,De Tasty Hot Pot,Casserole,Boiled Sour Cabbage Pork with Rice Noodles,15.95
+2579,De Tasty Hot Pot,Casserole,Mixed Vegetables with Pork Casseole,15.95
+2580,De Tasty Hot Pot,Casserole,Spare Ribs with String Beans in Casserole,15.95
+2581,De Tasty Hot Pot,Casserole,Pig Feet Casserole,15.95
+2582,De Tasty Hot Pot,Casserole,Beef Brisket Casserole,16.95
+2583,De Tasty Hot Pot,Casserole,Eggplant with Garlic Sauce Casserole,12.95
+2584,De Tasty Hot Pot,Casserole,Braised Tofu Casserole,12.95
+2585,De Tasty Hot Pot,Chefs Special,CF Braised yellow Croaker Fish,27.95
+2586,De Tasty Hot Pot,Chefs Special,CF Whole Fish with Spicy Bean Sauce,26.95
+2587,De Tasty Hot Pot,Chefs Special,CF Szechaun Style Whole Baked Fish,29.95
+2588,De Tasty Hot Pot,Chefs Special,CF Steamed Fish Filet with Green Pepper and Pepper Sauce,18.95
+2589,De Tasty Hot Pot,Chefs Special,CF Chicken w. Mushroom & Vermicelli,20.95
 2590,De Tasty Hot Pot,Chefs Special,Sauteed Pig's Kidney & Squid,16.95
-2591,De Tasty Hot Pot,Chefs Special,CF 7. Pork with Preserved Vegetables,16.95
+2591,De Tasty Hot Pot,Chefs Special,CF Pork with Preserved Vegetables,16.95
 2592,De Tasty Hot Pot,Chefs Special,CF 8.. Kung Pao Lotus,14.95
-2593,De Tasty Hot Pot,Dessert,R1. Sesame Rice Balls W. Rice Wine Sauce,10.95
-2594,De Tasty Hot Pot,Dessert,R2. Crsipy Sweet Potatoes W. Syrup,14.95
-2595,De Tasty Hot Pot,Dessert,R3. Crispy Sweet Japanese Yam,14.95
-2596,De Tasty Hot Pot,Dessert,"R4. Crispy Sweet Potatoes, Taro & Red Jujube W. Syrup",14.95
-2597,De Tasty Hot Pot,Pickled Peppers,E1. Flounder Filet with Pickled Peppers,16.95
-2598,De Tasty Hot Pot,Pickled Peppers,E2. Sliced Beef with Pickled Peppers,17.95
-2599,De Tasty Hot Pot,Pickled Peppers,E3. Beef Tripe with Pickled Peppers,16.95
-2600,De Tasty Hot Pot,Pickled Peppers,E4. Lamb with Pickled Peppers,16.95
-2601,De Tasty Hot Pot,Pickled Peppers,E5. Chicken with Pickled Peppers,15.95
-2602,De Tasty Hot Pot,Seafood,F1. Boiled Fish Filet Vegetable with Roasted Chili Pepper Sauce,15.95
-2603,De Tasty Hot Pot,Seafood,F2. Fish Filet and Tofu with Roasted Chili Pepper Sauce,15.95
-2604,De Tasty Hot Pot,Seafood,F3. Boiled Fish Filet w. Pickled Cabbage,16.95
-2605,De Tasty Hot Pot,Seafood,F4. Hot and Spicy Seafood Pot,21.95
-2606,De Tasty Hot Pot,Seafood,F5. Braised Fish Filet in Chili Sauce,15.95
-2607,De Tasty Hot Pot,Seafood,F6. Flounder Filet with Cooking Wine,15.95
-2608,De Tasty Hot Pot,Seafood,F7. Fish Filet with Sweet & Sour Sauce,15.95
-2609,De Tasty Hot Pot,Seafood,F8. Kung Pao Shrimp,16.95
-2610,De Tasty Hot Pot,Seafood,F9. Salt and Pepper Shrimp,16.95
-2611,De Tasty Hot Pot,Seafood,F10. Walnut Prawns w. Special Sauce,18.5
+2593,De Tasty Hot Pot,Dessert,Sesame Rice Balls W. Rice Wine Sauce,10.95
+2594,De Tasty Hot Pot,Dessert,Crsipy Sweet Potatoes W. Syrup,14.95
+2595,De Tasty Hot Pot,Dessert,Crispy Sweet Japanese Yam,14.95
+2596,De Tasty Hot Pot,Dessert,"Crispy Sweet Potatoes, Taro & Red Jujube W. Syrup",14.95
+2597,De Tasty Hot Pot,Pickled Peppers,Flounder Filet with Pickled Peppers,16.95
+2598,De Tasty Hot Pot,Pickled Peppers,Sliced Beef with Pickled Peppers,17.95
+2599,De Tasty Hot Pot,Pickled Peppers,Beef Tripe with Pickled Peppers,16.95
+2600,De Tasty Hot Pot,Pickled Peppers,Lamb with Pickled Peppers,16.95
+2601,De Tasty Hot Pot,Pickled Peppers,Chicken with Pickled Peppers,15.95
+2602,De Tasty Hot Pot,Seafood,Boiled Fish Filet Vegetable with Roasted Chili Pepper Sauce,15.95
+2603,De Tasty Hot Pot,Seafood,Fish Filet and Tofu with Roasted Chili Pepper Sauce,15.95
+2604,De Tasty Hot Pot,Seafood,Boiled Fish Filet w. Pickled Cabbage,16.95
+2605,De Tasty Hot Pot,Seafood,Hot and Spicy Seafood Pot,21.95
+2606,De Tasty Hot Pot,Seafood,Braised Fish Filet in Chili Sauce,15.95
+2607,De Tasty Hot Pot,Seafood,Flounder Filet with Cooking Wine,15.95
+2608,De Tasty Hot Pot,Seafood,Fish Filet with Sweet & Sour Sauce,15.95
+2609,De Tasty Hot Pot,Seafood,Kung Pao Shrimp,16.95
+2610,De Tasty Hot Pot,Seafood,Salt and Pepper Shrimp,16.95
+2611,De Tasty Hot Pot,Seafood,Walnut Prawns w. Special Sauce,18.5
 2612,De Tasty Hot Pot,Seafood,F11.Seafood Happy Family,20.95
-2613,De Tasty Hot Pot,Fried Rice,FR 1. Yangzhou Fried Rice,12.95
-2614,De Tasty Hot Pot,Fried Rice,"FR 2. Chicken, Beef, or Shrimp Fried Rice",10.95
-2615,De Tasty Hot Pot,Fried Rice,"FR 3. House Special Fried Rice(Chicken, Pork, Shrimp)",11.95
-2616,De Tasty Hot Pot,Fried Rice,FR 4. Sizchuan Fried Rice W. Bean Sprouts,11.95
-2617,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H1. Spicy Beef Stew,9.95
-2618,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H2. Spicy Lamb Stew,9.95
-2619,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H3. Spicy Spam Stew,9.95
-2620,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H4. Spicy Fish Ball Stew,9.95
-2621,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H5. Spicy Vegetables Stew,9.95
-2622,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H6. Spicy Beef Tripe Stew,9.95
-2623,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H7. Spicy Seafood Stew,11.95
-2624,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),H8. Spicy Pork Belly Spicy Stew,9.95
-2625,De Tasty Hot Pot,Poultry,P1. Smoked Wok Tossed Chicken with Roasted Chili Peppers,14.95
-2626,De Tasty Hot Pot,Poultry,P2. Chicken with Three Peppers,14.95
-2627,De Tasty Hot Pot,Poultry,P3. Kung Pao Chicken,13.95
-2628,De Tasty Hot Pot,Poultry,P4. General Tso's Chicken,14.95
-2629,De Tasty Hot Pot,Poultry,P5. Sesame Chicken,14.95
-2630,De Tasty Hot Pot,Poultry,P6. Chicken with Broccoli,13.95
-2631,De Tasty Hot Pot,Poultry,P7. Steamed Chicken w. Szechuan Chili Sauce,12.95
-2632,De Tasty Hot Pot,Poultry,P8.  Crispy Chicken w. Orange Sauce,14.95
-2633,De Tasty Hot Pot,Poultry,P9. Spicy Chicken Wings (8),15.95
-2634,De Tasty Hot Pot,Poultry,P10. Sweet & Sour Chicken,12.95
-2635,De Tasty Hot Pot,Dry Hot Pot,D1. Spam with Chili Pepper in Dried Pot,16.95
-2636,De Tasty Hot Pot,Dry Hot Pot,D2. Flounder Filet with Chili Pepper in Dried Pot,16.95
-2637,De Tasty Hot Pot,Dry Hot Pot,D3. Sliced Beef with Chili Pepper in Dried Pot,16.95
-2638,De Tasty Hot Pot,Dry Hot Pot,D4. Sliced Lamb with Chili Pepper in Dried Pot,16.95
-2639,De Tasty Hot Pot,Dry Hot Pot,D5. Beef Tripe with Chili Pepper in Dried Pot,16.95
-2640,De Tasty Hot Pot,Dry Hot Pot,D6. Pork Intestines with Chili Pepper in Dried Pot,16.95
-2641,De Tasty Hot Pot,Dry Hot Pot,D7. Ribs w. Chili Pepper in Dried Pot,16.95
-2642,De Tasty Hot Pot,Dry Hot Pot,D8. Beef w. Chili Pepper Soup in Dried Pot,16.95
-2643,De Tasty Hot Pot,Lo Mein,"M1. Chicken, Beef, or Shrimp Lo Mein",10.95
-2644,De Tasty Hot Pot,Lo Mein,"M2. House Special Lo Mein(Chicken, Pork, Shrimp)",11.95
-2645,De Tasty Hot Pot,Lo Mein,M3. Shanghai Fried Rice Cake,11.95
-2646,De Tasty Hot Pot,Noodle Soup,N1. Braised Pork Noodle Soup,9.95
-2647,De Tasty Hot Pot,Noodle Soup,N2. Braised Pork Intestine with Sauerkraut Noodle Soup,9.95
-2648,De Tasty Hot Pot,Noodle Soup,N3. Minced Meat and Noodle,9.95
-2649,De Tasty Hot Pot,Noodle Soup,N4. Sauteed Tomatoes & Egg Noodle Soup,9.95
-2650,De Tasty Hot Pot,Noodle Soup,N5. Seafood Noodle Soup,11.95
-2651,De Tasty Hot Pot,Noodle Soup,N6. Braised Pork Chop Noodle Soup,9.95
-2652,De Tasty Hot Pot,Noodle Soup,N7. Sour & Spicy Vermicelli Noodle,8.95
-2653,De Tasty Hot Pot,Noodle Soup,N8. Beef Brisket Noodle Soup,10.95
-2654,De Tasty Hot Pot,Vegetables,V1. Shredded Potato with Chinese Little Peppers,9.95
-2655,De Tasty Hot Pot,Vegetables,V2. Tofu w. Chinese Little Peppers,13.95
-2656,De Tasty Hot Pot,Vegetables,V4. Sauteed Spinach with Chopped Garlic,13.95
-2657,De Tasty Hot Pot,Vegetables,V3. Sauteed Pea Sprouts w. Chopped Garlic,15.95
-2658,De Tasty Hot Pot,Vegetables,V5. Dry Sauteed String Beans,12.95
-2659,De Tasty Hot Pot,Vegetables,V6. Sauteed Potatoes with Green Pepper and Eggplant,12.95
-2660,De Tasty Hot Pot,Vegetables,V7. Bok Choy Topped with Mushroom,12.95
-2661,De Tasty Hot Pot,Vegetables,V8. Sauteed Tomato and Egg,12.95
-2662,De Tasty Hot Pot,Vegetables,V9. Sauteed Chinese Napa Cabbage,12.95
-2663,De Tasty Hot Pot,Vegetables,V10. Sauteed Pickled Cabbage with Edamame,13.95
-2664,De Tasty Hot Pot,Vegetables,V13. Sauteed Japanese Yam,14.95
-2665,De Tasty Hot Pot,Vegetables,V11. Sauteed Japanese Yam,13.95
-2666,De Tasty Hot Pot,Vegetables,V12. Sauteed Water Spinach,14.95
-2667,De Tasty Hot Pot,Meat,T1. Shredded Pork in Garlic Sauce,12.95
-2668,De Tasty Hot Pot,Meat,"T2. Twice Cooked Pork with Garlic, Leek",14.95
-2669,De Tasty Hot Pot,Meat,T3. Fried Sliced Pork with Orange Sauce,15.95
-2670,De Tasty Hot Pot,Meat,T4.  Sliced Pork Intestine w. Hot Peppers,15.95
-2671,De Tasty Hot Pot,Meat,T5. Sauteed Pork Liver,13.95
-2672,De Tasty Hot Pot,Meat,T6. Braised Pork,14.95
-2673,De Tasty Hot Pot,Meat,T8. Ma Po Tofu,11.95
-2674,De Tasty Hot Pot,Meat,T9. Braised Pork with Fresh Hot Pepper,15.95
-2675,De Tasty Hot Pot,Meat,T10. Braised Pork Meat Balls,15.95
-2676,De Tasty Hot Pot,Meat,T11. Vermicilli Noodles with Minced Meat,11.95
-2677,De Tasty Hot Pot,Meat,T12. Shredded Pork with Sweet Sauce and Tofu,16.95
-2678,De Tasty Hot Pot,Meat,T12. Braised Spare Pork Ribs,15.95
-2679,De Tasty Hot Pot,Meat,T13. Sour Cabbage w. Vermicelli and Shredded Pork,14.95
-2680,De Tasty Hot Pot,Meat,T14. Stir-fried Pork and Dried Tofu,14.95
-2681,De Tasty Hot Pot,Meat,T15. Sauteed Liver w. Red Chili Pepper,14.95
-2682,De Tasty Hot Pot,Meat,T16. Pork Tofu Shin Roll,16.95
+2613,De Tasty Hot Pot,Fried Rice,FR Yangzhou Fried Rice,12.95
+2614,De Tasty Hot Pot,Fried Rice,"FR Chicken, Beef, or Shrimp Fried Rice",10.95
+2615,De Tasty Hot Pot,Fried Rice,"FR House Special Fried Rice(Chicken, Pork, Shrimp)",11.95
+2616,De Tasty Hot Pot,Fried Rice,FR Sizchuan Fried Rice W. Bean Sprouts,11.95
+2617,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Beef Stew,9.95
+2618,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Lamb Stew,9.95
+2619,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Spam Stew,9.95
+2620,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Fish Ball Stew,9.95
+2621,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Vegetables Stew,9.95
+2622,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Beef Tripe Stew,9.95
+2623,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Seafood Stew,11.95
+2624,De Tasty Hot Pot,Hot Spicy Stew (These items do not come with rice),Spicy Pork Belly Spicy Stew,9.95
+2625,De Tasty Hot Pot,Poultry,Smoked Wok Tossed Chicken with Roasted Chili Peppers,14.95
+2626,De Tasty Hot Pot,Poultry,Chicken with Three Peppers,14.95
+2627,De Tasty Hot Pot,Poultry,Kung Pao Chicken,13.95
+2628,De Tasty Hot Pot,Poultry,General Tso's Chicken,14.95
+2629,De Tasty Hot Pot,Poultry,Sesame Chicken,14.95
+2630,De Tasty Hot Pot,Poultry,Chicken with Broccoli,13.95
+2631,De Tasty Hot Pot,Poultry,Steamed Chicken w. Szechuan Chili Sauce,12.95
+2632,De Tasty Hot Pot,Poultry, Crispy Chicken w. Orange Sauce,14.95
+2633,De Tasty Hot Pot,Poultry,Spicy Chicken Wings,15.95
+2634,De Tasty Hot Pot,Poultry,Sweet & Sour Chicken,12.95
+2635,De Tasty Hot Pot,Dry Hot Pot,Spam with Chili Pepper in Dried Pot,16.95
+2636,De Tasty Hot Pot,Dry Hot Pot,Flounder Filet with Chili Pepper in Dried Pot,16.95
+2637,De Tasty Hot Pot,Dry Hot Pot,Sliced Beef with Chili Pepper in Dried Pot,16.95
+2638,De Tasty Hot Pot,Dry Hot Pot,Sliced Lamb with Chili Pepper in Dried Pot,16.95
+2639,De Tasty Hot Pot,Dry Hot Pot,Beef Tripe with Chili Pepper in Dried Pot,16.95
+2640,De Tasty Hot Pot,Dry Hot Pot,Pork Intestines with Chili Pepper in Dried Pot,16.95
+2641,De Tasty Hot Pot,Dry Hot Pot,Ribs w. Chili Pepper in Dried Pot,16.95
+2642,De Tasty Hot Pot,Dry Hot Pot,Beef w. Chili Pepper Soup in Dried Pot,16.95
+2643,De Tasty Hot Pot,Lo Mein,"Chicken, Beef, or Shrimp Lo Mein",10.95
+2644,De Tasty Hot Pot,Lo Mein,"House Special Lo Mein(Chicken, Pork, Shrimp)",11.95
+2645,De Tasty Hot Pot,Lo Mein,Shanghai Fried Rice Cake,11.95
+2646,De Tasty Hot Pot,Noodle Soup,Braised Pork Noodle Soup,9.95
+2647,De Tasty Hot Pot,Noodle Soup,Braised Pork Intestine with Sauerkraut Noodle Soup,9.95
+2648,De Tasty Hot Pot,Noodle Soup,Minced Meat and Noodle,9.95
+2649,De Tasty Hot Pot,Noodle Soup,Sauteed Tomatoes & Egg Noodle Soup,9.95
+2650,De Tasty Hot Pot,Noodle Soup,Seafood Noodle Soup,11.95
+2651,De Tasty Hot Pot,Noodle Soup,Braised Pork Chop Noodle Soup,9.95
+2652,De Tasty Hot Pot,Noodle Soup,Sour & Spicy Vermicelli Noodle,8.95
+2653,De Tasty Hot Pot,Noodle Soup,Beef Brisket Noodle Soup,10.95
+2654,De Tasty Hot Pot,Vegetables,Shredded Potato with Chinese Little Peppers,9.95
+2655,De Tasty Hot Pot,Vegetables,Tofu w. Chinese Little Peppers,13.95
+2656,De Tasty Hot Pot,Vegetables,Sauteed Spinach with Chopped Garlic,13.95
+2657,De Tasty Hot Pot,Vegetables,Sauteed Pea Sprouts w. Chopped Garlic,15.95
+2658,De Tasty Hot Pot,Vegetables,Dry Sauteed String Beans,12.95
+2659,De Tasty Hot Pot,Vegetables,Sauteed Potatoes with Green Pepper and Eggplant,12.95
+2660,De Tasty Hot Pot,Vegetables,Bok Choy Topped with Mushroom,12.95
+2661,De Tasty Hot Pot,Vegetables,Sauteed Tomato and Egg,12.95
+2662,De Tasty Hot Pot,Vegetables,Sauteed Chinese Napa Cabbage,12.95
+2663,De Tasty Hot Pot,Vegetables,Sauteed Pickled Cabbage with Edamame,13.95
+2664,De Tasty Hot Pot,Vegetables,Sauteed Japanese Yam,14.95
+2665,De Tasty Hot Pot,Vegetables,Sauteed Japanese Yam,13.95
+2666,De Tasty Hot Pot,Vegetables,Sauteed Water Spinach,14.95
+2667,De Tasty Hot Pot,Meat,Shredded Pork in Garlic Sauce,12.95
+2668,De Tasty Hot Pot,Meat,"Twice Cooked Pork with Garlic, Leek",14.95
+2669,De Tasty Hot Pot,Meat,Fried Sliced Pork with Orange Sauce,15.95
+2670,De Tasty Hot Pot,Meat, Sliced Pork Intestine w. Hot Peppers,15.95
+2671,De Tasty Hot Pot,Meat,Sauteed Pork Liver,13.95
+2672,De Tasty Hot Pot,Meat,Braised Pork,14.95
+2673,De Tasty Hot Pot,Meat,Ma Po Tofu,11.95
+2674,De Tasty Hot Pot,Meat,Braised Pork with Fresh Hot Pepper,15.95
+2675,De Tasty Hot Pot,Meat,Braised Pork Meat Balls,15.95
+2676,De Tasty Hot Pot,Meat,Vermicilli Noodles with Minced Meat,11.95
+2677,De Tasty Hot Pot,Meat,Shredded Pork with Sweet Sauce and Tofu,16.95
+2678,De Tasty Hot Pot,Meat,Braised Spare Pork Ribs,15.95
+2679,De Tasty Hot Pot,Meat,Sour Cabbage w. Vermicelli and Shredded Pork,14.95
+2680,De Tasty Hot Pot,Meat,Stir-fried Pork and Dried Tofu,14.95
+2681,De Tasty Hot Pot,Meat,Sauteed Liver w. Red Chili Pepper,14.95
+2682,De Tasty Hot Pot,Meat,Pork Tofu Shin Roll,16.95
 2683,Jade Garden Restaurant,Drinks,12oz. Coke ,1.55
 2684,Jade Garden Restaurant,Drinks,12oz. Diet Coke ,1.55
 2685,Jade Garden Restaurant,Drinks,12oz. Sprite ,1.55
@@ -2732,22 +2732,22 @@
 2730,Jade Garden Restaurant,Soup,Seafood Soup (Lg),7.95
 2731,Jade Garden Restaurant,Soup,Chicken Corn Soup (Lg),6.95
 2732,Jade Garden Restaurant,Appetizers,Vegetable Egg Roll,1.6
-2733,Jade Garden Restaurant,Appetizers,Steamed Pork Bun (8),5.95
-2734,Jade Garden Restaurant,Appetizers,Steamed Red Bean Bun (6),5.95
+2733,Jade Garden Restaurant,Appetizers,Steamed Pork Bun,5.95
+2734,Jade Garden Restaurant,Appetizers,Steamed Red Bean Bun,5.95
 2735,Jade Garden Restaurant,Appetizers,Spring Vegetable Egg Roll,1.6
 2736,Jade Garden Restaurant,Appetizers,Roast Pork Egg Roll,1.6
 2737,Jade Garden Restaurant,Appetizers,Shrimp Egg Roll,1.7
 2738,Jade Garden Restaurant,Appetizers,Scallion Pancakes,6.25
-2739,Jade Garden Restaurant,Appetizers,Steamed or Fried Dumplings (8),6.5
-2740,Jade Garden Restaurant,Appetizers,Steamed Vegetable Dumplings (8),6.5
-2741,Jade Garden Restaurant,Appetizers,Sesame Ball (6),5.25
-2742,Jade Garden Restaurant,Appetizers,Chicken Nuggets (8),5.5
-2743,Jade Garden Restaurant,Appetizers,Steamed Chicken Dumpling (8),6.75
-2744,Jade Garden Restaurant,Appetizers,Steamed Shrimp Dumplings (8),7.5
-2745,Jade Garden Restaurant,Appetizers,Fried Chicken Wings (6),6.25
-2746,Jade Garden Restaurant,Appetizers,Fried Wonton (10),4.95
+2739,Jade Garden Restaurant,Appetizers,Steamed or Fried Dumplings,6.5
+2740,Jade Garden Restaurant,Appetizers,Steamed Vegetable Dumplings,6.5
+2741,Jade Garden Restaurant,Appetizers,Sesame Ball,5.25
+2742,Jade Garden Restaurant,Appetizers,Chicken Nuggets,5.5
+2743,Jade Garden Restaurant,Appetizers,Steamed Chicken Dumpling,6.75
+2744,Jade Garden Restaurant,Appetizers,Steamed Shrimp Dumplings,7.5
+2745,Jade Garden Restaurant,Appetizers,Fried Chicken Wings,6.25
+2746,Jade Garden Restaurant,Appetizers,Fried Wonton,4.95
 2747,Jade Garden Restaurant,Appetizers,Boneless Spare Ribs,10.25
-2748,Jade Garden Restaurant,Appetizers,BBQ Spare Ribs (6),11.95
+2748,Jade Garden Restaurant,Appetizers,BBQ Spare Ribs,11.95
 2749,Jade Garden Restaurant,Appetizers,Teriyaki Chicken Stick,7.75
 2750,Jade Garden Restaurant,Appetizers,Crab Rangoon,5.95
 2751,Jade Garden Restaurant,Appetizers,Pu Pu Plate,13.5
@@ -3041,7 +3041,7 @@
 3039,Jade Garden Restaurant,Side Order,Brown Rice (Qt),5.25
 3040,Jade Garden Restaurant,Side Order,White Rice (Pt),2
 3041,Jade Garden Restaurant,Side Order,White Rice (Qt),4
-3042,Jade Garden Restaurant,Side Order,Fortune Cookies (5),1
+3042,Jade Garden Restaurant,Side Order,Fortune Cookies,1
 3043,Jade Garden Restaurant,Side Order,Crispy Noodles (per bag),0.75
 3044,Joe's Restaurant,Drinks,12oz. Coke ,1.55
 3045,Joe's Restaurant,Drinks,12oz. Diet Coke ,1.55
@@ -4172,7 +4172,7 @@
 4170,New Delhi Diamonds Indian Restaurant,Appetizers,Salad,3.5
 4171,New Delhi Diamonds Indian Restaurant,Appetizers,Vegetable Soup,3.5
 4172,New Delhi Diamonds Indian Restaurant,Appetizers,Chicken Soup,3.5
-4173,New Delhi Diamonds Indian Restaurant,Appetizers,Papadam (2),2.5
+4173,New Delhi Diamonds Indian Restaurant,Appetizers,Papadam,2.5
 4174,New Delhi Diamonds Indian Restaurant,Tandoori Breads,Paratha,2.95
 4175,New Delhi Diamonds Indian Restaurant,Tandoori Breads,Aloo Paratha,3.5
 4176,New Delhi Diamonds Indian Restaurant,Tandoori Breads,Poori,2.75
@@ -4320,27 +4320,27 @@
 4318,Oishii Bowl,Drinks,12oz. Sprite ,1.55
 4319,Oishii Bowl,Drinks,12oz. Cherry Coke ,1.55
 4320,Oishii Bowl,Drinks,Bottled Water,1.99
-4321,Oishii Bowl,Rice Bowl,1. Katsu Don,8.5
-4322,Oishii Bowl,Rice Bowl,2. Oyako Don,8.5
-4323,Oishii Bowl,Rice Bowl,3. Buta Don,8.5
-4324,Oishii Bowl,Rice Bowl,4. Sakana Don,8.5
-4325,Oishii Bowl,Rice Bowl, 5. Spicy Sesame Udon with Chicken,8.5
-4326,Oishii Bowl,Rice Bowl,6. Fried Chicken Bowl,8.5
-4327,Oishii Bowl,Salad,7. Chicken Mango Salad,8.5
-4328,Oishii Bowl,Veggie Bowl,8. Dried Tofu Veggie Bowl,8.5
-4329,Oishii Bowl,Veggie Bowl,9. Fried Tofu Veggie Bowl,8.99
-4330,Oishii Bowl,Noodle Bowl,10. Miso Ramen ,8.5
-4331,Oishii Bowl,Noodle Bowl,11. Shoyu Ramen,8.5
+4321,Oishii Bowl,Rice Bowl,Katsu Don,8.5
+4322,Oishii Bowl,Rice Bowl,Oyako Don,8.5
+4323,Oishii Bowl,Rice Bowl,Buta Don,8.5
+4324,Oishii Bowl,Rice Bowl,Sakana Don,8.5
+4325,Oishii Bowl,Rice Bowl, Spicy Sesame Udon with Chicken,8.5
+4326,Oishii Bowl,Rice Bowl,Fried Chicken Bowl,8.5
+4327,Oishii Bowl,Salad,Chicken Mango Salad,8.5
+4328,Oishii Bowl,Veggie Bowl,Dried Tofu Veggie Bowl,8.5
+4329,Oishii Bowl,Veggie Bowl,Fried Tofu Veggie Bowl,8.99
+4330,Oishii Bowl,Noodle Bowl,Miso Ramen ,8.5
+4331,Oishii Bowl,Noodle Bowl,Shoyu Ramen,8.5
 4332,Oishii Bowl,Noodle Bowl,,0
-4333,Oishii Bowl,Noodle Bowl,12. Tan Tan Men,8.5
-4334,Oishii Bowl,Noodle Bowl,13. Udon,7.55
-4335,Oishii Bowl,Noodle Bowl,14. Kuay Teow Gai Toon,8.5
-4336,Oishii Bowl,Noodle Bowl,15. Kuay Teow,8.5
-4337,Oishii Bowl,Noodle Bowl,16. Pad Prik Moo,8.5
-4338,Oishii Bowl,Noodle Bowl,17. Tonkotsu Ramen,8.5
-4339,Oishii Bowl,Noodle Bowl,18. Kuay Teow Tom Yum,8.5
-4340,Oishii Bowl,Noodle Bowl,19. Katsu Curry,8.99
-4341,Oishii Bowl,Noodle Bowl,20. Yum Gai Sab,9.99
+4333,Oishii Bowl,Noodle Bowl,Tan Tan Men,8.5
+4334,Oishii Bowl,Noodle Bowl,Udon,7.55
+4335,Oishii Bowl,Noodle Bowl,Kuay Teow Gai Toon,8.5
+4336,Oishii Bowl,Noodle Bowl,Kuay Teow,8.5
+4337,Oishii Bowl,Noodle Bowl,Pad Prik Moo,8.5
+4338,Oishii Bowl,Noodle Bowl,Tonkotsu Ramen,8.5
+4339,Oishii Bowl,Noodle Bowl,Kuay Teow Tom Yum,8.5
+4340,Oishii Bowl,Noodle Bowl,Katsu Curry,8.99
+4341,Oishii Bowl,Noodle Bowl,Yum Gai Sab,9.99
 4342,Oishii Bowl,Side Dishes,Spring Roll,1.99
 4343,Oishii Bowl,Side Dishes,Kaki,5.99
 4344,Oishii Bowl,Side Dishes,Bun,2.99
@@ -4553,7 +4553,7 @@
 4551,Papa John's Pizza,Specialty Pizzas,X Large Spinach Alfredo Deluxe ,20.99
 4552,Papa John's Pizza,Side Dishes,Papa's Chicken Poppers 10pc,5.99
 4553,Papa John's Pizza,Side Dishes,Cheesesticks (10 inch),6.99
-4554,Papa John's Pizza,Side Dishes,Garlic Knots (8),6
+4554,Papa John's Pizza,Side Dishes,Garlic Knots,6
 4555,Papa John's Pizza,Side Dishes,Papa's Chicken Poppers 15pc,7.99
 4556,Papa John's Pizza,Side Dishes,Cheesesticks (12 inch),7.99
 4557,Papa John's Pizza,Side Dishes,Breadsticks,6.99
@@ -4694,10 +4694,10 @@
 4692,Pat's Pizzeria - Ithaca,Sides,Chicken Fingers,9.99
 4693,Pat's Pizzeria - Ithaca,Sides,Garlic Bread Loaf,4.99
 4694,Pat's Pizzeria - Ithaca,Sides,Garlic Breadsticks,5.99
-4695,Pat's Pizzeria - Ithaca,Sides,Mozzarella Sticks (5),7.39
-4696,Pat's Pizzeria - Ithaca,Sides,Mozzarella Sticks (10),9.99
-4697,Pat's Pizzeria - Ithaca,Sides,Garlic Knots (5),5.99
-4698,Pat's Pizzeria - Ithaca,Sides,Garlic Knots (10),9.99
+4695,Pat's Pizzeria - Ithaca,Sides,Mozzarella Sticks,7.39
+4696,Pat's Pizzeria - Ithaca,Sides,Mozzarella Sticks,9.99
+4697,Pat's Pizzeria - Ithaca,Sides,Garlic Knots,5.99
+4698,Pat's Pizzeria - Ithaca,Sides,Garlic Knots,9.99
 4699,Pat's Pizzeria - Ithaca,Sides,French Fries,3.99
 4700,Pat's Pizzeria - Ithaca,Sides,Fried Mushrooms,6.99
 4701,Pat's Pizzeria - Ithaca,Sides,Stuffed Bread,9.99
@@ -5651,8 +5651,8 @@
 5649,Sicilian Delight,Drinks,12oz. Cherry Coke ,1.55
 5650,Sicilian Delight,Drinks,Bottled Water,1.99
 5651,Sicilian Delight,Appetizers & Extras,Mozzarella Sticks,6.5
-5652,Sicilian Delight,Appetizers & Extras,Boneless Wings (10),6.99
-5653,Sicilian Delight,Appetizers & Extras,Garlic Knots (3),1.5
+5652,Sicilian Delight,Appetizers & Extras,Boneless Wings,6.99
+5653,Sicilian Delight,Appetizers & Extras,Garlic Knots,1.5
 5654,Sicilian Delight,Appetizers & Extras,Chicken Tenders & French Fries,5.99
 5655,Sicilian Delight,Appetizers & Extras,French Fries ,3
 5656,Sicilian Delight, Beverages,Bottled Water,1.99
@@ -5678,7 +5678,7 @@
 5676,Sicilian Delight,Chargrilled Chicken Wings,24 Wings,19.99
 5677,Sicilian Delight,Chargrilled Chicken Wings,36 Wings,27.99
 5678,Sicilian Delight,Chargrilled Chicken Wings,50 Wings,36.99
-5679,Sicilian Delight,Chargrilled Chicken Wings,Boneless Wings (10),6.99
+5679,Sicilian Delight,Chargrilled Chicken Wings,Boneless Wings,6.99
 5680,Sicilian Delight,Pasta & Entrees,Baked Ziti,6.99
 5681,Sicilian Delight,Pasta & Entrees,Gluten-Free Lasagna,8.99
 5682,Sicilian Delight,Pasta & Entrees,Chicken Parmesan,8.99
@@ -5758,8 +5758,8 @@
 5756,Sicilian Delight,Entrees,Baked Vegetable Lasagna Full,85
 5757,Sicilian Delight,Entrees,Penne Vodka Sauce Half,45
 5758,Sicilian Delight,Entrees,Penne Vodka Sauce Full,85
-5759,Sicilian Delight,Entrees,Garlic Knots (24),8.99
-5760,Sicilian Delight,Entrees,Mini Rolls (24),11.99
+5759,Sicilian Delight,Entrees,Garlic Knots,8.99
+5760,Sicilian Delight,Entrees,Mini Rolls,11.99
 5761,Sicilian Delight,Entrees,25 Inch Stromboli,19.99
 5762,Sicilian Delight,Entrees,Fruit Platter Half,29.99
 5763,Sicilian Delight,Entrees,Fruit Platter Full,49.99
@@ -5813,7 +5813,7 @@
 5811,Souvlaki House,Appetizers,Feta Cheese Appetizer,7.5
 5812,Souvlaki House,Appetizers,Garlic Bread Appetizer,3.5
 5813,Souvlaki House,Appetizers,Garlic Bread w/ Cheese Appetizer,4.5
-5814,Souvlaki House,Appetizers,Buffalo-Style Chicken Wings (10),10.95
+5814,Souvlaki House,Appetizers,Buffalo-Style Chicken Wings,10.95
 5815,Souvlaki House,Appetizers,Greek Garlic Bread,5.95
 5816,Souvlaki House,Subs,Half Meatball Sub,6
 5817,Souvlaki House,Subs,Whole Meatball Sub,8
@@ -5975,199 +5975,199 @@
 5973,Spicy Asian,Extra Rice,Quart Extra White Rice,3.25
 5974,Spicy Asian,Extra Rice,Pint Extra Brown Rice,2
 5975,Spicy Asian,Extra Rice,Quart Extra Brown Rice,3.75
-5976,Spicy Asian,Szechuan Style,1. Tom Yum Soup- small,3.5
-5977,Spicy Asian,Szechuan Style,1. Tom Yum Soup- Large,6.95
-5978,Spicy Asian,Szechuan Style,2. Wonton Soup Pint,2.5
-5979,Spicy Asian,Szechuan Style,2. Wonton Soup Quart,4.75
-5980,Spicy Asian,Szechuan Style,3. Egg Drop Soup Pint,1.95
-5981,Spicy Asian,Szechuan Style,3. Egg Drop Soup Quart,3.95
-5982,Spicy Asian,Szechuan Style,4. Wonton Egg Drop Soup Pint,2.75
-5983,Spicy Asian,Szechuan Style,4. Wonton Egg Drop Soup Quart,4.95
-5984,Spicy Asian,Szechuan Style,5. Vegetable Soup Pint,2.25
-5985,Spicy Asian,Szechuan Style,5. Vegetable Soup Quart,4.25
-5986,Spicy Asian,Szechuan Style,6. Hot and Sour Soup Pint,2.75
-5987,Spicy Asian,Szechuan Style,6. Hot and Sour Soup Quart,5.25
-5988,Spicy Asian,Szechuan Style,S1. Sliced Fish w. Sour Cabbage Soup,10.95
-5989,Spicy Asian,Szechuan Style,S3. Seafood w. Tofu Soup,10.95
-5990,Spicy Asian,Szechuan Style, S4. Mixed Beef and Mushroom Soup,10.95
-5991,Spicy Asian,Szechuan Style,S5.  Lotus Root Seaweed Knot Spare Ribs Soup,11.95
-5992,Spicy Asian,Szechuan Style,S6. Cold Cucumber Salad,4.75
-5993,Spicy Asian,Szechuan Style,S7. Spiced Corned Egg,1.25
-5994,Spicy Asian,Szechuan Style,S8. Beef Tripe Hot Pepper Sauce,8.95
-5995,Spicy Asian,Szechuan Style,S10. Dumplings,6.25
-5996,Spicy Asian,Szechuan Style,S11. Zhong Dumplings,6.25
-5997,Spicy Asian,Szechuan Style,S13. Cold Sesame Noodle,7.5
-5998,Spicy Asian,Szechuan Style,S14. DanDan Noodles,7.95
+5976,Spicy Asian,Szechuan Style,Tom Yum Soup- small,3.5
+5977,Spicy Asian,Szechuan Style,Tom Yum Soup- Large,6.95
+5978,Spicy Asian,Szechuan Style,Wonton Soup Pint,2.5
+5979,Spicy Asian,Szechuan Style,Wonton Soup Quart,4.75
+5980,Spicy Asian,Szechuan Style,Egg Drop Soup Pint,1.95
+5981,Spicy Asian,Szechuan Style,Egg Drop Soup Quart,3.95
+5982,Spicy Asian,Szechuan Style,Wonton Egg Drop Soup Pint,2.75
+5983,Spicy Asian,Szechuan Style,Wonton Egg Drop Soup Quart,4.95
+5984,Spicy Asian,Szechuan Style,Vegetable Soup Pint,2.25
+5985,Spicy Asian,Szechuan Style,Vegetable Soup Quart,4.25
+5986,Spicy Asian,Szechuan Style,Hot and Sour Soup Pint,2.75
+5987,Spicy Asian,Szechuan Style,Hot and Sour Soup Quart,5.25
+5988,Spicy Asian,Szechuan Style,Sliced Fish w. Sour Cabbage Soup,10.95
+5989,Spicy Asian,Szechuan Style,Seafood w. Tofu Soup,10.95
+5990,Spicy Asian,Szechuan Style, Mixed Beef and Mushroom Soup,10.95
+5991,Spicy Asian,Szechuan Style, Lotus Root Seaweed Knot Spare Ribs Soup,11.95
+5992,Spicy Asian,Szechuan Style,Cold Cucumber Salad,4.75
+5993,Spicy Asian,Szechuan Style,Spiced Corned Egg,1.25
+5994,Spicy Asian,Szechuan Style,Beef Tripe Hot Pepper Sauce,8.95
+5995,Spicy Asian,Szechuan Style,Dumplings,6.25
+5996,Spicy Asian,Szechuan Style,Zhong Dumplings,6.25
+5997,Spicy Asian,Szechuan Style,Cold Sesame Noodle,7.5
+5998,Spicy Asian,Szechuan Style,DanDan Noodles,7.95
 5999,Spicy Asian,Szechuan Style,S15 Pork Interstine w. Sour Cabbage Noodle Soup,9.5
-6000,Spicy Asian,Szechuan Style,S16. Pork w Vegetable Noodle Soup,7.95
-6001,Spicy Asian,Szechuan Style,S17. Corned Egg w Beef Brisket Noodle Soup,9.95
-6002,Spicy Asian,Szechuan Style,S18. Beef Noodle Soup,9.95
-6003,Spicy Asian,Szechuan Style,S19. Seafood Noodle Soup,9.5
-6004,Spicy Asian,Szechuan Style,S20. Hot Green Pepper w Pork In Noodle Soup,7.95
-6005,Spicy Asian,Szechuan Style,S21. Rice Cake,9.95
-6006,Spicy Asian,Szechuan Style,S22. Sauteed Udon Noodles,10.55
-6007,Spicy Asian,Szechuan Style,S23. Egg Fried Rice,8.25
-6008,Spicy Asian,Szechuan Style,S24. Young Chow Fried Rice,10.5
-6009,Spicy Asian,Szechuan Style,S25. Ham Fried Rice,9.5
-6010,Spicy Asian,Szechuan Style,S27. Mongolian Beef,13.95
-6011,Spicy Asian,Szechuan Style,S28. Beef w Chili Sauce,15.25
-6012,Spicy Asian,Szechuan Style,S29. Cumin Beef,13.95
-6013,Spicy Asian,Szechuan Style,S29. Cumin Lamb,14.95
-6014,Spicy Asian,Szechuan Style,S30. Beef w Black Pepper Sauce,13.5
-6015,Spicy Asian,Szechuan Style,S31. Beef w Black Bean Sauce,13.5
-6016,Spicy Asian,Szechuan Style,S32. Beef w Hot Green Pepper,13.25
-6017,Spicy Asian,Szechuan Style,S34. Scallion Beef,13.95
-6018,Spicy Asian,Szechuan Style,S35. Fried Crispy Eggplant,9.95
-6019,Spicy Asian,Szechuan Style,S36. Eggplant with Szechaun Flavor,9.95
-6020,Spicy Asian,Szechuan Style,S37. Sauteed Baby Bok Choy,10.95
-6021,Spicy Asian,Szechuan Style,S38. Dried Sauteed String Beans,9.95
-6022,Spicy Asian,Szechuan Style,S39. Shredded Potatoes w Sour Spicy Sauce,9.95
-6023,Spicy Asian,Szechuan Style,S42. Sauteed Snow Pea Sprout w Garlic,15.95
-6024,Spicy Asian,Szechuan Style,S43. Tofu w Mushroom,9.95
-6025,Spicy Asian,Szechuan Style,S44. Kung Po Tofu,10.25
-6026,Spicy Asian,Szechuan Style,S45. Sauteed Cabbage,9.95
-6027,Spicy Asian,Szechuan Style,S47. Curry Jumbo Shrimp and Tofu,14.95
-6028,Spicy Asian,Szechuan Style,S48. Spare Ribs w. Dried Tofu Skin in Hot Pot,14.95
-6029,Spicy Asian,Szechuan Style,S49. Assorted Seafood in Hot Pot,15.5
-6030,Spicy Asian,Szechuan Style,S50. Bean Curd Home Style,12.5
-6031,Spicy Asian,Szechuan Style,S51. Eggplant w Garlic in Hot Pot,11.95
-6032,Spicy Asian,Szechuan Style,S52. Braised Pork Belly in Hot Pot,12.95
-6033,Spicy Asian,Szechuan Style,S53. Beef Flank w. Turnip in Hot Pot,13.95
-6034,Spicy Asian,Szechuan Style,S54. Fish Filet w. Special Tofu in Hot Pot,14.95
-6035,Spicy Asian,Szechuan Style,S55. Braised Lamb in Hot Pot,15.5
-6036,Spicy Asian,Szechuan Style,S56. Pork Intestine In Casserole,13.25
+6000,Spicy Asian,Szechuan Style,Pork w Vegetable Noodle Soup,7.95
+6001,Spicy Asian,Szechuan Style,Corned Egg w Beef Brisket Noodle Soup,9.95
+6002,Spicy Asian,Szechuan Style,Beef Noodle Soup,9.95
+6003,Spicy Asian,Szechuan Style,Seafood Noodle Soup,9.5
+6004,Spicy Asian,Szechuan Style,Hot Green Pepper w Pork In Noodle Soup,7.95
+6005,Spicy Asian,Szechuan Style,Rice Cake,9.95
+6006,Spicy Asian,Szechuan Style,Sauteed Udon Noodles,10.55
+6007,Spicy Asian,Szechuan Style,Egg Fried Rice,8.25
+6008,Spicy Asian,Szechuan Style,Young Chow Fried Rice,10.5
+6009,Spicy Asian,Szechuan Style,Ham Fried Rice,9.5
+6010,Spicy Asian,Szechuan Style,Mongolian Beef,13.95
+6011,Spicy Asian,Szechuan Style,Beef w Chili Sauce,15.25
+6012,Spicy Asian,Szechuan Style,Cumin Beef,13.95
+6013,Spicy Asian,Szechuan Style,Cumin Lamb,14.95
+6014,Spicy Asian,Szechuan Style,Beef w Black Pepper Sauce,13.5
+6015,Spicy Asian,Szechuan Style,Beef w Black Bean Sauce,13.5
+6016,Spicy Asian,Szechuan Style,Beef w Hot Green Pepper,13.25
+6017,Spicy Asian,Szechuan Style,Scallion Beef,13.95
+6018,Spicy Asian,Szechuan Style,Fried Crispy Eggplant,9.95
+6019,Spicy Asian,Szechuan Style,Eggplant with Szechaun Flavor,9.95
+6020,Spicy Asian,Szechuan Style,Sauteed Baby Bok Choy,10.95
+6021,Spicy Asian,Szechuan Style,Dried Sauteed String Beans,9.95
+6022,Spicy Asian,Szechuan Style,Shredded Potatoes w Sour Spicy Sauce,9.95
+6023,Spicy Asian,Szechuan Style,Sauteed Snow Pea Sprout w Garlic,15.95
+6024,Spicy Asian,Szechuan Style,Tofu w Mushroom,9.95
+6025,Spicy Asian,Szechuan Style,Kung Po Tofu,10.25
+6026,Spicy Asian,Szechuan Style,Sauteed Cabbage,9.95
+6027,Spicy Asian,Szechuan Style,Curry Jumbo Shrimp and Tofu,14.95
+6028,Spicy Asian,Szechuan Style,Spare Ribs w. Dried Tofu Skin in Hot Pot,14.95
+6029,Spicy Asian,Szechuan Style,Assorted Seafood in Hot Pot,15.5
+6030,Spicy Asian,Szechuan Style,Bean Curd Home Style,12.5
+6031,Spicy Asian,Szechuan Style,Eggplant w Garlic in Hot Pot,11.95
+6032,Spicy Asian,Szechuan Style,Braised Pork Belly in Hot Pot,12.95
+6033,Spicy Asian,Szechuan Style,Beef Flank w. Turnip in Hot Pot,13.95
+6034,Spicy Asian,Szechuan Style,Fish Filet w. Special Tofu in Hot Pot,14.95
+6035,Spicy Asian,Szechuan Style,Braised Lamb in Hot Pot,15.5
+6036,Spicy Asian,Szechuan Style,Pork Intestine In Casserole,13.25
 6037,Spicy Asian,Szechuan Style,S57 Sizzling Japanese Tofu,13.95
-6038,Spicy Asian,Szechuan Style,S58. Sizzling Lamb,14.75
-6039,Spicy Asian,Szechuan Style,S59. Beef in Casserole,13.95
-6040,Spicy Asian,Szechuan Style,S59. Lamb in Casserole,14.75
-6041,Spicy Asian,Szechuan Style,S60. Sizzling Pork Intestines in Scallions,13.25
-6042,Spicy Asian,Szechuan Style,S61. Sizzling Beef,13.95
-6043,Spicy Asian,Szechuan Style,S62. Spicy Grilled Whole Fish,37.95
-6044,Spicy Asian,Szechuan Style,S63. Hot Spicy Big Pot,18.95
-6045,Spicy Asian,Szechuan Style,S64. Sliced Fish in Chili Sauce,15.95
-6046,Spicy Asian,Szechuan Style,S65. Sliced Fish w Sour Cabbage,15.95
-6047,Spicy Asian,Szechuan Style,S66. Shrimp w. Salt and Pepper,14.5
-6048,Spicy Asian,Szechuan Style,S67. Squid w. Salt and Pepper,14.95
-6049,Spicy Asian,Szechuan Style,S68. Sliced Fish w. Salt and Pepper,14.95
-6050,Spicy Asian,Szechuan Style,S69. Jumbo Shrimp w Black Bean Sauce,13.95
-6051,Spicy Asian,Szechuan Style,S70. Kung Po Shrimp Szechuan Style,13.95
-6052,Spicy Asian,Szechuan Style,S71. Steamed Whole Fish,34.95
-6053,Spicy Asian,Szechuan Style,S72. Whole Fish w. Black Bean Sauce,23.95
-6054,Spicy Asian,Szechuan Style,S75. XinJiang Big Plate Chicken,17.25
-6055,Spicy Asian,Szechuan Style,S76. Homemade Kung Po Chicken,13.25
-6056,Spicy Asian,Szechuan Style,S77. Chinese Bacon w. Snow Peas,13.95
-6057,Spicy Asian,Szechuan Style,S79. Crispy Chicken w House Special Sauce,12.95
-6058,Spicy Asian,Szechuan Style,S80. Steamed Chicken w Szechuan Sauce,12.75
-6059,Spicy Asian,Szechuan Style,S82. Shredded Pork w. Garlic Sauce,11.95
-6060,Spicy Asian,Szechuan Style,S83. Ma Po Tofu,11.5
-6061,Spicy Asian,Szechuan Style,S84. Country Style Pork,13.25
-6062,Spicy Asian,Szechuan Style,S85. Spicy Double Cooked Pork,12.95
-6063,Spicy Asian,Szechuan Style,S86. Dry Bean Curd w Shredded Pork,11.95
-6064,Spicy Asian,Szechuan Style,S87. Pork Intestines Szechuan Style,13.25
-6065,Spicy Asian,Szechuan Style,S88. Sauteed Shredded Pork w Spicy Sauce,11.95
-6066,Spicy Asian,Szechuan Style,S89. Kung Po Chicken Szechuan Style,12.95
-6067,Spicy Asian,Szechuan Style,S90. Chung King Spicy Chicken,12.95
-6068,Spicy Asian,Szechuan Style,S91. Cumin Shredded Pork,12.95
-6069,Spicy Asian,Appetizers,8. Egg Roll (1),1.35
-6070,Spicy Asian,Appetizers,9. Spring Roll (2),1.35
-6071,Spicy Asian,Appetizers,10. Dumplings (8),6.25
-6072,Spicy Asian,Appetizers,11. Wonton in Hot Sesame Sauce,5.75
-6073,Spicy Asian,Appetizers,13. Crab Rangroon (6),5.95
-6074,Spicy Asian,Appetizers,14. Seaweed Salad,4.75
-6075,Spicy Asian,Appetizers,15. Edamame,4.5
-6076,Spicy Asian,Appetizers,16. Gyoza (6),5.95
-6077,Spicy Asian,Appetizers,17. Shumai (6),5.95
-6078,Spicy Asian,Appetizers,18. Shrimp Tempura,6.95
-6079,Spicy Asian,Fried Rice,21. Chicken Fried Rice,8.75
-6080,Spicy Asian,Fried Rice,22. Shrimp Fried Rice,9.75
-6081,Spicy Asian,Fried Rice,23. Beef Fried Rice,9.75
-6082,Spicy Asian,Fried Rice,24. Vegetable Fried Rice,8.5
-6083,Spicy Asian,Fried Rice,25. Ham Fried Rice,9.5
-6084,Spicy Asian,Fried Rice,26. House Special Fried Rice,9.95
-6085,Spicy Asian,Fried Rice,27. Curry House Fried Rice,11.25
+6038,Spicy Asian,Szechuan Style,Sizzling Lamb,14.75
+6039,Spicy Asian,Szechuan Style,Beef in Casserole,13.95
+6040,Spicy Asian,Szechuan Style,Lamb in Casserole,14.75
+6041,Spicy Asian,Szechuan Style,Sizzling Pork Intestines in Scallions,13.25
+6042,Spicy Asian,Szechuan Style,Sizzling Beef,13.95
+6043,Spicy Asian,Szechuan Style,Spicy Grilled Whole Fish,37.95
+6044,Spicy Asian,Szechuan Style,Hot Spicy Big Pot,18.95
+6045,Spicy Asian,Szechuan Style,Sliced Fish in Chili Sauce,15.95
+6046,Spicy Asian,Szechuan Style,Sliced Fish w Sour Cabbage,15.95
+6047,Spicy Asian,Szechuan Style,Shrimp w. Salt and Pepper,14.5
+6048,Spicy Asian,Szechuan Style,Squid w. Salt and Pepper,14.95
+6049,Spicy Asian,Szechuan Style,Sliced Fish w. Salt and Pepper,14.95
+6050,Spicy Asian,Szechuan Style,Jumbo Shrimp w Black Bean Sauce,13.95
+6051,Spicy Asian,Szechuan Style,Kung Po Shrimp Szechuan Style,13.95
+6052,Spicy Asian,Szechuan Style,Steamed Whole Fish,34.95
+6053,Spicy Asian,Szechuan Style,Whole Fish w. Black Bean Sauce,23.95
+6054,Spicy Asian,Szechuan Style,XinJiang Big Plate Chicken,17.25
+6055,Spicy Asian,Szechuan Style,Homemade Kung Po Chicken,13.25
+6056,Spicy Asian,Szechuan Style,Chinese Bacon w. Snow Peas,13.95
+6057,Spicy Asian,Szechuan Style,Crispy Chicken w House Special Sauce,12.95
+6058,Spicy Asian,Szechuan Style,Steamed Chicken w Szechuan Sauce,12.75
+6059,Spicy Asian,Szechuan Style,Shredded Pork w. Garlic Sauce,11.95
+6060,Spicy Asian,Szechuan Style,Ma Po Tofu,11.5
+6061,Spicy Asian,Szechuan Style,Country Style Pork,13.25
+6062,Spicy Asian,Szechuan Style,Spicy Double Cooked Pork,12.95
+6063,Spicy Asian,Szechuan Style,Dry Bean Curd w Shredded Pork,11.95
+6064,Spicy Asian,Szechuan Style,Pork Intestines Szechuan Style,13.25
+6065,Spicy Asian,Szechuan Style,Sauteed Shredded Pork w Spicy Sauce,11.95
+6066,Spicy Asian,Szechuan Style,Kung Po Chicken Szechuan Style,12.95
+6067,Spicy Asian,Szechuan Style,Chung King Spicy Chicken,12.95
+6068,Spicy Asian,Szechuan Style,Cumin Shredded Pork,12.95
+6069,Spicy Asian,Appetizers,Egg Roll,1.35
+6070,Spicy Asian,Appetizers,Spring Roll,1.35
+6071,Spicy Asian,Appetizers,Dumplings,6.25
+6072,Spicy Asian,Appetizers,Wonton in Hot Sesame Sauce,5.75
+6073,Spicy Asian,Appetizers,Crab Rangroon,5.95
+6074,Spicy Asian,Appetizers,Seaweed Salad,4.75
+6075,Spicy Asian,Appetizers,Edamame,4.5
+6076,Spicy Asian,Appetizers,Gyoza,5.95
+6077,Spicy Asian,Appetizers,Shumai,5.95
+6078,Spicy Asian,Appetizers,Shrimp Tempura,6.95
+6079,Spicy Asian,Fried Rice,Chicken Fried Rice,8.75
+6080,Spicy Asian,Fried Rice,Shrimp Fried Rice,9.75
+6081,Spicy Asian,Fried Rice,Beef Fried Rice,9.75
+6082,Spicy Asian,Fried Rice,Vegetable Fried Rice,8.5
+6083,Spicy Asian,Fried Rice,Ham Fried Rice,9.5
+6084,Spicy Asian,Fried Rice,House Special Fried Rice,9.95
+6085,Spicy Asian,Fried Rice,Curry House Fried Rice,11.25
 6086,Spicy Asian,Fried Rice,28.Curry Tofu Rice,8.95
-6087,Spicy Asian,Lo Mein,29. Chicken Lo Mein,8.95
-6088,Spicy Asian,Lo Mein,30. Beef Lo Mein,9.95
-6089,Spicy Asian,Lo Mein,30. Shrimp Lo Mein,9.95
-6090,Spicy Asian,Lo Mein,31. Vegetable Lo Mein,8.5
-6091,Spicy Asian,Lo Mein,32. House Special Lo Mein,10.95
-6092,Spicy Asian,Mei Fun or Ho Fun,33. Chicken Mei Fun,9.95
-6093,Spicy Asian,Mei Fun or Ho Fun,33. Chicken Ho Fun,9.95
-6094,Spicy Asian,Mei Fun or Ho Fun,34. Vegetable Mei Fun,9.5
-6095,Spicy Asian,Mei Fun or Ho Fun,34. Vegetable Ho Fun,9.5
-6096,Spicy Asian,Mei Fun or Ho Fun,35. Shrimp Mei Fun,10.25
-6097,Spicy Asian,Mei Fun or Ho Fun,35. Shrimp Ho Fun,10.25
-6098,Spicy Asian,Mei Fun or Ho Fun,35. Beef Mei Fun,9.95
-6099,Spicy Asian,Mei Fun or Ho Fun,35. Beef Ho Fun,9.95
-6100,Spicy Asian,Mei Fun or Ho Fun,36. House Special Mei Fun,10.95
-6101,Spicy Asian,Mei Fun or Ho Fun,36. House Special Ho Fun,10.95
-6102,Spicy Asian,Mei Fun or Ho Fun,37. Singapore Rice Noodle,10.95
-6103,Spicy Asian,Vegetable,38. Mixed Vegetable Tray,9.95
-6104,Spicy Asian,Vegetable,39. General Tso's Tofu,10.25
-6105,Spicy Asian,Vegetable,40. Broccoli in Garlic Sauce,9.95
-6106,Spicy Asian,Vegetable,41. Diced Sauteed String Beans,9.95
-6107,Spicy Asian,Vegetable,42. Eggplant w Garlic Sauce,9.95
-6108,Spicy Asian,Vegetable,43. Buddha's Delight,9.95
-6109,Spicy Asian,Vegetable,44. Kung Po Tofu,10.25
-6110,Spicy Asian,Vegetable,45. Eggplant & Bean Curd in Garlic Sauce,9.95
-6111,Spicy Asian,Vegetable,46. Sauteed Cabbage,9.95
-6112,Spicy Asian,Vegetable,47. Double Cooked Tofu,10.25
-6113,Spicy Asian,Pork,48. Shredded Pork w String Beans,10.95
-6114,Spicy Asian,Pork,49. Shredded Pork w Garlic Sauce,10.95
-6115,Spicy Asian,Beef,50. Beef w Broccoli,12.95
-6116,Spicy Asian,Beef,51. Pepper Steak w Onions,12.95
-6117,Spicy Asian,Beef,52. Hunan Flavored Beef,12.95
-6118,Spicy Asian,Beef,53. Beef w. Garlic Sauce,12.95
-6119,Spicy Asian,Beef,54. Beef w. Eggplant,12.95
-6120,Spicy Asian,Beef,55. Beef w. Black Bean Sauce,12.95
-6121,Spicy Asian,Beef,56. Thai Beef,12.95
-6122,Spicy Asian,Shrimp,57. Shrimp w Lobster Sauce,12.95
-6123,Spicy Asian,Shrimp,58. Shrimp w Broccoli,12.95
-6124,Spicy Asian,Shrimp,59. Shrimp w Chinese Vegetable,12.95
-6125,Spicy Asian,Shrimp,60. Kung Po Shrimp,12.95
-6126,Spicy Asian,Shrimp,61. Shrimp w Cashew Nuts,12.95
-6127,Spicy Asian,Shrimp,63. Shrimp w Garlic Sauce,12.95
-6128,Spicy Asian,Shrimp,62. Hunan Flavored Shrimp,12.95
-6129,Spicy Asian,Shrimp,64. Shrimp w. Black Bean Sauce,12.95
-6130,Spicy Asian,Shrimp,65. Thai Shrimp,12.95
-6131,Spicy Asian,Chicken,66. Chicken w Broccoli,10.5
-6132,Spicy Asian,Chicken,67. Sweet and Sour Chicken,10.5
-6133,Spicy Asian,Chicken,68. Chicken w Cashew Nuts,10.5
-6134,Spicy Asian,Chicken,69. Chicken w Garlic Sauce,10.5
-6135,Spicy Asian,Chicken,70. Hunan Chicken,10.5
-6136,Spicy Asian,Chicken,71. Chicken w Mixed Vegetables,10.5
-6137,Spicy Asian,Chicken,72. Chicken w Eggplant,10.5
-6138,Spicy Asian,Chicken,73. Chicken w Ginger and Scallions Sauce,10.5
-6139,Spicy Asian,Chicken,74. Chicken w String Beans,10.5
-6140,Spicy Asian,Chicken,75. Curry Chicken,10.5
-6141,Spicy Asian,Chicken,76. Chicken w Black Bean Sauce,10.5
-6142,Spicy Asian,Chicken,77. Mongolian Chicken,10.5
-6143,Spicy Asian,Chicken,78. Thai Chicken,10.5
+6087,Spicy Asian,Lo Mein,Chicken Lo Mein,8.95
+6088,Spicy Asian,Lo Mein,Beef Lo Mein,9.95
+6089,Spicy Asian,Lo Mein,Shrimp Lo Mein,9.95
+6090,Spicy Asian,Lo Mein,Vegetable Lo Mein,8.5
+6091,Spicy Asian,Lo Mein,House Special Lo Mein,10.95
+6092,Spicy Asian,Mei Fun or Ho Fun,Chicken Mei Fun,9.95
+6093,Spicy Asian,Mei Fun or Ho Fun,Chicken Ho Fun,9.95
+6094,Spicy Asian,Mei Fun or Ho Fun,Vegetable Mei Fun,9.5
+6095,Spicy Asian,Mei Fun or Ho Fun,Vegetable Ho Fun,9.5
+6096,Spicy Asian,Mei Fun or Ho Fun,Shrimp Mei Fun,10.25
+6097,Spicy Asian,Mei Fun or Ho Fun,Shrimp Ho Fun,10.25
+6098,Spicy Asian,Mei Fun or Ho Fun,Beef Mei Fun,9.95
+6099,Spicy Asian,Mei Fun or Ho Fun,Beef Ho Fun,9.95
+6100,Spicy Asian,Mei Fun or Ho Fun,House Special Mei Fun,10.95
+6101,Spicy Asian,Mei Fun or Ho Fun,House Special Ho Fun,10.95
+6102,Spicy Asian,Mei Fun or Ho Fun,Singapore Rice Noodle,10.95
+6103,Spicy Asian,Vegetable,Mixed Vegetable Tray,9.95
+6104,Spicy Asian,Vegetable,General Tso's Tofu,10.25
+6105,Spicy Asian,Vegetable,Broccoli in Garlic Sauce,9.95
+6106,Spicy Asian,Vegetable,Diced Sauteed String Beans,9.95
+6107,Spicy Asian,Vegetable,Eggplant w Garlic Sauce,9.95
+6108,Spicy Asian,Vegetable,Buddha's Delight,9.95
+6109,Spicy Asian,Vegetable,Kung Po Tofu,10.25
+6110,Spicy Asian,Vegetable,Eggplant & Bean Curd in Garlic Sauce,9.95
+6111,Spicy Asian,Vegetable,Sauteed Cabbage,9.95
+6112,Spicy Asian,Vegetable,Double Cooked Tofu,10.25
+6113,Spicy Asian,Pork,Shredded Pork w String Beans,10.95
+6114,Spicy Asian,Pork,Shredded Pork w Garlic Sauce,10.95
+6115,Spicy Asian,Beef,Beef w Broccoli,12.95
+6116,Spicy Asian,Beef,Pepper Steak w Onions,12.95
+6117,Spicy Asian,Beef,Hunan Flavored Beef,12.95
+6118,Spicy Asian,Beef,Beef w. Garlic Sauce,12.95
+6119,Spicy Asian,Beef,Beef w. Eggplant,12.95
+6120,Spicy Asian,Beef,Beef w. Black Bean Sauce,12.95
+6121,Spicy Asian,Beef,Thai Beef,12.95
+6122,Spicy Asian,Shrimp,Shrimp w Lobster Sauce,12.95
+6123,Spicy Asian,Shrimp,Shrimp w Broccoli,12.95
+6124,Spicy Asian,Shrimp,Shrimp w Chinese Vegetable,12.95
+6125,Spicy Asian,Shrimp,Kung Po Shrimp,12.95
+6126,Spicy Asian,Shrimp,Shrimp w Cashew Nuts,12.95
+6127,Spicy Asian,Shrimp,Shrimp w Garlic Sauce,12.95
+6128,Spicy Asian,Shrimp,Hunan Flavored Shrimp,12.95
+6129,Spicy Asian,Shrimp,Shrimp w. Black Bean Sauce,12.95
+6130,Spicy Asian,Shrimp,Thai Shrimp,12.95
+6131,Spicy Asian,Chicken,Chicken w Broccoli,10.5
+6132,Spicy Asian,Chicken,Sweet and Sour Chicken,10.5
+6133,Spicy Asian,Chicken,Chicken w Cashew Nuts,10.5
+6134,Spicy Asian,Chicken,Chicken w Garlic Sauce,10.5
+6135,Spicy Asian,Chicken,Hunan Chicken,10.5
+6136,Spicy Asian,Chicken,Chicken w Mixed Vegetables,10.5
+6137,Spicy Asian,Chicken,Chicken w Eggplant,10.5
+6138,Spicy Asian,Chicken,Chicken w Ginger and Scallions Sauce,10.5
+6139,Spicy Asian,Chicken,Chicken w String Beans,10.5
+6140,Spicy Asian,Chicken,Curry Chicken,10.5
+6141,Spicy Asian,Chicken,Chicken w Black Bean Sauce,10.5
+6142,Spicy Asian,Chicken,Mongolian Chicken,10.5
+6143,Spicy Asian,Chicken,Thai Chicken,10.5
 6144,Spicy Asian,Chicken,Moo Goo Gai Pan,10.5
-6145,Spicy Asian,Chef's Specialties,H1. Scallop w. Garlic Sauce,15.75
-6146,Spicy Asian,Chef's Specialties,25. Chicken w Black Bean Sauce Dinner Special,8.95
-6147,Spicy Asian,Chef's Specialties,H2. Triple Delight Thai Style,13.95
-6148,Spicy Asian,Chef's Specialties,H3. Sesame Chicken,11.95
-6149,Spicy Asian,Chef's Specialties,H4. General Tso's Chicken,11.95
-6150,Spicy Asian,Chef's Specialties,H5. Hot & Spicy Jumbo Shrimp,13.95
-6151,Spicy Asian,Chef's Specialties,H6. Mongolian Beef &Chicken,12.75
-6152,Spicy Asian,Chef's Specialties,H7. Orange Chicken,12.5
-6153,Spicy Asian,Chef's Specialties,H8. Ginger & Scallion Triple Delight,13.95
-6154,Spicy Asian,Chef's Specialties,H10. Beef w Broccoli and Garlic Sauce,13.95
-6155,Spicy Asian,Chef's Specialties,H10. Chicken w Broccoli and Garlic Sauce,13.95
-6156,Spicy Asian,Chef's Specialties,H10. Shrimp w Broccoli and Garlic Sauce,13.95
-6157,Spicy Asian,Chef's Specialties,H11. Dragon and Phoenix,13.95
-6158,Spicy Asian,Chef's Specialties,H12. Triple Delight,13.95
-6159,Spicy Asian,Chef's Specialties,H13. Happy Family,15.75
-6160,Spicy Asian,Chef's Specialties,H14. Seafood Delight,15.75
-6161,Spicy Asian,Chef's Specialties,H15. Orange Beef,13.95
-6162,Spicy Asian,Chef's Specialties,H16. Kung Po Chicken and Shrimp,12.95
-6163,Spicy Asian,Chef's Specialties,H17. General Tso's Shrimp,13.95
-6164,Spicy Asian,Chef's Specialties,H18. Black Beans Triple Delight,13.95
-6165,Spicy Asian,Chef's Specialties,H19. Crispy Duck (Boneless),15.25
-6166,Spicy Asian,Chef's Specialties,H20. Crispy Duck in Hot Peanut Sauce (Boneless),15.25
-6167,Spicy Asian,Chef's Specialties,H21. Szechuan Triple,13.95
-6168,Spicy Asian,Chef's Specialties,H22. Scallop & Shrimp in Garlic Sauce,14.95
+6145,Spicy Asian,Chef's Specialties,Scallop w. Garlic Sauce,15.75
+6146,Spicy Asian,Chef's Specialties,Chicken w Black Bean Sauce Dinner Special,8.95
+6147,Spicy Asian,Chef's Specialties,Triple Delight Thai Style,13.95
+6148,Spicy Asian,Chef's Specialties,Sesame Chicken,11.95
+6149,Spicy Asian,Chef's Specialties,General Tso's Chicken,11.95
+6150,Spicy Asian,Chef's Specialties,Hot & Spicy Jumbo Shrimp,13.95
+6151,Spicy Asian,Chef's Specialties,Mongolian Beef &Chicken,12.75
+6152,Spicy Asian,Chef's Specialties,Orange Chicken,12.5
+6153,Spicy Asian,Chef's Specialties,Ginger & Scallion Triple Delight,13.95
+6154,Spicy Asian,Chef's Specialties,Beef w Broccoli and Garlic Sauce,13.95
+6155,Spicy Asian,Chef's Specialties,Chicken w Broccoli and Garlic Sauce,13.95
+6156,Spicy Asian,Chef's Specialties,Shrimp w Broccoli and Garlic Sauce,13.95
+6157,Spicy Asian,Chef's Specialties,Dragon and Phoenix,13.95
+6158,Spicy Asian,Chef's Specialties,Triple Delight,13.95
+6159,Spicy Asian,Chef's Specialties,Happy Family,15.75
+6160,Spicy Asian,Chef's Specialties,Seafood Delight,15.75
+6161,Spicy Asian,Chef's Specialties,Orange Beef,13.95
+6162,Spicy Asian,Chef's Specialties,Kung Po Chicken and Shrimp,12.95
+6163,Spicy Asian,Chef's Specialties,General Tso's Shrimp,13.95
+6164,Spicy Asian,Chef's Specialties,Black Beans Triple Delight,13.95
+6165,Spicy Asian,Chef's Specialties,Crispy Duck (Boneless),15.25
+6166,Spicy Asian,Chef's Specialties,Crispy Duck in Hot Peanut Sauce (Boneless),15.25
+6167,Spicy Asian,Chef's Specialties,Szechuan Triple,13.95
+6168,Spicy Asian,Chef's Specialties,Scallop & Shrimp in Garlic Sauce,14.95
 6169,Spicy Asian,Special Diet Dishes,Steamed Mixed Vegetable and Tofu Special Diet Dish,9.95
 6170,Spicy Asian,Special Diet Dishes,Steamed Chicken w Mixed Vegetables Special Diet Dish,10.5
 6171,Spicy Asian,Special Diet Dishes,Steamed Shrimp w Mixed Vegetables Special Diet Dish,12.95
@@ -6827,8 +6827,8 @@
 6825,Ten Forward Cafe,Star Truck,Mac n' Cheese,7
 6826,Ten Forward Cafe,Star Truck,Space Garbage Nachos,12
 6827,Ten Forward Cafe,Star Truck,BBQ Tacos,7.75
-6828,Ten Forward Cafe,Star Truck,Veggie dog (1),4
-6829,Ten Forward Cafe,Star Truck,Veggie dog (2),8
+6828,Ten Forward Cafe,Star Truck,Veggie dog,4
+6829,Ten Forward Cafe,Star Truck,Veggie dog,8
 6830,Ten Forward Cafe,Star Truck,Garbage dog,10.25
 6831,Ten Forward Cafe,Sandwiches,Grilled Cheese,9.25
 6832,Ten Forward Cafe,Sandwiches,BLT,10.25
@@ -6959,71 +6959,71 @@
 6957,Vietnam Restaurant,Beverages,Tea,3
 6958,Vietnam Restaurant,Beverages,Coffee,3
 6959,Vietnam Restaurant,Beverages,Iced Coffee,4.5
-6960,Vietnam Restaurant,Vegetarian,37. Vegetarian Pancake,10.95
-6961,Vietnam Restaurant,Vegetarian,38. Vegetarian Spring Roll with Tofu,7.95
-6962,Vietnam Restaurant,Vegetarian,39. Vegetarian Vermicelli with Tofu,10.95
+6960,Vietnam Restaurant,Vegetarian,Vegetarian Pancake,10.95
+6961,Vietnam Restaurant,Vegetarian,Vegetarian Spring Roll with Tofu,7.95
+6962,Vietnam Restaurant,Vegetarian,Vegetarian Vermicelli with Tofu,10.95
 6963,Vietnam Restaurant,Desserts,Leechee Nuts,4.95
 6964,Vietnam Restaurant,Desserts,Fried Ice Cream,4.95
-6965,Vietnam Restaurant,Entrees,1. Chicken Salad,10.95
-6966,Vietnam Restaurant,Entrees,2. Shrimp Salad,11.95
-6967,Vietnam Restaurant,Entrees,3. Vegetarian Salad with Tofu,9.95
-6968,Vietnam Restaurant,Entrees,4. Shrimp on Sugar Cane (4),12.95
-6969,Vietnam Restaurant,Entrees,6. Vietnamese Pancake,11.95
-6970,Vietnam Restaurant,Entrees,7. Steak Cubes,12.95
-6971,Vietnam Restaurant,Entrees,8. Shish Kebab,10.95
-6972,Vietnam Restaurant,Entrees,9. Shrimp Buns,10.95
-6973,Vietnam Restaurant,Entrees,10. Meat Roll (4),8.95
-6974,Vietnam Restaurant,Entrees,11. Spring Roll (2),7.95
-6975,Vietnam Restaurant,Entrees,11a. Chicken Spring Roll (2),7.95
-6976,Vietnam Restaurant,Entrees,12. Shredded Pork Roll (2),7.95
-6977,Vietnam Restaurant,Entrees,13. Lemon Beef,11.95
-6978,Vietnam Restaurant,Entrees,14. Beef Noodle Soup,10.95
-6979,Vietnam Restaurant,Entrees,15. Meatball Noodle Soup,10.95
-6980,Vietnam Restaurant,Entrees,16. Meatball Soup,9.95
-6981,Vietnam Restaurant,Entrees,17. Meatballs and Sliced Beef Noodle Soup,11.95
-6982,Vietnam Restaurant,Entrees,18. House Special Noodle Soup,12.95
-6983,Vietnam Restaurant,Entrees,19. Meat Roll Vermicelli,10.95
-6984,Vietnam Restaurant,Entrees,20. Roast Pork Vermicelli,10.95
-6985,Vietnam Restaurant,Entrees,21. Roast Beef Vermiclli,10.95
-6986,Vietnam Restaurant,Entrees,22. Roast Pork Meat Roll Vermicelli,11.95
-6987,Vietnam Restaurant,Entrees,23. Roast Beef Meat Roll Vermicelli,11.95
-6988,Vietnam Restaurant,Entrees,24. Roast Duck on Rice,10.95
-6989,Vietnam Restaurant,Entrees,25. BBQ Pork on Rice,10.95
-6990,Vietnam Restaurant,Entrees,26. House Special Chicken On Rice,10.95
-6991,Vietnam Restaurant,Entrees,28. BBQ Pork and Duck on Rice,11.95
-6992,Vietnam Restaurant,Entrees,29. Chicken and Fish Ball Noodle Soup,11.95
-6993,Vietnam Restaurant,Entrees,30. BBQ Pork Noodle Soup,10.95
-6994,Vietnam Restaurant,Entrees,31. Roast Duck Noodle Soup,10.95
-6995,Vietnam Restaurant,Entrees,32. Fish Ball Noodle Soup,10.95
-6996,Vietnam Restaurant,Entrees,33. Chicken Noodle Soup,10.95
-6997,Vietnam Restaurant,Entrees,34. Chicken Vermicelli,10.95
-6998,Vietnam Restaurant,Entrees,35. Shrimp Noodle Soup,11.95
-6999,Vietnam Restaurant,Entrees,36. Shrimp Vermicelli,10.95
-7000,Vietnam Restaurant,House Specials,S1. Shrimp w Beancurd Meatroll Vermicelli,11.95
-7001,Vietnam Restaurant,House Specials,S2. Beef Stew Noodle Soup,11.95
-7002,Vietnam Restaurant,House Specials,S3. Curry Vermicelli with Chicken,11.95
+6965,Vietnam Restaurant,Entrees,Chicken Salad,10.95
+6966,Vietnam Restaurant,Entrees,Shrimp Salad,11.95
+6967,Vietnam Restaurant,Entrees,Vegetarian Salad with Tofu,9.95
+6968,Vietnam Restaurant,Entrees,Shrimp on Sugar Cane,12.95
+6969,Vietnam Restaurant,Entrees,Vietnamese Pancake,11.95
+6970,Vietnam Restaurant,Entrees,Steak Cubes,12.95
+6971,Vietnam Restaurant,Entrees,Shish Kebab,10.95
+6972,Vietnam Restaurant,Entrees,Shrimp Buns,10.95
+6973,Vietnam Restaurant,Entrees,Meat Roll,8.95
+6974,Vietnam Restaurant,Entrees,Spring Roll,7.95
+6975,Vietnam Restaurant,Entrees,11a. Chicken Spring Roll,7.95
+6976,Vietnam Restaurant,Entrees,Shredded Pork Roll,7.95
+6977,Vietnam Restaurant,Entrees,Lemon Beef,11.95
+6978,Vietnam Restaurant,Entrees,Beef Noodle Soup,10.95
+6979,Vietnam Restaurant,Entrees,Meatball Noodle Soup,10.95
+6980,Vietnam Restaurant,Entrees,Meatball Soup,9.95
+6981,Vietnam Restaurant,Entrees,Meatballs and Sliced Beef Noodle Soup,11.95
+6982,Vietnam Restaurant,Entrees,House Special Noodle Soup,12.95
+6983,Vietnam Restaurant,Entrees,Meat Roll Vermicelli,10.95
+6984,Vietnam Restaurant,Entrees,Roast Pork Vermicelli,10.95
+6985,Vietnam Restaurant,Entrees,Roast Beef Vermiclli,10.95
+6986,Vietnam Restaurant,Entrees,Roast Pork Meat Roll Vermicelli,11.95
+6987,Vietnam Restaurant,Entrees,Roast Beef Meat Roll Vermicelli,11.95
+6988,Vietnam Restaurant,Entrees,Roast Duck on Rice,10.95
+6989,Vietnam Restaurant,Entrees,BBQ Pork on Rice,10.95
+6990,Vietnam Restaurant,Entrees,House Special Chicken On Rice,10.95
+6991,Vietnam Restaurant,Entrees,BBQ Pork and Duck on Rice,11.95
+6992,Vietnam Restaurant,Entrees,Chicken and Fish Ball Noodle Soup,11.95
+6993,Vietnam Restaurant,Entrees,BBQ Pork Noodle Soup,10.95
+6994,Vietnam Restaurant,Entrees,Roast Duck Noodle Soup,10.95
+6995,Vietnam Restaurant,Entrees,Fish Ball Noodle Soup,10.95
+6996,Vietnam Restaurant,Entrees,Chicken Noodle Soup,10.95
+6997,Vietnam Restaurant,Entrees,Chicken Vermicelli,10.95
+6998,Vietnam Restaurant,Entrees,Shrimp Noodle Soup,11.95
+6999,Vietnam Restaurant,Entrees,Shrimp Vermicelli,10.95
+7000,Vietnam Restaurant,House Specials,Shrimp w Beancurd Meatroll Vermicelli,11.95
+7001,Vietnam Restaurant,House Specials,Beef Stew Noodle Soup,11.95
+7002,Vietnam Restaurant,House Specials,Curry Vermicelli with Chicken,11.95
 7003,Vietnam Restaurant,House Specials,S3.Curry Vermicelli with Duck,11.95
-7004,Vietnam Restaurant,House Specials,S4. Shrimp and Sour Soup,9.95
-7005,Vietnam Restaurant,House Specials,S5. Shredded Pork w Special Egg Over Rice,11.95
-7006,Vietnam Restaurant,House Specials,S6. Shredded Pork Meatroll Vermicelli,11.95
-7007,Vietnam Restaurant,House Specials,S7. Shredded Pork w Roast Beef Vermicelli,11.95
-7008,Vietnam Restaurant,House Specials,S8. Shredded Pork w Roast Pork w Vermicelli,11.95
-7009,Vietnam Restaurant,House Specials,S9. Grilled Pork Hash,11.95
-7010,Vietnam Restaurant,House Specials,S10. Grilled Pork Hash w Vermicelli,11.95
-7011,Vietnam Restaurant,House Specials,S11. Grilled Pork Hash Meatroll Vermicelli,11.95
-7012,Vietnam Restaurant,House Specials,S12. Grilled Pork Hash w Shredded Pork Vermicelli,11.95
-7013,Vietnam Restaurant,House Specials,S13. Chicken w Special Soy Sauce on Rice,10.95
-7014,Vietnam Restaurant,House Specials,S14. Pork Chop and Shredded Pork on Rice,11.95
-7015,Vietnam Restaurant,House Specials,S15. Pork Chop and Shredded Pork w Special Egg Over Rice,12.95
-7016,Vietnam Restaurant,House Specials,S17. Sliced Pork w Vietnamese Noodle Soup,10.95
-7017,Vietnam Restaurant,House Specials,S18. Pork Tender Loin with Whole Egg on Rice,11.95
-7018,Vietnam Restaurant,House Specials,S20. Boneless Chicken and Shredded Pork on Rice,11.95
-7019,Vietnam Restaurant,House Specials,S23. Stir Fried Tofu Garlic w Special Sauce,11.95
-7020,Vietnam Restaurant,House Specials,S24. Lemon Tofu,11.95
-7021,Vietnam Restaurant,House Specials,S25. Grilled Chicken Stick,11.95
-7022,Vietnam Restaurant,House Specials,S26. Grilled Chicken with Vermicelli,11.95
-7023,Vietnam Restaurant,House Specials,S27. Grilled Chicken with Shredded Pork Vermicelli,11.95
-7024,Vietnam Restaurant,House Specials,S28. Grilled Chicken Meat Roll Vermicelli,11.95
+7004,Vietnam Restaurant,House Specials,Shrimp and Sour Soup,9.95
+7005,Vietnam Restaurant,House Specials,Shredded Pork w Special Egg Over Rice,11.95
+7006,Vietnam Restaurant,House Specials,Shredded Pork Meatroll Vermicelli,11.95
+7007,Vietnam Restaurant,House Specials,Shredded Pork w Roast Beef Vermicelli,11.95
+7008,Vietnam Restaurant,House Specials,Shredded Pork w Roast Pork w Vermicelli,11.95
+7009,Vietnam Restaurant,House Specials,Grilled Pork Hash,11.95
+7010,Vietnam Restaurant,House Specials,Grilled Pork Hash w Vermicelli,11.95
+7011,Vietnam Restaurant,House Specials,Grilled Pork Hash Meatroll Vermicelli,11.95
+7012,Vietnam Restaurant,House Specials,Grilled Pork Hash w Shredded Pork Vermicelli,11.95
+7013,Vietnam Restaurant,House Specials,Chicken w Special Soy Sauce on Rice,10.95
+7014,Vietnam Restaurant,House Specials,Pork Chop and Shredded Pork on Rice,11.95
+7015,Vietnam Restaurant,House Specials,Pork Chop and Shredded Pork w Special Egg Over Rice,12.95
+7016,Vietnam Restaurant,House Specials,Sliced Pork w Vietnamese Noodle Soup,10.95
+7017,Vietnam Restaurant,House Specials,Pork Tender Loin with Whole Egg on Rice,11.95
+7018,Vietnam Restaurant,House Specials,Boneless Chicken and Shredded Pork on Rice,11.95
+7019,Vietnam Restaurant,House Specials,Stir Fried Tofu Garlic w Special Sauce,11.95
+7020,Vietnam Restaurant,House Specials,Lemon Tofu,11.95
+7021,Vietnam Restaurant,House Specials,Grilled Chicken Stick,11.95
+7022,Vietnam Restaurant,House Specials,Grilled Chicken with Vermicelli,11.95
+7023,Vietnam Restaurant,House Specials,Grilled Chicken with Shredded Pork Vermicelli,11.95
+7024,Vietnam Restaurant,House Specials,Grilled Chicken Meat Roll Vermicelli,11.95
 7025,Waffle Frolic,Drinks,12oz. Coke ,1.55
 7026,Waffle Frolic,Drinks,12oz. Diet Coke ,1.55
 7027,Waffle Frolic,Drinks,12oz. Sprite ,1.55
