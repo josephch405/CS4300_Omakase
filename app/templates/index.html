@@ -32,10 +32,16 @@
       </label>
       <div class="input-group">
         <input type="text"
+              name="menu-item-restaurant-name"
+              class="form-control"
+              placeholder="e.g. {{ restaurant_suggestion }}">
+        <div class="input-group-prepend input-group-append">
+          <div class="input-group-text">'s&nbsp;&nbsp;</div>
+        </div>
+        <input type="text"
               name="menu-item-name"
               class="form-control"
-              placeholder="e.g. {{ menu_item_suggestion }} from {{ restaurant_suggestion }}"
-              required>
+              placeholder="e.g. {{ menu_item_suggestion }}">
         <button id="add-menu-item-btn" type="button" class="btn btn-info input-group-addon">
           <i class="fas fa-plus"></i>
         </button>
@@ -78,31 +84,40 @@
     }
   });
 
-  function toggleFaClass() {
-    if (this.classList.contains("far")) {
-      this.classList.remove("far");
-      this.classList.add("fas");
-    } else {
-      this.classList.remove("fas");
-      this.classList.add("far");
+  function toggleFaClass(thisThumb, otherThumb) {
+    if (thisThumb.hasClass("far") && otherThumb.hasClass("fas")) {
+      otherThumb.removeClass("fas").addClass("far");
     }
+
+    thisThumb.toggleClass("far").toggleClass("fas");
   }
 
   $("#add-menu-item-btn").click(function() {
-    const thumbsUp = $("<i>", {class: "far fa-thumbs-up"});
-    const thumbsDown = $("<i>", {class: "far fa-thumbs-down"});
+    $.get("/api/menu-item", {
+      restaurant: $("input[name='menu-item-restaurant-name']").val(),
+      menuItem: $("input[name='menu-item-name']").val(),
+    })
+      .done(function(data) {
+        const thumbsUp = $("<i>", {class: "far fa-thumbs-up"});
+        const thumbsDown = $("<i>", {class: "far fa-thumbs-down"});
 
-    thumbsUp.click(toggleFaClass);
-    thumbsDown.click(toggleFaClass);
+        thumbsUp.click(() => toggleFaClass(thumbsUp, thumbsDown));
+        thumbsDown.click(() => toggleFaClass(thumbsDown, thumbsUp));
 
-    const menuItemName = $("input[name='menu-item-name']").val();
-    const tr = $("<tr>");
-    tr.append($("<td>").text(menuItemName));
-    tr.append($("<td>").html(thumbsUp));
-    tr.append($("<td>").html(thumbsDown));
-    $("#pref-list").append(tr);
+        const menuItemName = $("input[name='menu-item-name']").val();
+        const tr = $("<tr>");
+        tr.append($("<td>").text(data["rest_name"]));
+        tr.append($("<td>").text(data["name"]));
+        tr.append($("<td>").text(`$${data["price"]}`));
+        tr.append($("<td>").html(thumbsUp));
+        tr.append($("<td>").html(thumbsDown));
+        $("#pref-list").append(tr);
 
-    $("#pref-empty-text").hide();
+        $("#pref-empty-text").hide();
+      })
+      .fail(function() {
+        alert("Invalid menu item");
+      });
   });
 </script>
 {% endblock %}

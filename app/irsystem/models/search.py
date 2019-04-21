@@ -133,3 +133,14 @@ def get_random_item_from_restaurant():
     )[0]
 
     return restaurant_name, item_name
+
+def get_menu_item_info(menu_item, restaurant):
+    """ Returns the menu item's info as a dictionary if it exists, else None. """
+    filtered_df = all_menus.loc[
+        (all_menus["rest_name"] == restaurant) & (all_menus["name"] == menu_item)
+    ]
+
+    if filtered_df.empty:
+        return None
+    else:
+        return filtered_df.to_dict("records")[0]

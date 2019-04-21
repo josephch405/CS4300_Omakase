@@ -3,9 +3,14 @@ import sqlite3
 import json
 
 from . import *
-from app.irsystem.models.search import find_best_restaurants, find_top_n_menu_items, get_random_item_from_restaurant
+from app.irsystem.models.search import (
+    find_best_restaurants,
+    find_top_n_menu_items,
+    get_random_item_from_restaurant,
+    get_menu_item_info,
+)
 from sqlalchemy.sql.expression import func
-from flask import redirect, url_for, Response, make_response, session, flash
+from flask import redirect, url_for, Response, make_response, session, flash, abort
 
 
 @irsystem.route('/', methods=['GET'])
@@ -115,3 +120,18 @@ def login():
 def logout():
     session.pop("session_username", None)
     return redirect(url_for('irsystem.index'))
+
+@irsystem.route('/api/menu-item', methods=['GET'])
+def menu_item_api():
+    restaurant = request.args.get('restaurant', None)
+    menu_item = request.args.get('menuItem', None)
+
+    if None in (restaurant, menu_item):
+        abort(404)
+
+    menu_item_info = get_menu_item_info(menu_item, restaurant)
+
+    if menu_item_info is None:
+        abort(404)
+
+    return Response(json.dumps(menu_item_info), mimetype='application/json')
