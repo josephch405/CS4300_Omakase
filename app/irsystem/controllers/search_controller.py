@@ -3,16 +3,18 @@ import sqlite3
 import json
 
 from . import *
-from app.irsystem.models.search import find_best_restaurants, find_top_n_menu_items, get_random_restaurant
+from app.irsystem.models.search import find_best_restaurants, find_top_n_menu_items, get_random_item_from_restaurant
 from sqlalchemy.sql.expression import func
 from flask import redirect, url_for, Response, make_response, session, flash
 
 
 @irsystem.route('/', methods=['GET'])
 def index():
+    restaurant, menu_item = get_random_item_from_restaurant()
     return render_template(
         'index.html',
-        restaurant_suggestion=get_random_restaurant(),
+        restaurant_suggestion=restaurant,
+        menu_item_suggestion=menu_item,
     )
 
 

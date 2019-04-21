@@ -7,11 +7,21 @@
   font-size: 55px;
   font-family: Futura;
   color: #4285f4;
-  margin-top: 2em;
   margin-bottom: 1em;
   text-align: center;
 }
 #form-container {
   display: flex;
   justify-content: center;
+  font-size: 2.5em;
+  font-family: Futura;
+}
+.form-group {
+  margin-bottom: 2em;
+}
+#pref-list {
+  font-size: 1rem;
+}
+.far, .fas {
+  cursor: pointer;
 }

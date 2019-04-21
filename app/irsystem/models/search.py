@@ -126,5 +126,10 @@ def find_top_n_menu_items(restaurant_name, n=20):
     return menu.iloc[best_dish_idx]
 
 
-def get_random_restaurant():
-    return list(all_restaurants_df['name'].sample())[0]
+def get_random_item_from_restaurant():
+    restaurant_name = list(all_menus['rest_name'].sample())[0]
+    item_name = list(
+        all_menus.loc[all_menus["rest_name"] == restaurant_name]["name"].sample()
+    )[0]
+
+    return restaurant_name, item_name

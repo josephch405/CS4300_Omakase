@@ -1,4 +1,6 @@
-{% extends "base.html" %} {% block head %}
+{% extends "base.html" %}
+
+{% block head %}
 {{ super() }}
 <link rel="stylesheet" href="/static/index.css" />
 <link
@@ -7,42 +9,61 @@
   integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
   crossorigin="anonymous"
 />
-{% endblock %} {% block body %}
+{% endblock %}
+
+{% block body %}
 <h1 id="project-name">
   Omakase <br />
   おまかせ
 </h1>
 <div id="form-container">
-  <form action="{{ url_for('irsystem.search') }}" class="col-lg-6">
+  <form class="d-flex flex-column col-lg-8">
     <div class="form-group">
+      <label for="restaurant-name">Which restaurant are you trying today?</label>
+      <input type="text"
+             name="restaurant-name"
+             class="form-control"
+             placeholder="e.g. {{ restaurant_suggestion }}"
+             required>
+    </div>
+    <div class="form-group">
+      <label for="menu-item-name">
+        Search for menu items you've liked/disliked:
+      </label>
       <div class="input-group">
-        <input
-          id="input"
-          type="text"
-          name="search"
-          class="form-control"
-          placeholder="e.g. {{ restaurant_suggestion }}"
-        />
-        <button type="submit" class="btn btn-info input-group-addon">
-          <i class="fas fa-search"></i>
+        <input type="text"
+              name="menu-item-name"
+              class="form-control"
+              placeholder="e.g. {{ menu_item_suggestion }} from {{ restaurant_suggestion }}"
+              required>
+        <button id="add-menu-item-btn" type="button" class="btn btn-info input-group-addon">
+          <i class="fas fa-plus"></i>
         </button>
       </div>
     </div>
+    <div class="form-group">
+      <div class="card p-3">
+        <h3 class="mb-3">Preference List</h3>
+        <h6 id="pref-empty-text" class="text-center">
+          Currently empty :( Try adding to this list with the input above!
+        </h6>
+        <table class="table">
+          <tbody id="pref-list">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="form-group align-self-center">
+      <button type="button" class="btn btn-success">Get Recommendations!</button>
+    </div>
   </form>
 </div>
-{% endblock %} {% block js %}
+{% endblock %}
+
+{% block js %}
 {{ super() }}
 <script>
-  // $("#input").on("input", function() {
-  //   console.log($(this).val());
-  //   $.ajax({ url: "autocomplete?term=" + $(this).val() }).done(data => {
-  //     console.log(data);
-  //     $(this).autocomplete({
-  //       source: data
-  //     });
-  //   });
-  // });
-  $("#input").autocomplete({
+  $("input[name='restaurant-name']").autocomplete({
     source: function(req, res) {
       $.ajax({
         timeout: 5000,
@@ -55,6 +76,33 @@
         }
       });
     }
+  });
+
+  function toggleFaClass() {
+    if (this.classList.contains("far")) {
+      this.classList.remove("far");
+      this.classList.add("fas");
+    } else {
+      this.classList.remove("fas");
+      this.classList.add("far");
+    }
+  }
+
+  $("#add-menu-item-btn").click(function() {
+    const thumbsUp = $("<i>", {class: "far fa-thumbs-up"});
+    const thumbsDown = $("<i>", {class: "far fa-thumbs-down"});
+
+    thumbsUp.click(toggleFaClass);
+    thumbsDown.click(toggleFaClass);
+
+    const menuItemName = $("input[name='menu-item-name']").val();
+    const tr = $("<tr>");
+    tr.append($("<td>").text(menuItemName));
+    tr.append($("<td>").html(thumbsUp));
+    tr.append($("<td>").html(thumbsDown));
+    $("#pref-list").append(tr);
+
+    $("#pref-empty-text").hide();
   });
 </script>
 {% endblock %}
