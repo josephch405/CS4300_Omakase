@@ -19,7 +19,7 @@ all_menus = pd.read_csv(
     data_path("all_menus.csv"), encoding="unicode_escape")
 with open(data_path("rev_menu_mtx.json")) as infile:
     rev_menu_mtx_list = json.load(infile)
-all_yelp_users = np.genfromtxt("all_yelp_users.csv", dtype='U22')
+all_yelp_users = np.genfromtxt(data_path("all_yelp_users.csv"), dtype='U22')
 all_yelp_users_reverse_index = {
     hash: number for number, hash in enumerate(all_yelp_users.tolist())
 }
@@ -190,18 +190,38 @@ def find_top_n_menu_items(restaurant_name, n=20):
 def get_random_item_from_restaurant():
     restaurant_name = list(all_menus['rest_name'].sample())[0]
     item_name = list(
-        all_menus.loc[all_menus["rest_name"] == restaurant_name]["name"].sample()
+        all_menus.loc[all_menus["rest_name"] ==
+                      restaurant_name]["name"].sample()
     )[0]
 
     return restaurant_name, item_name
 
+
 def get_menu_item_info(menu_item, restaurant):
     """ Returns the menu item's info as a dictionary if it exists, else None. """
     filtered_df = all_menus.loc[
-        (all_menus["rest_name"] == restaurant) & (all_menus["name"] == menu_item)
+        (all_menus["rest_name"] == restaurant) & (
+            all_menus["name"] == menu_item)
     ]
 
     if filtered_df.empty:
         return None
     else:
         return filtered_df.to_dict("records")[0]
+
+
+def rest_dish_pair_to_dish_id(obj):
+    rest_name = obj["restaurant"]
+    dish_name = obj["menuItem"]
+    menu = find_best_menu(rest_name)
+    if menu is None:
+        return None
+    dish_row = menu[menu["name"] == dish_name]
+    if len(dish_row) == 0:
+        return None
+    return dish_row.index.item()
+
+
+def rocchio_top_n(like_indices, dislike_indices, biz_name, n=10):
+    like_emb = user_dish_mtx.take(like_indices, axis=1)
+    print(like_emb)

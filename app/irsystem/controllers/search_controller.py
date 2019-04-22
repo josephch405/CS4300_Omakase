@@ -8,6 +8,8 @@ from app.irsystem.models.search import (
     find_top_n_menu_items,
     get_random_item_from_restaurant,
     get_menu_item_info,
+    rest_dish_pair_to_dish_id,
+    rocchio_top_n
 )
 from sqlalchemy.sql.expression import func
 from flask import redirect, url_for, Response, make_response, session, flash, abort
@@ -55,8 +57,13 @@ def search():
     likes = preferences["likes"]
     dislikes = preferences["dislikes"]
 
-    bizs = list(find_best_restaurants(restaurant)["name"].values)
-    menu_items_df = find_top_n_menu_items(bizs[0])
+    likes = list(map(rest_dish_pair_to_dish_id, likes))
+    dislikes = list(map(rest_dish_pair_to_dish_id, dislikes))
+
+    biz = list(find_best_restaurants(restaurant)["name"].values)[0]
+    menu_items_df = find_top_n_menu_items(biz)
+
+    rocchio_top_n(likes, dislikes, biz)
 
     menu_items = [
         {
@@ -68,7 +75,7 @@ def search():
 
     return render_template(
         'search.html',
-        restaurant_name=bizs[0],
+        restaurant_name=biz,
         menu_items=menu_items,
     )
 
@@ -123,6 +130,7 @@ def login():
 def logout():
     session.pop("session_username", None)
     return redirect(url_for('irsystem.index'))
+
 
 @irsystem.route('/api/menu-item', methods=['GET'])
 def menu_item_api():
