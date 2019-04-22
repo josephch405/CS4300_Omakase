@@ -179,13 +179,18 @@
       menuItem: $("input[name='menu-item-name']").val(),
     })
       .done(function(data) {
-        prefListApp.preferences.push({
-          restaurant: data["rest_name"],
-          menuItem: data["name"],
-          price: data["price"],
-          like: false,
-          dislike: false,
-        });
+        const isDup = prefListApp.preferences.some(
+          elt => elt.restaurant === data["rest_name"] && elt.menuItem === data["name"]
+        );
+        if (!isDup) {
+          prefListApp.preferences.push({
+            restaurant: data["rest_name"],
+            menuItem: data["name"],
+            price: data["price"],
+            like: false,
+            dislike: false,
+          });
+        }
       })
       .fail(function() {
         alert("Invalid menu item");
