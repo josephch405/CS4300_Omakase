@@ -1,19 +1,19 @@
-{% extends "base.html" %}
-
-{% block head %}
-  {{ super() }}
-  <link rel="stylesheet" href="/static/search.css">
-{% endblock %}
-
-{% block body %}
-  <div class="container">
-    <h1>Our recommendations for {{ restaurant_name }}:</h1>
-    <ol>
+{% extends "base.html" %} {% block head %}
+{{ super() }}
+<link rel="stylesheet" href="/static/search.css" />
+{% endblock %} {% block body %}
+<div class="container">
+  <h1>Our recommendations for {{ restaurant_name }}:</h1>
+  <ol>
     {% for menu_item in menu_items %}
-      <li>{{ menu_item.name }} - ${{ "%0.2f" % menu_item.price }}</li>
+    <li>
+      {{ menu_item.score }} match: {{ menu_item.name }} - ${{
+        "%0.2f" % menu_item.price
+      }}
+    </li>
     {% else %}
-      <p> Sorry, we don't have the menu for this restaurant. </p>
+    <p>Sorry, we don't have the menu for this restaurant.</p>
     {% endfor %}
-    </ol>
-  </div>
+  </ol>
+</div>
 {% endblock %}

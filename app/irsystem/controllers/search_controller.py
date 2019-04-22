@@ -9,7 +9,8 @@ from app.irsystem.models.search import (
     get_random_item_from_restaurant,
     get_menu_item_info,
     rest_dish_pair_to_dish_id,
-    rocchio_top_n
+    rocchio_top_n,
+    menu_item_edit_dist,
 )
 from sqlalchemy.sql.expression import func
 from flask import redirect, url_for, Response, make_response, session, flash, abort
@@ -61,7 +62,7 @@ def search():
     dislikes = list(map(rest_dish_pair_to_dish_id, dislikes))
 
     biz = list(find_best_restaurants(restaurant)["name"].values)[0]
-    results = rocchio_top_n(likes, dislikes, biz)
+    results, scores = rocchio_top_n(likes, dislikes, biz)
 
     menu_items = [
         {
@@ -70,6 +71,12 @@ def search():
         }
         for row in results.itertuples()
     ] if results is not None else []
+
+    menu_items = map(lambda t: {
+        "name": t[1]["name"],
+        "price": t[1]["price"],
+        "score": (1 - scores[t[0]]) * 1000 // 1 / 10
+    }, enumerate(menu_items))
 
     return render_template(
         'search.html',
@@ -144,3 +151,17 @@ def menu_item_api():
         abort(404)
 
     return Response(json.dumps(menu_item_info), mimetype='application/json')
+
+
+@irsystem.route('/api/menu-item/autocomplete', methods=['GET'])
+def menu_item_autocomplete():
+    restaurant = request.args.get("restaurant", None)
+    query = request.args.get("query", "")
+
+    if restaurant is None:
+        response = []
+    else:
+        response = list(menu_item_edit_dist(
+            restaurant, query)["name"].values)[:5]
+
+    return Response(json.dumps(response), mimetype='application/json')

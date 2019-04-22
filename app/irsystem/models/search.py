@@ -220,7 +220,7 @@ def rest_dish_pair_to_dish_id(obj):
     dish_row = menu[menu["name"] == dish_name]
     if len(dish_row) == 0:
         return None
-    return dish_row.index.item()
+    return dish_row.index[0].item()
 
 
 def rocchio_top_n(like_indices, dislike_indices, biz_name,
@@ -250,9 +250,19 @@ def rocchio_top_n(like_indices, dislike_indices, biz_name,
 
     def dish_id_to_score(dish_id):
         dish_vector = user_dish_mtx[:, dish_id].todense()
-        return sp.spatial.distance.cosine(dish_vector.T, query_vector)
+        cos_dist = sp.spatial.distance.cosine(dish_vector.T, query_vector)
+        return np.where(np.isnan(cos_dist), 1, cos_dist)
 
     dish_scores = np.array(list(map(dish_id_to_score, biz_menu_ids)))
+    print(dish_scores)
     best_dish_idx = dish_scores.argsort()[:n]
     best_dish_ids = biz_menu_ids[best_dish_idx]
-    return biz_menu_df.loc[best_dish_ids]
+    return biz_menu_df.loc[best_dish_ids], np.sort(dish_scores)[:n]
+
+
+def menu_item_edit_dist(restaurant, query):
+    rest_menu_items = all_menus.loc[all_menus["rest_name"] == restaurant]
+    distances = rest_menu_items["name"].apply(
+        lambda n: custom_edit_dist(query, n))
+    top_10 = distances.sort_values()[:10]
+    return rest_menu_items.loc[top_10.index]
