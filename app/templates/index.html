@@ -17,7 +17,7 @@
   おまかせ
 </h1>
 <div id="form-container">
-  <form class="d-flex flex-column col-lg-8">
+  <form class="d-flex flex-column col-lg-8" method="POST" action="/search">
     <div class="form-group">
       <label for="restaurant-name">Which restaurant are you trying today?</label>
       <input type="text"
@@ -60,7 +60,9 @@
       </div>
     </div>
     <div class="form-group align-self-center">
-      <button type="button" class="btn btn-success">Get Recommendations!</button>
+      <button id="submit-btn" type="button" class="btn btn-success">
+        Get Recommendations!
+      </button>
     </div>
   </form>
 </div>
@@ -130,6 +132,36 @@
       .fail(function() {
         alert("Invalid menu item");
       });
+  });
+
+  $("#submit-btn").click(function() {
+    const restaurantName = $("input[name='restaurant-name']").val();
+    const likes = [];
+    const dislikes = [];
+
+    $.each($(".fas.fa-thumbs-up"), function() {
+      likes.push({
+        "restaurant": this.dataset.restaurant,
+        "menuItem": this.dataset.menuItem,
+      })
+    });
+    $.each($(".fas.fa-thumbs-down"), function() {
+      dislikes.push({
+        "restaurant": this.dataset.restaurant,
+        "menuItem": this.dataset.menuItem,
+      })
+    });
+
+    const form = $("form");
+    form.append(
+      $("<textarea>", {"name": "preferences", "class": "d-none"})
+        .val(JSON.stringify({
+          "restaurant": restaurantName,
+          "likes": likes,
+          "dislikes": dislikes,
+        }))
+    );
+    form.submit();
   });
 </script>
 {% endblock %}

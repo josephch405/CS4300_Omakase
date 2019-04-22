@@ -46,13 +46,17 @@ def autocomplete():
     return Response(json.dumps(bizs), mimetype='application/json')
 
 
-@irsystem.route('/search', methods=['GET'])
+@irsystem.route('/search', methods=['POST'])
 def search():
-    query = request.args.get('search')
-    if not query:
+    preferences = json.loads(request.form.get("preferences"))
+    if not preferences:
         return redirect(url_for('irsystem.index'))
 
-    bizs = list(find_best_restaurants(query)["name"].values)
+    restaurant = preferences["restaurant"]
+    likes = preferences["likes"]
+    dislikes = preferences["dislikes"]
+
+    bizs = list(find_best_restaurants(restaurant)["name"].values)
     menu_items_df = find_top_n_menu_items(bizs[0])
 
     menu_items = [
