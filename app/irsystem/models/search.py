@@ -225,19 +225,22 @@ def rest_dish_pair_to_dish_id(obj):
 
 def rocchio_top_n(like_indices, dislike_indices, biz_name,
                   n=10, a=.5, b=1, c=1):
-    og_query = np.ones((n_users, 1))
-    like_emb = user_dish_mtx[:, like_indices]
+    print(like_indices)
+    print(dislike_indices)
+    og_query = np.ones(n_users)
+    like_emb = user_dish_mtx[:, like_indices].todense()
     if len(like_indices) == 0:
         like_emb = np.zeros((n_users, 1))
-    elif np.sum(like_emb) > 0:
-        like_emb = np.sum(like_emb, axis=1)
+    like_emb = np.sum(like_emb.tolist(), keepdims=False, axis=1)
 
-    dislike_emb = user_dish_mtx[:, dislike_indices]
+    dislike_emb = user_dish_mtx[:, dislike_indices].todense()
     if len(dislike_indices) == 0:
         dislike_emb = np.zeros((n_users, 1))
-    elif np.sum(dislike_emb) > 0:
-        dislike_emb = np.sum(dislike_emb, axis=1)
-    print(like_emb.sum())
+    dislike_emb = np.sum(dislike_emb.tolist(),
+                         keepdims=False, axis=1)
+
+    print(like_emb.shape)
+    print(dislike_emb.shape)
 
     query_vector = a * og_query + b * like_emb - c * dislike_emb
 
@@ -250,14 +253,15 @@ def rocchio_top_n(like_indices, dislike_indices, biz_name,
 
     def dish_id_to_score(dish_id):
         dish_vector = user_dish_mtx[:, dish_id].todense()
+        print(query_vector.shape)
         cos_dist = sp.spatial.distance.cosine(dish_vector.T, query_vector)
         return np.where(np.isnan(cos_dist), 1, cos_dist)
 
     dish_scores = np.array(list(map(dish_id_to_score, biz_menu_ids)))
     print(dish_scores)
-    best_dish_idx = dish_scores.argsort()[:n]
+    best_dish_idx = dish_scores.argsort()[: n]
     best_dish_ids = biz_menu_ids[best_dish_idx]
-    return biz_menu_df.loc[best_dish_ids], np.sort(dish_scores)[:n]
+    return biz_menu_df.loc[best_dish_ids], np.sort(dish_scores)[: n]
 
 
 def menu_item_edit_dist(restaurant, query):
