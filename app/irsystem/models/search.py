@@ -226,3 +226,11 @@ def rocchio_top_n(like_indices, dislike_indices, biz_name, n=10):
     return
     # like_emb = user_dish_mtx.take(like_indices, axis=1)
     # print(like_emb)
+
+
+def menu_item_edit_dist(restaurant, query):
+    rest_menu_items = all_menus.loc[all_menus["rest_name"] == restaurant]
+    distances = rest_menu_items["name"].apply(
+        lambda n: custom_edit_dist(query, n))
+    top_10 = distances.sort_values()[:10]
+    return rest_menu_items.loc[top_10.index]

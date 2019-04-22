@@ -86,6 +86,38 @@
     }
   });
 
+  $("input[name='menu-item-restaurant-name']").autocomplete({
+    source: function(req, res) {
+      $.ajax({
+        timeout: 5000,
+        url: "/autocomplete",
+        data: { term: req.term },
+        dataType: "json",
+        success: res,
+        error: function() {
+          res([]);
+        }
+      });
+    }
+  });
+
+  $("input[name='menu-item-name']").autocomplete({
+    source: function(req, res) {
+      const restaurantName = $("input[name='menu-item-restaurant-name']").val();
+
+      $.ajax({
+        timeout: 5000,
+        url: "/api/menu-item/autocomplete",
+        data: { query: req.term, restaurant: restaurantName },
+        dataType: "json",
+        success: res,
+        error: function() {
+          res([]);
+        }
+      });
+    }
+  });
+
   function toggleFaClass(thisThumb, otherThumb) {
     if (thisThumb.hasClass("far") && otherThumb.hasClass("fas")) {
       otherThumb.removeClass("fas").addClass("far");
