@@ -68,6 +68,9 @@
                      v-bind:class="{ fas: preferences[index]['dislike'], far: !preferences[index]['dislike'] }"
                      v-on:click="handleThumbsDown(index)">
               </i></td>
+              <td><i class="fas fa-trash-alt"
+                     v-on:click="handleDelete(index)">
+              </i></td>
             </tr>
           </tbody>
         </table>
@@ -161,6 +164,10 @@
       handleThumbsDown: function(index) {
         this.preferences[index]["like"] = false;
         this.preferences[index]["dislike"] = !this.preferences[index]["dislike"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
+      },
+      handleDelete: function(index) {
+        this.preferences.splice(index, 1);
         localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
       }
     }
