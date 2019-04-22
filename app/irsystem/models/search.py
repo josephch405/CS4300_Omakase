@@ -67,7 +67,7 @@ def fuzzy_substring(needle, haystack):
 
 def find_best_restaurants(query):
     distances = all_restaurants_df["name"].apply(
-        lambda n: custom_edit_dist(query, n))
+        lambda n: fuzzy_substring(query, n))
     top_10 = distances.sort_values()[:10]
     return all_restaurants_df.loc[top_10.index]
 
@@ -174,18 +174,18 @@ def find_best_menu(restaurant_name):
     return all_menus[all_menus["rest_name"] == restaurant_name]
 
 
-def find_top_n_menu_items(restaurant_name, n=20):
-    # NEEDS TO BE UPDATED
-    menu = find_best_menu(restaurant_name)
-    rev_dish_mtx = get_rev_dish_matrix_for_name(restaurant_name)
+# def find_top_n_menu_items(restaurant_name, n=20):
+#     # NEEDS TO BE UPDATED
+#     menu = find_best_menu(restaurant_name)
+#     rev_dish_mtx = get_rev_dish_matrix_for_name(restaurant_name)
 
-    if rev_dish_mtx is None:
-        return None
+#     if rev_dish_mtx is None:
+#         return None
 
-    dish_scores = rev_dish_mtx.sum(axis=0)
+#     dish_scores = rev_dish_mtx.sum(axis=0)
 
-    best_dish_idx = (-1 * dish_scores).argsort()[:n]
-    return menu.iloc[best_dish_idx]
+#     best_dish_idx = (-1 * dish_scores).argsort()[:n]
+#     return menu.iloc[best_dish_idx]
 
 
 def get_random_item_from_restaurant():
@@ -225,8 +225,6 @@ def rest_dish_pair_to_dish_id(obj):
 
 def rocchio_top_n(like_indices, dislike_indices, biz_name,
                   n=10, a=.5, b=1, c=1):
-    print(like_indices)
-    print(dislike_indices)
     og_query = np.ones(n_users)
     like_emb = user_dish_mtx[:, like_indices].todense()
     if len(like_indices) == 0:
@@ -238,10 +236,6 @@ def rocchio_top_n(like_indices, dislike_indices, biz_name,
         dislike_emb = np.zeros((n_users, 1))
     dislike_emb = np.sum(dislike_emb.tolist(),
                          keepdims=False, axis=1)
-
-    print(like_emb.shape)
-    print(dislike_emb.shape)
-
     query_vector = a * og_query + b * like_emb - c * dislike_emb
 
     biz_menu_df = find_best_menu(biz_name)
@@ -253,12 +247,10 @@ def rocchio_top_n(like_indices, dislike_indices, biz_name,
 
     def dish_id_to_score(dish_id):
         dish_vector = user_dish_mtx[:, dish_id].todense()
-        print(query_vector.shape)
         cos_dist = sp.spatial.distance.cosine(dish_vector.T, query_vector)
         return np.where(np.isnan(cos_dist), 1, cos_dist)
 
     dish_scores = np.array(list(map(dish_id_to_score, biz_menu_ids)))
-    print(dish_scores)
     best_dish_idx = dish_scores.argsort()[: n]
     best_dish_ids = biz_menu_ids[best_dish_idx]
     return biz_menu_df.loc[best_dish_ids], np.sort(dish_scores)[: n]
@@ -267,6 +259,6 @@ def rocchio_top_n(like_indices, dislike_indices, biz_name,
 def menu_item_edit_dist(restaurant, query):
     rest_menu_items = all_menus.loc[all_menus["rest_name"] == restaurant]
     distances = rest_menu_items["name"].apply(
-        lambda n: custom_edit_dist(query, n))
+        lambda n: fuzzy_substring(query, n))
     top_10 = distances.sort_values()[:10]
     return rest_menu_items.loc[top_10.index]
