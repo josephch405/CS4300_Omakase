@@ -48,15 +48,30 @@
       </div>
     </div>
     <div class="form-group">
-      <div class="card p-3">
+      <div id="pref-list" class="card p-3">
+      {% raw %}
         <h3 class="mb-3">Preference List</h3>
-        <h6 id="pref-empty-text" class="text-center">
+        <h6 class="text-center" v-if="preferences.length === 0">
           Currently empty :( Try adding to this list with the input above!
         </h6>
         <table class="table">
-          <tbody id="pref-list">
+          <tbody>
+            <tr v-for="(pref, index) in preferences">
+              <td>{{ pref["restaurant"] }}</td>
+              <td>{{ pref["menuItem"] }}</td>
+              <td>${{ pref["price"].toFixed(2) }}</td>
+              <td><i class="fa-thumbs-up"
+                     v-bind:class="{ fas: preferences[index]['like'], far: !preferences[index]['like'] }"
+                     v-on:click="handleThumbsUp(index)">
+              </i></td>
+              <td><i class="fa-thumbs-down"
+                     v-bind:class="{ fas: preferences[index]['dislike'], far: !preferences[index]['dislike'] }"
+                     v-on:click="handleThumbsDown(index)">
+              </i></td>
+            </tr>
           </tbody>
         </table>
+      {% endraw %}
       </div>
     </div>
     <div class="form-group align-self-center">
@@ -70,6 +85,7 @@
 
 {% block js %}
 {{ super() }}
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
   $("input[name='restaurant-name']").autocomplete({
     source: function(req, res) {
@@ -118,13 +134,30 @@
     }
   });
 
-  function toggleFaClass(thisThumb, otherThumb) {
-    if (thisThumb.hasClass("far") && otherThumb.hasClass("fas")) {
-      otherThumb.removeClass("fas").addClass("far");
-    }
+  // load from localstorage if anything was saved
+  const restaurant = localStorage.getItem("restaurant");
+  const prefList = localStorage.getItem("prefList");
 
-    thisThumb.toggleClass("far").toggleClass("fas");
+  if (restaurant !== null) {
+    $("input[name='restaurant-name']").val(restaurant);
   }
+
+  const prefListApp = new Vue({
+    el: "#pref-list",
+    data: {
+      preferences: prefList === null ? [] : JSON.parse(prefList),
+    },
+    methods: {
+      handleThumbsUp: function(index) {
+        this.preferences[index]["dislike"] = false;
+        this.preferences[index]["like"] = !this.preferences[index]["like"];
+      },
+      handleThumbsDown: function(index) {
+        this.preferences[index]["like"] = false;
+        this.preferences[index]["dislike"] = !this.preferences[index]["dislike"];
+      }
+    }
+  });
 
   $("#add-menu-item-btn").click(function() {
     $.get("/api/menu-item", {
@@ -132,34 +165,13 @@
       menuItem: $("input[name='menu-item-name']").val(),
     })
       .done(function(data) {
-        const thumbsUp = $(
-          "<i>", {
-            class: "far fa-thumbs-up",
-            "data-restaurant": data["rest_name"],
-            "data-menu-item": data["name"],
-          }
-        );
-        const thumbsDown = $(
-          "<i>", {
-            class: "far fa-thumbs-down",
-            "data-restaurant": data["rest_name"],
-            "data-menu-item": data["name"],
-          }
-        );
-
-        thumbsUp.click(() => toggleFaClass(thumbsUp, thumbsDown));
-        thumbsDown.click(() => toggleFaClass(thumbsDown, thumbsUp));
-
-        const menuItemName = $("input[name='menu-item-name']").val();
-        const tr = $("<tr>");
-        tr.append($("<td>").text(data["rest_name"]));
-        tr.append($("<td>").text(data["name"]));
-        tr.append($("<td>").text(`$${data["price"].toFixed(2)}`));
-        tr.append($("<td>").html(thumbsUp));
-        tr.append($("<td>").html(thumbsDown));
-        $("#pref-list").append(tr);
-
-        $("#pref-empty-text").hide();
+        prefListApp.preferences.push({
+          restaurant: data["rest_name"],
+          menuItem: data["name"],
+          price: data["price"],
+          like: false,
+          dislike: false,
+        });
       })
       .fail(function() {
         alert("Invalid menu item");
@@ -168,21 +180,12 @@
 
   $("#submit-btn").click(function() {
     const restaurantName = $("input[name='restaurant-name']").val();
-    const likes = [];
-    const dislikes = [];
-
-    $.each($(".fas.fa-thumbs-up"), function() {
-      likes.push({
-        "restaurant": this.dataset.restaurant,
-        "menuItem": this.dataset.menuItem,
-      })
-    });
-    $.each($(".fas.fa-thumbs-down"), function() {
-      dislikes.push({
-        "restaurant": this.dataset.restaurant,
-        "menuItem": this.dataset.menuItem,
-      })
-    });
+    const likes = prefListApp.preferences
+      .filter(pref => pref.like)
+      .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
+    const dislikes = prefListApp.preferences
+      .filter(pref => pref.dislike)
+      .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
 
     const form = $("form");
     form.append(
@@ -195,5 +198,13 @@
     );
     form.submit();
   });
+
+
+  // Save restaurant name, likes, and dislikes to localstorage every 5 seconds
+  setInterval(function() {
+    const restaurant = $("input[name='restaurant-name']").val();
+    localStorage.setItem("restaurant", restaurant);
+    localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
+  }, 5000);
 </script>
 {% endblock %}
