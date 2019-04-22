@@ -134,6 +134,11 @@
     }
   });
 
+  $("input[name='restaurant-name']").on("input", function() {
+    const restaurant = $(this).val();
+    localStorage.setItem("restaurant", restaurant);
+  })
+
   // load from localstorage if anything was saved
   const restaurant = localStorage.getItem("restaurant");
   const prefList = localStorage.getItem("prefList");
@@ -151,10 +156,12 @@
       handleThumbsUp: function(index) {
         this.preferences[index]["dislike"] = false;
         this.preferences[index]["like"] = !this.preferences[index]["like"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
       },
       handleThumbsDown: function(index) {
         this.preferences[index]["like"] = false;
         this.preferences[index]["dislike"] = !this.preferences[index]["dislike"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
       }
     }
   });
@@ -198,13 +205,5 @@
     );
     form.submit();
   });
-
-
-  // Save restaurant name, likes, and dislikes to localstorage every second
-  setInterval(function() {
-    const restaurant = $("input[name='restaurant-name']").val();
-    localStorage.setItem("restaurant", restaurant);
-    localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
-  }, 1000);
 </script>
 {% endblock %}
