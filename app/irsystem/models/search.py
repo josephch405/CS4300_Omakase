@@ -26,6 +26,10 @@ all_yelp_users_reverse_index = {
 
 user_dish_mtx = sp.sparse.load_npz(data_path("user_dish_mtx.npz")).tocsc()
 
+all_restaurants_df_filtered = all_restaurants_df[
+    all_restaurants_df["name"].isin(all_menus["rest_name"])
+]
+
 
 def custom_edit_dist(q, item):
     # q is the query, ie. "Saigo kitch"
@@ -66,7 +70,7 @@ def fuzzy_substring(needle, haystack):
 
 
 def find_best_restaurants(query):
-    distances = all_restaurants_df["name"].apply(
+    distances = all_restaurants_df_filtered["name"].apply(
         lambda n: custom_edit_dist(query, n))
     top_10 = distances.sort_values()[:10]
     return all_restaurants_df.loc[top_10.index]
