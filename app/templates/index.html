@@ -28,7 +28,7 @@
     </div>
     <div class="form-group">
       <label for="menu-item-name">
-        Search for menu items you've liked/disliked:
+        Add dishes you've liked/disliked:
       </label>
       <div class="input-group">
         <input type="text"
@@ -67,6 +67,9 @@
               <td><i class="fa-thumbs-down"
                      v-bind:class="{ fas: preferences[index]['dislike'], far: !preferences[index]['dislike'] }"
                      v-on:click="handleThumbsDown(index)">
+              </i></td>
+              <td><i class="fas fa-trash-alt"
+                     v-on:click="handleDelete(index)">
               </i></td>
             </tr>
           </tbody>
@@ -134,6 +137,11 @@
     }
   });
 
+  $("input[name='restaurant-name']").on("input", function() {
+    const restaurant = $(this).val();
+    localStorage.setItem("restaurant", restaurant);
+  })
+
   // load from localstorage if anything was saved
   const restaurant = localStorage.getItem("restaurant");
   const prefList = localStorage.getItem("prefList");
@@ -151,10 +159,16 @@
       handleThumbsUp: function(index) {
         this.preferences[index]["dislike"] = false;
         this.preferences[index]["like"] = !this.preferences[index]["like"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
       },
       handleThumbsDown: function(index) {
         this.preferences[index]["like"] = false;
         this.preferences[index]["dislike"] = !this.preferences[index]["dislike"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
+      },
+      handleDelete: function(index) {
+        this.preferences.splice(index, 1);
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
       }
     }
   });
@@ -198,13 +212,5 @@
     );
     form.submit();
   });
-
-
-  // Save restaurant name, likes, and dislikes to localstorage every 5 seconds
-  setInterval(function() {
-    const restaurant = $("input[name='restaurant-name']").val();
-    localStorage.setItem("restaurant", restaurant);
-    localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
-  }, 5000);
 </script>
 {% endblock %}
