@@ -200,11 +200,11 @@
   });
 
 
-  // Save restaurant name, likes, and dislikes to localstorage every 5 seconds
+  // Save restaurant name, likes, and dislikes to localstorage every second
   setInterval(function() {
     const restaurant = $("input[name='restaurant-name']").val();
     localStorage.setItem("restaurant", restaurant);
     localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
-  }, 5000);
+  }, 1000);
 </script>
 {% endblock %}
