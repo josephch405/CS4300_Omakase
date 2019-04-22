@@ -61,17 +61,15 @@ def search():
     dislikes = list(map(rest_dish_pair_to_dish_id, dislikes))
 
     biz = list(find_best_restaurants(restaurant)["name"].values)[0]
-    menu_items_df = find_top_n_menu_items(biz)
-
-    rocchio_top_n(likes, dislikes, biz)
+    results = rocchio_top_n(likes, dislikes, biz)
 
     menu_items = [
         {
             "name": getattr(row, "name"),
             "price": getattr(row, "price"),
         }
-        for row in menu_items_df.itertuples()
-    ] if menu_items_df is not None else []
+        for row in results.itertuples()
+    ] if results is not None else []
 
     return render_template(
         'search.html',

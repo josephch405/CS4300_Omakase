@@ -24,7 +24,7 @@ all_yelp_users_reverse_index = {
     hash: number for number, hash in enumerate(all_yelp_users.tolist())
 }
 
-user_dish_mtx = sp.sparse.load_npz(data_path("user_dish_mtx.npz"))
+user_dish_mtx = sp.sparse.load_npz(data_path("user_dish_mtx.npz")).tocsc()
 
 
 def custom_edit_dist(q, item):
@@ -175,6 +175,7 @@ def find_best_menu(restaurant_name):
 
 
 def find_top_n_menu_items(restaurant_name, n=20):
+    # NEEDS TO BE UPDATED
     menu = find_best_menu(restaurant_name)
     rev_dish_mtx = get_rev_dish_matrix_for_name(restaurant_name)
 
@@ -222,7 +223,36 @@ def rest_dish_pair_to_dish_id(obj):
     return dish_row.index.item()
 
 
-def rocchio_top_n(like_indices, dislike_indices, biz_name, n=10):
-    return
-    # like_emb = user_dish_mtx.take(like_indices, axis=1)
-    # print(like_emb)
+def rocchio_top_n(like_indices, dislike_indices, biz_name,
+                  n=10, a=.5, b=1, c=1):
+    og_query = np.ones((n_users, 1))
+    like_emb = user_dish_mtx[:, like_indices]
+    if len(like_indices) == 0:
+        like_emb = np.zeros((n_users, 1))
+    elif np.sum(like_emb) > 0:
+        like_emb = np.sum(like_emb, axis=1)
+
+    dislike_emb = user_dish_mtx[:, dislike_indices]
+    if len(dislike_indices) == 0:
+        dislike_emb = np.zeros((n_users, 1))
+    elif np.sum(dislike_emb) > 0:
+        dislike_emb = np.sum(dislike_emb, axis=1)
+    print(like_emb.sum())
+
+    query_vector = a * og_query + b * like_emb - c * dislike_emb
+
+    biz_menu_df = find_best_menu(biz_name)
+
+    if biz_menu_df is None:
+        return None
+
+    biz_menu_ids = biz_menu_df.index.to_numpy()
+
+    def dish_id_to_score(dish_id):
+        dish_vector = user_dish_mtx[:, dish_id].todense()
+        return sp.spatial.distance.cosine(dish_vector.T, query_vector)
+
+    dish_scores = np.array(list(map(dish_id_to_score, biz_menu_ids)))
+    best_dish_idx = dish_scores.argsort()[:n]
+    best_dish_ids = biz_menu_ids[best_dish_idx]
+    return biz_menu_df.loc[best_dish_ids]
