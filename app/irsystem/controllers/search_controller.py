@@ -40,7 +40,6 @@ def about():
 @irsystem.route('/autocomplete', methods=['GET'])
 def autocomplete():
     search = request.args.get('term')
-    print(search)
     bizs = list(find_best_restaurants(search)["name"].values)[:5]
 
     return Response(json.dumps(bizs), mimetype='application/json')

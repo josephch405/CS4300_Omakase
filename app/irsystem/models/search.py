@@ -1,6 +1,7 @@
 from multiprocessing import Pool
 import numpy as np
 import pandas as pd
+import scipy as sp
 import nltk
 import os
 import json
@@ -18,6 +19,12 @@ all_menus = pd.read_csv(
     data_path("all_menus.csv"), encoding="unicode_escape")
 with open(data_path("rev_menu_mtx.json")) as infile:
     rev_menu_mtx_list = json.load(infile)
+all_yelp_users = np.genfromtxt("all_yelp_users.csv", dtype='U22')
+all_yelp_users_reverse_index = {
+    hash: number for number, hash in enumerate(all_yelp_users.tolist())
+}
+
+user_dish_mtx = sp.sparse.load_npz(data_path("user_dish_mtx.npz"))
 
 
 def custom_edit_dist(q, item):
@@ -35,6 +42,29 @@ def custom_edit_dist(q, item):
     return final_score
 
 
+def fuzzy_substring(needle, haystack):
+    m, n = len(needle), len(haystack)
+
+    # base cases
+    if m == 1:
+        return needle not in haystack
+    if not n:
+        return m
+
+    row1 = [0] * (n+1)
+    for i in range(0, m):
+        row2 = [i+1]
+        for j in range(0, n):
+            cost = (needle[i] != haystack[j])
+
+            row2.append(min(row1[j+1]+1,  # deletion
+                            row2[j]+1,  # insertion
+                            row1[j]+cost)  # substitution
+                        )
+        row1 = row2
+    return min(row1)
+
+
 def find_best_restaurants(query):
     distances = all_restaurants_df["name"].apply(
         lambda n: custom_edit_dist(query, n))
@@ -45,49 +75,80 @@ def find_best_restaurants(query):
 def get_all_reviews_for_restaurant(restaurant_hash):
     return all_reviews_df[all_reviews_df["restaurant"] == restaurant_hash]
 
+# DEPRECATED
+# def build_review_dish_matrix(restaurant_hash, menu):
+#     reviews = get_all_reviews_for_restaurant(restaurant_hash)
+#     reviews = reviews.reset_index()
+#     result = np.zeros([len(reviews), len(menu)])
 
-def build_review_dish_matrix(restaurant_hash, menu):
-    reviews = get_all_reviews_for_restaurant(restaurant_hash)
-    reviews = reviews.reset_index()
-    result = np.zeros([len(reviews), len(menu)])
+#     menu_terms = menu["name"].values
 
-    menu_terms = menu["name"].values
+#     for rev_ind, review in reviews.iterrows():
+#         review_text = review["text"]
+#         for term_ind, term in enumerate(menu_terms):
+#             # for some reason we have some NaN names?
+#             term = str(term)
+#             _score = fuzzy_substring(term.lower(), review_text.lower())
+#             if _score < min(len(term) / 4, 4):
+#                 result[rev_ind][term_ind] = 1
+#     return result
 
-    for rev_ind, review in reviews.iterrows():
+
+# def process_biz_row(biz):
+#     res_name = biz[0]
+#     res_hash = biz[1]
+#     print(res_name)
+#     menu = all_menus[all_menus["rest_name"] == res_name]
+#     rev_dish_mtx = build_review_dish_matrix(res_hash, menu)
+#     return [res_hash, res_name, rev_dish_mtx.tolist()]
+
+
+# def build_all_review_dish_matrices():
+#     p = Pool(3)
+#     menu_biz_names = all_menus["rest_name"].unique()
+#     ok_restaurants = all_restaurants_df[all_restaurants_df["name"].isin(
+#         menu_biz_names)]
+#     ok_restaurants = ok_restaurants[["name", "hash"]].values
+#     return p.map(process_biz_row, ok_restaurants)
+
+
+def process_biz_row_into_UD_matrix(biz):
+    biz_name = biz[0]
+    biz_hash = biz[1]
+    print(biz_name)
+
+    reviews = get_all_reviews_for_restaurant(biz_hash)
+    result = sp.sparse.lil_matrix((n_users, n_dishes), dtype='b')
+
+    menu = all_menus[all_menus["rest_name"] == biz_name]
+
+    for _, review in reviews.iterrows():
         review_text = review["text"]
-        review_tokens = review_text.split()
-        for term_ind, term in enumerate(menu_terms):
+        review_author = review["user"]
+        author_ind = all_yelp_users_reverse_index[review_author]
+        for dish_ind, dish in menu.iterrows():
             # for some reason we have some NaN names?
-            term = str(term)
-            term_wordcount = len(term.split())
-            i = 0
-            while i + term_wordcount <= len(review_tokens):
-                _substring = review_tokens[i:i+term_wordcount]
-                _substring = " ".join(_substring)
-                _score = nltk.edit_distance(term.lower(), _substring.lower())
-                if _score < min(len(term) / 4, 3):
-                    result[rev_ind][term_ind] = 1
-                    break
-                i += 1
+            term = str(dish["name"])
+            _score = fuzzy_substring(term.lower(), review_text.lower())
+            if _score < min(len(term) / 4, 4):
+                result[author_ind, dish_ind] = 1
     return result
 
 
-def process_biz_row(biz):
-    res_name = biz[0]
-    res_hash = biz[1]
-    print(res_name)
-    menu = all_menus[all_menus["rest_name"] == res_name]
-    rev_dish_mtx = build_review_dish_matrix(res_hash, menu)
-    return [res_hash, res_name, rev_dish_mtx.tolist()]
+n_users = len(all_yelp_users)
+n_dishes = len(all_menus)
 
 
-def build_all_review_dish_matrices():
+def build_user_dish_matrix():
+    # global output = sp.sparse.csc_matrix((100, 200), dtype='b')
+
     p = Pool(3)
     menu_biz_names = all_menus["rest_name"].unique()
     ok_restaurants = all_restaurants_df[all_restaurants_df["name"].isin(
         menu_biz_names)]
     ok_restaurants = ok_restaurants[["name", "hash"]].values
-    return p.map(process_biz_row, ok_restaurants)
+    mapped = p.map(process_biz_row_into_UD_matrix, ok_restaurants)
+    return np.array(mapped).sum(axis=0)
 
 
 def get_rev_dish_matrix_for_name(restaurant_name):
