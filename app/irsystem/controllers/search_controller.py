@@ -85,58 +85,6 @@ def search():
     )
 
 
-@irsystem.route('/login', methods=['GET', 'POST'])
-def login():
-    if request.method == "GET":
-        if "session_username" in request.cookies:
-            return redirect(url_for('irsystem.index'))
-
-        return render_template(
-            'login.html',
-        )
-    elif request.method == "POST":
-        username = request.form.get("username").strip()
-        password = request.form.get("password")
-
-        if "signup" in request.form:
-            try:
-                with db:
-                    hashed_pw = bcrypt.hashpw(password, bcrypt.gensalt(12))
-                    cursor = db.execute(
-                        "INSERT INTO users (username, hashed_pw) "
-                        "values (:username, :hashed_pw)",
-                        {"username": username, "hashed_pw": hashed_pw},
-                    )
-                    session["session_username"] = username
-                    flash("Successfully signed up", "success")
-                    return redirect(url_for("irsystem.index"))
-            except sqlite3.IntegrityError:
-                flash("Username has already been used. Please try again.", "danger")
-                return redirect(url_for("irsystem.login"))
-        elif "login" in request.form:
-            cursor = db.execute(
-                "SELECT hashed_pw FROM users WHERE username = :username",
-                {"username": username},
-            )
-            row = cursor.fetchone()
-
-            if row is not None and bcrypt.checkpw(password, row["hashed_pw"]):
-                session["session_username"] = username
-                flash("Successfully logged in", "success")
-                return redirect(url_for("irsystem.index"))
-            else:
-                flash("Invalid username or password", "danger")
-                return redirect(url_for("irsystem.login"))
-        else:
-            return redirect(url_for('irsystem.login'))
-
-
-@irsystem.route('/logout', methods=['GET'])
-def logout():
-    session.pop("session_username", None)
-    return redirect(url_for('irsystem.index'))
-
-
 @irsystem.route('/api/menu-item', methods=['GET'])
 def menu_item_api():
     restaurant = request.args.get('restaurant', None)

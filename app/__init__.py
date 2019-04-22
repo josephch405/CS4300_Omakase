@@ -24,22 +24,22 @@ db = sqlite3.connect(db_path)
 db.row_factory = sqlite3.Row
 
 # create schema if uninitialized
-c = db.cursor()
-c.executescript("""
-CREATE TABLE IF NOT EXISTS users (
-  user_id INTEGER PRIMARY KEY AUTOINCREMENT,
-  username TEXT UNIQUE NOT NULL,
-  hashed_pw TEXT NOT NULL 
-);
+# c = db.cursor()
+# c.executescript("""
+# CREATE TABLE IF NOT EXISTS users (
+#   user_id INTEGER PRIMARY KEY AUTOINCREMENT,
+#   username TEXT UNIQUE NOT NULL,
+#   hashed_pw TEXT NOT NULL 
+# );
 
-CREATE TABLE IF NOT EXISTS preferences (
-  user_id INTEGER,
-  restaurant TEXT,
-  menu_item TEXT,
-  rating INTEGER,
-  FOREIGN KEY(user_id) REFERENCES users(user_id)
-);
-""")
+# CREATE TABLE IF NOT EXISTS preferences (
+#   user_id INTEGER,
+#   restaurant TEXT,
+#   menu_item TEXT,
+#   rating INTEGER,
+#   FOREIGN KEY(user_id) REFERENCES users(user_id)
+# );
+# """)
 
 # Import + Register Blueprints
 from app.irsystem import irsystem as irsystem

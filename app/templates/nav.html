@@ -18,30 +18,5 @@
         <a class="nav-link" href="{{ url_for('irsystem.about') }}">About</a>
       </li>
     </ul>
-
-    <ul class="navbar-nav ml-auto">
-      {% if 'session_username' not in session %}
-      <a class="btn btn-outline-primary ml-auto" href="{{ url_for('irsystem.login') }}">
-          Login
-      </a>
-      {% else %}
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle"
-            href="#"
-            id="navbarDropdown"
-            role="button"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false">
-            Hi {{ session['session_username'] }}!
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{ url_for('irsystem.logout') }}">
-              Logout
-              </a>
-        </div>
-      </li>
-      {% endif %}
-    </ul>
   </div>
 </nav>
