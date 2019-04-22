@@ -5,7 +5,6 @@ import json
 from . import *
 from app.irsystem.models.search import (
     find_best_restaurants,
-    find_top_n_menu_items,
     get_random_item_from_restaurant,
     get_menu_item_info,
     rest_dish_pair_to_dish_id,
