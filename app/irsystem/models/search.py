@@ -223,5 +223,6 @@ def rest_dish_pair_to_dish_id(obj):
 
 
 def rocchio_top_n(like_indices, dislike_indices, biz_name, n=10):
-    like_emb = user_dish_mtx.take(like_indices, axis=1)
-    print(like_emb)
+    return
+    # like_emb = user_dish_mtx.take(like_indices, axis=1)
+    # print(like_emb)
