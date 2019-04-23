@@ -1,19 +1,221 @@
 {% extends "base.html" %} {% block head %}
 {{ super() }}
 <link rel="stylesheet" href="/static/search.css" />
+<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:700|Cinzel+Decorative|Cormorant:600|Lato|Ovo|Quicksand:300" rel="stylesheet">
+
 {% endblock %} {% block body %}
 <div class="container">
   <h1>Our recommendations for {{ restaurant_name }}:</h1>
-  <ol>
+  <h2>Filter by Preferences</h2>
+
+  <div id="form-container">
+    <form class="d-flex flex-column col-lg-8" method="POST" action="/search">
+
+
+      <div class="form-group">
+        <div>
+        <label for="menu-item-name">
+          Likes:
+        </label>
+        <div class="input-group">
+          <input type="text"
+                name="menu-item-restaurant-name"
+                class="form-control"
+                placeholder="e.g. Dumplings">
+          <button id="add-menu-item-btn" type="button" class="btn btn-info input-group-addon">
+            +
+          </button>
+        </div>
+      </div>
+      <div>
+        <label for="menu-item-name">
+          Dislikes:
+        </label>
+        <div class="input-group">
+          <input type="text"
+                name="menu-item-restaurant-name"
+                class="form-control"
+                placeholder="e.g. Salad">
+          <button id="add-menu-item-btn" type="button" class="btn btn-info input-group-addon">
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="form-group">
+        <div id="pref-list" class="card p-3">
+        {% raw %}
+          <h6 class="text-center" v-if="preferences.length === 0">
+            Preferences
+          </h6>
+          <table class="table">
+            <tbody>
+              <tr v-for="(pref, index) in preferences">
+                <td>{{ pref["menuItem"] }}</td>
+
+                <td><i class="fas fa-trash-alt"
+                       v-on:click="handleDelete(index)">
+                </i></td>
+              </tr>
+            </tbody>
+          </table>
+        {% endraw %}
+        </div>
+      </div>
+
+      <div class="form-group align-self-center">
+        <button id="submit-btn" type="button" class="btn btn-success">
+          Update!
+        </button>
+      </div>
+    </form>
+  </div>
+
+</div>
+
+
+  <table>
     {% for menu_item in menu_items %}
-    <li>
-      {{ menu_item.score }} match: {{ menu_item.name }} - ${{
+    <tr>
+      <td>{{ menu_item.score }} match</td>
+      <td>{{ menu_item.name }}</td>
+      <td>${{
         "%0.2f" % menu_item.price
-      }}
-    </li>
+      }}</td>
+    </tr>
     {% else %}
     <p>Sorry, we don't have the menu for this restaurant.</p>
     {% endfor %}
-  </ol>
+  </table>
 </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+  $("input[name='restaurant-name']").autocomplete({
+    source: function(req, res) {
+      $.ajax({
+        timeout: 5000,
+        url: "/autocomplete",
+        data: { term: req.term },
+        dataType: "json",
+        success: res,
+        error: function() {
+          res([]);
+        }
+      });
+    }
+  });
+
+  $("input[name='menu-item-restaurant-name']").autocomplete({
+    source: function(req, res) {
+      $.ajax({
+        timeout: 5000,
+        url: "/autocomplete",
+        data: { term: req.term },
+        dataType: "json",
+        success: res,
+        error: function() {
+          res([]);
+        }
+      });
+    }
+  });
+
+  $("input[name='menu-item-name']").autocomplete({
+    source: function(req, res) {
+      const restaurantName = $("input[name='menu-item-restaurant-name']").val();
+
+      $.ajax({
+        timeout: 5000,
+        url: "/api/menu-item/autocomplete",
+        data: { query: req.term, restaurant: restaurantName },
+        dataType: "json",
+        success: res,
+        error: function() {
+          res([]);
+        }
+      });
+    }
+  });
+
+  $("input[name='restaurant-name']").on("input", function() {
+    const restaurant = $(this).val();
+    localStorage.setItem("restaurant", restaurant);
+  })
+
+  // load from localstorage if anything was saved
+  const restaurant = localStorage.getItem("restaurant");
+  const prefList = localStorage.getItem("prefList");
+
+  if (restaurant !== null) {
+    $("input[name='restaurant-name']").val(restaurant);
+  }
+
+  const prefListApp = new Vue({
+    el: "#pref-list",
+    data: {
+      preferences: prefList === null ? [] : JSON.parse(prefList),
+    },
+    methods: {
+      handleThumbsUp: function(index) {
+        this.preferences[index]["dislike"] = false;
+        this.preferences[index]["like"] = !this.preferences[index]["like"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
+      },
+      handleThumbsDown: function(index) {
+        this.preferences[index]["like"] = false;
+        this.preferences[index]["dislike"] = !this.preferences[index]["dislike"];
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
+      },
+      handleDelete: function(index) {
+        this.preferences.splice(index, 1);
+        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
+      }
+    }
+  });
+
+  $("#add-menu-item-btn").click(function() {
+    $.get("/api/menu-item", {
+      menuItem: $("input[name='menu-item-name']").val(),
+    })
+      .done(function(data) {
+        const isDup = prefListApp.preferences.some(
+          elt => elt.restaurant === data["rest_name"] && elt.menuItem === data["name"]
+        );
+        if (!isDup) {
+          prefListApp.preferences.push({
+            menuItem: data["name"],
+            like: false,
+            dislike: false,
+          });
+        }
+      })
+      .fail(function() {
+        alert("Invalid menu item");
+      });
+  });
+
+  $("#submit-btn").click(function() {
+    const restaurantName = $({{ restaurant_name }}).val();
+    const likes = prefListApp.preferences
+      .filter(pref => pref.like)
+      .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
+    const dislikes = prefListApp.preferences
+      .filter(pref => pref.dislike)
+      .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
+
+    const form = $("form");
+    form.append(
+      $("<textarea>", {"name": "preferences", "class": "d-none"})
+        .val(JSON.stringify({
+          "restaurant": restaurantName,
+          "likes": likes,
+          "dislikes": dislikes,
+        }))
+    );
+    form.submit();
+  });
+</script>
 {% endblock %}
