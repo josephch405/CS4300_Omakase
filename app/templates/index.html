@@ -5,12 +5,15 @@
 <link rel="stylesheet" href="/static/index.css" />
 <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:700|Cinzel+Decorative|Cormorant:600|Lato|Ovo|Quicksand:300" rel="stylesheet">
 
-
+<link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
 {% endblock %}
 
 {% block body %}
-<div class="container">
-
 <h1 id="project-name">
   Omakase <br />
   おまかせ
@@ -25,8 +28,57 @@
              placeholder="e.g. {{ restaurant_suggestion }}"
              required>
     </div>
-
-
+    <div class="form-group">
+      <label for="menu-item-name">
+        Add dishes you've liked/disliked:
+      </label>
+      <div class="input-group">
+        <input type="text"
+              name="menu-item-restaurant-name"
+              class="form-control"
+              placeholder="e.g. {{ restaurant_suggestion }}">
+        <div class="input-group-prepend input-group-append">
+          <div class="input-group-text">'s&nbsp;&nbsp;</div>
+        </div>
+        <input type="text"
+              name="menu-item-name"
+              class="form-control"
+              placeholder="e.g. {{ menu_item_suggestion }}">
+        <button id="add-menu-item-btn" type="button" class="btn btn-info input-group-addon">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+    </div>
+    <div class="form-group">
+      <div id="pref-list" class="card p-3">
+      {% raw %}
+        <h3 class="mb-3">Preference List</h3>
+        <h6 class="text-center" v-if="preferences.length === 0">
+          Currently empty :( Try adding to this list with the input above!
+        </h6>
+        <table class="table">
+          <tbody>
+            <tr v-for="(pref, index) in preferences">
+              <td>{{ pref["restaurant"] }}</td>
+              <td>{{ pref["menuItem"] }}</td>
+              <td>${{ pref["price"].toFixed(2) }}</td>
+              <td><i class="fa-thumbs-up"
+                     v-bind:class="{ fas: preferences[index]['like'], far: !preferences[index]['like'] }"
+                     v-on:click="handleThumbsUp(index)">
+              </i></td>
+              <td><i class="fa-thumbs-down"
+                     v-bind:class="{ fas: preferences[index]['dislike'], far: !preferences[index]['dislike'] }"
+                     v-on:click="handleThumbsDown(index)">
+              </i></td>
+              <td><i class="fas fa-trash-alt"
+                     v-on:click="handleDelete(index)">
+              </i></td>
+            </tr>
+          </tbody>
+        </table>
+      {% endraw %}
+      </div>
+    </div>
     <div class="form-group align-self-center">
       <button id="submit-btn" type="button" class="btn btn-success">
         Get Recommendations!
@@ -34,8 +86,6 @@
     </div>
   </form>
 </div>
-</div>
-
 {% endblock %}
 
 {% block js %}
@@ -56,7 +106,6 @@
       });
     }
   });
-
   $("input[name='menu-item-restaurant-name']").autocomplete({
     source: function(req, res) {
       $.ajax({
@@ -71,11 +120,9 @@
       });
     }
   });
-
   $("input[name='menu-item-name']").autocomplete({
     source: function(req, res) {
       const restaurantName = $("input[name='menu-item-restaurant-name']").val();
-
       $.ajax({
         timeout: 5000,
         url: "/api/menu-item/autocomplete",
@@ -88,20 +135,16 @@
       });
     }
   });
-
   $("input[name='restaurant-name']").on("input", function() {
     const restaurant = $(this).val();
     localStorage.setItem("restaurant", restaurant);
   })
-
   // load from localstorage if anything was saved
   const restaurant = localStorage.getItem("restaurant");
   const prefList = localStorage.getItem("prefList");
-
   if (restaurant !== null) {
     $("input[name='restaurant-name']").val(restaurant);
   }
-
   const prefListApp = new Vue({
     el: "#pref-list",
     data: {
@@ -124,7 +167,6 @@
       }
     }
   });
-
   $("#add-menu-item-btn").click(function() {
     $.get("/api/menu-item", {
       restaurant: $("input[name='menu-item-restaurant-name']").val(),
@@ -148,7 +190,6 @@
         alert("Invalid menu item");
       });
   });
-
   $("#submit-btn").click(function() {
     const restaurantName = $("input[name='restaurant-name']").val();
     const likes = prefListApp.preferences
@@ -157,7 +198,6 @@
     const dislikes = prefListApp.preferences
       .filter(pref => pref.dislike)
       .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
-
     const form = $("form");
     form.append(
       $("<textarea>", {"name": "preferences", "class": "d-none"})
