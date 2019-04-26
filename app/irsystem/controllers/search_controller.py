@@ -49,9 +49,10 @@ def autocomplete():
 
 @irsystem.route('/search', methods=['POST'])
 def search():
-    preferences = json.loads(request.form.get("preferences"))
-    if not preferences:
+    if "preferences" not in request.form:
         return redirect(url_for('irsystem.index'))
+
+    preferences = json.loads(request.form.get("preferences"))
 
     restaurant = preferences["restaurant"]
     likes = preferences["likes"]
