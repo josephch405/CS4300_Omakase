@@ -74,11 +74,23 @@
             </tr>
           </tbody>
         </table>
+        <div class="d-none">
+          <input type="checkbox"
+                 name="likes"
+                 v-for="pref in preferences"
+                 v-bind:value="pref.id"
+                 v-bind:checked="pref.like">
+          <input type="checkbox"
+                 name="dislikes"
+                 v-for="pref in preferences"
+                 v-bind:value="pref.id"
+                 v-bind:checked="pref.dislike">
+        </div>
       {% endraw %}
       </div>
     </div>
     <div class="form-group align-self-center">
-      <button id="submit-btn" type="button" class="btn btn-success">
+      <button type="submit" class="btn btn-success">
         Get Recommendations!
       </button>
     </div>
@@ -137,7 +149,7 @@
     }
   });
 
-  $("input[name='restaurant-name']").on("input", function() {
+  $("input[name='restaurant-name']").change(function() {
     const restaurant = $(this).val();
     localStorage.setItem("restaurant", restaurant);
   })
@@ -179,11 +191,10 @@
       menuItem: $("input[name='menu-item-name']").val(),
     })
       .done(function(data) {
-        const isDup = prefListApp.preferences.some(
-          elt => elt.restaurant === data["rest_name"] && elt.menuItem === data["name"]
-        );
+        const isDup = prefListApp.preferences.some(elt => elt.id === data.id);
         if (!isDup) {
           prefListApp.preferences.push({
+            id: data["id"],
             restaurant: data["rest_name"],
             menuItem: data["name"],
             price: data["price"],
@@ -195,27 +206,6 @@
       .fail(function() {
         alert("Invalid menu item");
       });
-  });
-
-  $("#submit-btn").click(function() {
-    const restaurantName = $("input[name='restaurant-name']").val();
-    const likes = prefListApp.preferences
-      .filter(pref => pref.like)
-      .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
-    const dislikes = prefListApp.preferences
-      .filter(pref => pref.dislike)
-      .map(pref => ({restaurant: pref.restaurant, menuItem: pref.menuItem}));
-
-    const form = $("form");
-    form.append(
-      $("<textarea>", {"name": "preferences", "class": "d-none"})
-        .val(JSON.stringify({
-          "restaurant": restaurantName,
-          "likes": likes,
-          "dislikes": dislikes,
-        }))
-    );
-    form.submit();
   });
 </script>
 {% endblock %}

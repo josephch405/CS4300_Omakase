@@ -205,14 +205,21 @@ def get_random_item_from_restaurant():
 def get_menu_item_info(menu_item, restaurant):
     """ Returns the menu item's info as a dictionary if it exists, else None. """
     filtered_df = all_menus.loc[
-        (all_menus["rest_name"] == restaurant) & (
-            all_menus["name"] == menu_item)
+        (all_menus["rest_name"] == restaurant) & (all_menus["name"] == menu_item)
     ]
 
     if filtered_df.empty:
         return None
     else:
-        return filtered_df.to_dict("records")[0]
+        dish_info_dict = filtered_df.to_dict("records")[0]
+        rest_name = dish_info_dict["rest_name"]
+        dish_name = dish_info_dict["name"]
+        dish_id = rest_dish_pair_to_dish_id({
+            "restaurant": rest_name,
+            "menuItem": dish_name
+        })
+        dish_info_dict["id"] = dish_id
+        return dish_info_dict
 
 
 def rest_dish_pair_to_dish_id(obj):

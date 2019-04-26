@@ -49,16 +49,16 @@ def autocomplete():
 
 @irsystem.route('/search', methods=['POST'])
 def search():
-    preferences = json.loads(request.form.get("preferences"))
-    if not preferences:
+    if (
+        "restaurant-name" not in request.form
+        or "likes" not in request.form
+        or "dislikes" not in request.form
+    ):
         return redirect(url_for('irsystem.index'))
 
-    restaurant = preferences["restaurant"]
-    likes = preferences["likes"]
-    dislikes = preferences["dislikes"]
-
-    likes = list(map(rest_dish_pair_to_dish_id, likes))
-    dislikes = list(map(rest_dish_pair_to_dish_id, dislikes))
+    restaurant = request.form.get("restaurant-name")
+    likes = [int(item) for item in request.form.getlist("likes")]
+    dislikes = [int(item) for item in request.form.getlist("dislikes")]
 
     biz = list(find_best_restaurants(restaurant)["name"].values)[0]
     results, scores = rocchio_top_n(likes, dislikes, biz)
