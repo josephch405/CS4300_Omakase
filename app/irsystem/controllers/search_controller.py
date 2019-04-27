@@ -72,7 +72,11 @@ def search():
 
     menu_items = (
         [
-            {"name": getattr(row, "name"), "price": getattr(row, "price")}
+            {
+                "name": getattr(row, "name"),
+                "price": getattr(row, "price"),
+                "img": getattr(row, "img"),
+            }
             for row in results.itertuples()
         ]
         if results is not None

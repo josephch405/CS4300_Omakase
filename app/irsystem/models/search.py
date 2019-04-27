@@ -220,7 +220,6 @@ def get_menu_item_info(menu_item, restaurant):
             "menuItem": dish_name
         })
         dish_info_dict["id"] = dish_id
-        print(dish_info_dict)
         return dish_info_dict
 
 

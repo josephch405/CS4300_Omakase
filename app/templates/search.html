@@ -1,11 +1,16 @@
-{% extends "base.html" %} {% block head %}
+{% extends "base.html" %}
+
+{% block head %}
 {{ super() }}
 <link rel="stylesheet" href="/static/search.css" />
 <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:700|Cinzel+Decorative|Cormorant:600|Lato|Ovo|Quicksand:300" rel="stylesheet">
 
-{% endblock %} {% block body %}
+{% endblock %}
+
+{% block body %}
 <div class="container">
   <h1>Our recommendations for {{ restaurant_name }}:</h1>
+  <!--
   <h2>Filter by Preferences</h2>
 
   <div id="form-container">
@@ -71,26 +76,22 @@
       </div>
     </form>
   </div>
+  -->
 
-</div>
 
-
-  <table>
+  <div id="cards-container">
     {% for menu_item in menu_items %}
-    <tr>
-      <td>{{ menu_item.score }} match</td>
-      <td>{{ menu_item.name }}</td>
-      <td>${{
-        "%0.2f" % menu_item.price
-      }}</td>
-    </tr>
-    {% else %}
-    <p>Sorry, we don't have the menu for this restaurant.</p>
+    <div class="card">
+      <p>{{ menu_item.score }} match</p>
+      <p>{{ menu_item.name }}</p>
+      <p>${{ "%0.2f" % menu_item.price }}</p>
+    </div>
     {% endfor %}
-  </table>
+  </div>
+
 </div>
 
-
+<!--
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 <script>
   $("input[name='restaurant-name']").autocomplete({
@@ -218,4 +219,5 @@
     form.submit();
   });
 </script>
+-->
 {% endblock %}
