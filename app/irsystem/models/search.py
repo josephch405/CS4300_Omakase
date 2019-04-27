@@ -16,7 +16,8 @@ all_reviews_df = pd.read_csv(
 all_restaurants_df = pd.read_csv(
     data_path("all_restaurants.csv"), encoding="unicode_escape")
 all_menus = pd.read_csv(
-    data_path("all_menus.csv"), encoding="unicode_escape")
+    data_path("all_menus.csv"), encoding="unicode_escape", keep_default_na=False
+)
 with open(data_path("rev_menu_mtx.json")) as infile:
     rev_menu_mtx_list = json.load(infile)
 all_yelp_users = np.genfromtxt(data_path("all_yelp_users.csv"), dtype='U22')
@@ -219,6 +220,7 @@ def get_menu_item_info(menu_item, restaurant):
             "menuItem": dish_name
         })
         dish_info_dict["id"] = dish_id
+        print(dish_info_dict)
         return dish_info_dict
 
 

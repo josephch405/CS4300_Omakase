@@ -181,9 +181,13 @@
     }
   });
   $("#add-menu-item-btn").click(function() {
-    $.get("/api/menu-item", {
-      restaurant: $("input[name='menu-item-restaurant-name']").val(),
-      menuItem: $("input[name='menu-item-name']").val(),
+    $.get({
+      url: "/api/menu-item",
+      data: {
+        restaurant: $("input[name='menu-item-restaurant-name']").val(),
+        menuItem: $("input[name='menu-item-name']").val(),
+      },
+      dataType: "json"
     })
       .done(function(data) {
         const isDup = prefListApp.preferences.some(elt => elt.id === data.id);

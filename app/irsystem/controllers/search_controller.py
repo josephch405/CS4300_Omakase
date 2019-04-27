@@ -12,7 +12,7 @@ from app.irsystem.models.search import (
     menu_item_edit_dist,
 )
 from sqlalchemy.sql.expression import func
-from flask import redirect, url_for, Response, make_response, session, flash, abort
+from flask import redirect, url_for, Response, make_response, session, flash, abort, jsonify
 
 
 @irsystem.route('/', methods=['GET'])
@@ -97,7 +97,7 @@ def menu_item_api():
     if menu_item_info is None:
         abort(404)
 
-    return Response(json.dumps(menu_item_info), mimetype='application/json')
+    return jsonify(menu_item_info)
 
 
 @irsystem.route('/api/menu-item/autocomplete', methods=['GET'])
