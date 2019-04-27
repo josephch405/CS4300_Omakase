@@ -12,49 +12,56 @@ from app.irsystem.models.search import (
     menu_item_edit_dist,
 )
 from sqlalchemy.sql.expression import func
-from flask import redirect, url_for, Response, make_response, session, flash, abort, jsonify
+from flask import (
+    redirect,
+    url_for,
+    Response,
+    make_response,
+    session,
+    flash,
+    abort,
+    jsonify,
+)
 
 
-@irsystem.route('/', methods=['GET'])
+@irsystem.route("/", methods=["GET"])
 def index():
     restaurant, menu_item = get_random_item_from_restaurant()
     return render_template(
-        'index.html',
-        restaurant_suggestion=restaurant,
-        menu_item_suggestion=menu_item,
+        "index.html", restaurant_suggestion=restaurant, menu_item_suggestion=menu_item
     )
 
 
-@irsystem.route('/about', methods=['GET'])
+@irsystem.route("/about", methods=["GET"])
 def about():
     return render_template(
-        'about.html',
+        "about.html",
         team_members=[
             ("Joseph Chuang", "jcc436"),
             ("Ryan Curtis", "rec284"),
             ("Tyler Ishikawa", "tyi3"),
             ("Danyal Motiwalla", "djm453"),
             ("Jessica Wu", "jlw377"),
-        ]
+        ],
     )
 
 
-@irsystem.route('/autocomplete', methods=['GET'])
+@irsystem.route("/autocomplete", methods=["GET"])
 def autocomplete():
-    search = request.args.get('term')
+    search = request.args.get("term")
     bizs = list(find_best_restaurants(search)["name"].values)[:5]
 
-    return Response(json.dumps(bizs), mimetype='application/json')
+    return Response(json.dumps(bizs), mimetype="application/json")
 
 
-@irsystem.route('/search', methods=['POST'])
+@irsystem.route("/search", methods=["POST"])
 def search():
     if (
         "restaurant-name" not in request.form
         or "likes" not in request.form
         or "dislikes" not in request.form
     ):
-        return redirect(url_for('irsystem.index'))
+        return redirect(url_for("irsystem.index"))
 
     restaurant = request.form.get("restaurant-name")
     likes = [int(item) for item in request.form.getlist("likes")]
@@ -63,31 +70,31 @@ def search():
     biz = list(find_best_restaurants(restaurant)["name"].values)[0]
     results, scores = rocchio_top_n(likes, dislikes, biz)
 
-    menu_items = [
-        {
-            "name": getattr(row, "name"),
-            "price": getattr(row, "price"),
-        }
-        for row in results.itertuples()
-    ] if results is not None else []
-
-    menu_items = map(lambda t: {
-        "name": t[1]["name"],
-        "price": t[1]["price"],
-        "score": (1 - scores[t[0]]) * 1000 // 1 / 10
-    }, enumerate(menu_items))
-
-    return render_template(
-        'search.html',
-        restaurant_name=biz,
-        menu_items=menu_items,
+    menu_items = (
+        [
+            {"name": getattr(row, "name"), "price": getattr(row, "price")}
+            for row in results.itertuples()
+        ]
+        if results is not None
+        else []
     )
 
+    menu_items = map(
+        lambda t: {
+            "name": t[1]["name"],
+            "price": t[1]["price"],
+            "score": (1 - scores[t[0]]) * 1000 // 1 / 10,
+        },
+        enumerate(menu_items),
+    )
 
-@irsystem.route('/api/menu-item', methods=['GET'])
+    return render_template("search.html", restaurant_name=biz, menu_items=menu_items)
+
+
+@irsystem.route("/api/menu-item", methods=["GET"])
 def menu_item_api():
-    restaurant = request.args.get('restaurant', None)
-    menu_item = request.args.get('menuItem', None)
+    restaurant = request.args.get("restaurant", None)
+    menu_item = request.args.get("menuItem", None)
 
     if None in (restaurant, menu_item):
         abort(404)
@@ -100,7 +107,7 @@ def menu_item_api():
     return jsonify(menu_item_info)
 
 
-@irsystem.route('/api/menu-item/autocomplete', methods=['GET'])
+@irsystem.route("/api/menu-item/autocomplete", methods=["GET"])
 def menu_item_autocomplete():
     restaurant = request.args.get("restaurant", None)
     query = request.args.get("query", "")
@@ -108,7 +115,6 @@ def menu_item_autocomplete():
     if restaurant is None:
         response = []
     else:
-        response = list(menu_item_edit_dist(
-            restaurant, query)["name"].values)[:5]
+        response = list(menu_item_edit_dist(restaurant, query)["name"].values)[:5]
 
-    return Response(json.dumps(response), mimetype='application/json')
+    return Response(json.dumps(response), mimetype="application/json")
