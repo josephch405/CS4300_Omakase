@@ -17,4 +17,10 @@
 .card {
   padding: 1em;
   margin: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 10em;
 }

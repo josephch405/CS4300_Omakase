@@ -82,9 +82,10 @@
   <div id="cards-container">
     {% for menu_item in menu_items %}
     <div class="card">
-      <p>{{ menu_item.score }} match</p>
       <p>{{ menu_item.name }}</p>
       <p>${{ "%0.2f" % menu_item.price }}</p>
+      <p>Relevance score: {{ menu_item.score }}</p>
+      <img src="{{ menu_item.img }}">
     </div>
     {% endfor %}
   </div>

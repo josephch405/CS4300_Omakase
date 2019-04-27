@@ -76,20 +76,12 @@ def search():
                 "name": getattr(row, "name"),
                 "price": getattr(row, "price"),
                 "img": getattr(row, "img"),
+                "score": (1 - scores[index]) * 1000 // 1 / 10,
             }
-            for row in results.itertuples()
+            for index, row in enumerate(results.itertuples())
         ]
         if results is not None
         else []
-    )
-
-    menu_items = map(
-        lambda t: {
-            "name": t[1]["name"],
-            "price": t[1]["price"],
-            "score": (1 - scores[t[0]]) * 1000 // 1 / 10,
-        },
-        enumerate(menu_items),
     )
 
     return render_template("search.html", restaurant_name=biz, menu_items=menu_items)
