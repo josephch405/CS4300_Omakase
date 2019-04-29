@@ -56,10 +56,9 @@ def autocomplete():
 
 @irsystem.route("/search", methods=["POST"])
 def search():
+    print(request.form)
     if (
         "restaurant-name" not in request.form
-        or "likes" not in request.form
-        or "dislikes" not in request.form
     ):
         return redirect(url_for("irsystem.index"))
 
