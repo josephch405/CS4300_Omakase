@@ -14,12 +14,8 @@
       href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css"
     />
     <style>
-      .alert {
-        margin: 0;
-      }
       nav {
         margin-bottom: 2em;
-        background-color: #353535`;
       }
       body {
         background-color: #353535;
@@ -29,19 +25,6 @@
     {% endblock %}
   </head>
   <body>
-    {% with messages = get_flashed_messages(with_categories=True) %}
-      {% if messages %}
-        {% for category, message in messages %}
-          <div class="alert alert-{{ category }} alert-dismissible fade show"
-              role="alert">
-              {{ message }}
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-              </button>
-          </div>
-        {% endfor %}
-      {% endif %}
-    {% endwith %}
     {% include "nav.html" %}
     {% block body %}{% endblock %}
     {% block js %}
