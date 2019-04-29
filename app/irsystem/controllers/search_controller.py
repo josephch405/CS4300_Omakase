@@ -62,9 +62,7 @@ def search():
     restaurant = request.form.get("restaurant-name")
     likes = [int(item) for item in request.form.getlist("likes")]
     dislikes = [int(item) for item in request.form.getlist("dislikes")]
-    print(restaurant)
-    print(likes)
-    print(dislikes)
+    pref_list = request.form.get("prefList", [])
 
     biz = list(find_best_restaurants(restaurant)["name"].values)[0]
     results, scores = rocchio_top_n(likes, dislikes, biz)
@@ -83,7 +81,12 @@ def search():
         else []
     )
 
-    return render_template("search.html", restaurant_name=biz, menu_items=menu_items)
+    return render_template(
+        "search.html",
+        restaurant_name=biz,
+        menu_items=menu_items,
+        pref_list=pref_list,
+    )
 
 
 @irsystem.route("/api/menu-item", methods=["GET"])

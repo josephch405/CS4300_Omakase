@@ -82,6 +82,7 @@
           </table>
           <input type="hidden" name="likes" v-for="pref in likePreferences" v-bind:value="pref.id">
           <input type="hidden" name="dislikes" v-for="pref in dislikePreferences" v-bind:value="pref.id">
+          <input type="hidden" name="prefList" v-bind:value="prefList">
         {% endraw %}
         </div>
       </div>
@@ -166,18 +167,15 @@
       }
     });
 
-  // load from localstorage if anything was saved
-  const prefList = localStorage.getItem("prefList");
-
+  console.log(`{{ pref_list|safe }}`);
   const prefListApp = new Vue({
     el: "#pref-list",
     data: {
-      preferences: prefList === null ? [] : JSON.parse(prefList),
+      preferences: JSON.parse(`{{ pref_list|safe }}`),
     },
     methods: {
       handleDelete: function(index) {
         this.preferences.splice(index, 1);
-        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
       }
     },
     computed: {
@@ -186,6 +184,10 @@
       },
       dislikePreferences: function() {
         return this.preferences.filter(pref => !pref.isLike);
+      },
+      prefList: function() {
+        console.log(JSON.stringify(this.preferences));
+        return JSON.stringify(this.preferences);
       }
     }
   });
