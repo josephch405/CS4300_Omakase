@@ -54,93 +54,16 @@
       });
     }
   });
-  $("input[name='menu-item-restaurant-name']").autocomplete({
-    source: function(req, res) {
-      $.ajax({
-        timeout: 5000,
-        url: "/autocomplete",
-        data: { term: req.term },
-        dataType: "json",
-        success: res,
-        error: function() {
-          res([]);
-        }
-      });
-    }
-  });
-  $("input[name='menu-item-name']").autocomplete({
-    source: function(req, res) {
-      const restaurantName = $("input[name='menu-item-restaurant-name']").val();
-      $.ajax({
-        timeout: 5000,
-        url: "/api/menu-item/autocomplete",
-        data: { query: req.term, restaurant: restaurantName },
-        dataType: "json",
-        success: res,
-        error: function() {
-          res([]);
-        }
-      });
-    }
-  });
 
   $("input[name='restaurant-name']").change(function() {
     const restaurant = $(this).val();
     localStorage.setItem("restaurant", restaurant);
   })
+
   // load from localstorage if anything was saved
   const restaurant = localStorage.getItem("restaurant");
-  const prefList = localStorage.getItem("prefList");
   if (restaurant !== null) {
     $("input[name='restaurant-name']").val(restaurant);
   }
-  const prefListApp = new Vue({
-    el: "#pref-list",
-    data: {
-      preferences: prefList === null ? [] : JSON.parse(prefList),
-    },
-    methods: {
-      handleThumbsUp: function(index) {
-        this.preferences[index]["dislike"] = false;
-        this.preferences[index]["like"] = !this.preferences[index]["like"];
-        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
-      },
-      handleThumbsDown: function(index) {
-        this.preferences[index]["like"] = false;
-        this.preferences[index]["dislike"] = !this.preferences[index]["dislike"];
-        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
-      },
-      handleDelete: function(index) {
-        this.preferences.splice(index, 1);
-        localStorage.setItem("prefList", JSON.stringify(prefListApp.preferences));
-      }
-    }
-  });
-  $("#add-menu-item-btn").click(function() {
-    $.get({
-      url: "/api/menu-item",
-      data: {
-        restaurant: $("input[name='menu-item-restaurant-name']").val(),
-        menuItem: $("input[name='menu-item-name']").val(),
-      },
-      dataType: "json"
-    })
-      .done(function(data) {
-        const isDup = prefListApp.preferences.some(elt => elt.id === data.id);
-        if (!isDup) {
-          prefListApp.preferences.push({
-            id: data["id"],
-            restaurant: data["rest_name"],
-            menuItem: data["name"],
-            price: data["price"],
-            like: false,
-            dislike: false,
-          });
-        }
-      })
-      .fail(function() {
-        alert("Invalid menu item");
-      });
-  });
 </script>
 {% endblock %}
