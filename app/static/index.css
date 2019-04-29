@@ -16,6 +16,8 @@
 }
 
 body {
+  background-repeat:no-repeat;
+  background-position: center center;
   background-image: url("bg.png");
   font-family: 'Quicksand';
 }
