@@ -60,7 +60,7 @@ def fuzzy_substring(needle, haystack):
     for i in range(0, m):
         row2 = [i+1]
         for j in range(0, n):
-            cost = (needle[i] != haystack[j])
+            cost = (needle[i] != haystack[j]) and j
 
             row2.append(min(row1[j+1]+1,  # deletion
                             row2[j]+1,  # insertion
@@ -206,7 +206,8 @@ def get_random_item_from_restaurant():
 def get_menu_item_info(menu_item, restaurant):
     """ Returns the menu item's info as a dictionary if it exists, else None. """
     filtered_df = all_menus.loc[
-        (all_menus["rest_name"] == restaurant) & (all_menus["name"] == menu_item)
+        (all_menus["rest_name"] == restaurant) & (
+            all_menus["name"] == menu_item)
     ]
 
     if filtered_df.empty:
