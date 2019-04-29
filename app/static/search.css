@@ -12,6 +12,9 @@ body {
     font-family: 'Quicksand';
 }
 
+h1 {
+  font-family: 'Lato';
+}
 .container {
   margin-top: 2em;
   justify-content: center;;
