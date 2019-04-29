@@ -30,9 +30,10 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #515151;
+  width: 11em;
 
 }
 
 img {
-  max-width: 10em;
+  max-width: 9em;
 }
