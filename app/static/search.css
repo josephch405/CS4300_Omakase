@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Cormorant', serif;
+  font-family: 'Arima Madurai', cursive;
+  font-family: 'Ovo', serif;
+  font-family: 'Cinzel Decorative', cursive;
+  src: url("https://fonts.googleapis.com/css?family=Arima+Madurai:700|Cinzel+Decorative|Cormorant:600|Lato|Ovo|Quicksand:300");
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
 .container {
   margin-top: 2em;
   justify-content: center;;
@@ -16,6 +30,7 @@
   align-items: center;
   justify-content: center;
   background-color: #515151;
+
 }
 
 img {
