@@ -14,8 +14,7 @@
 
 {% block body %}
 <div class="container">
-  <h1>Our recommendations for {{ restaurant_name }}:</h1>
-
+  <h1 id="title">Our recommendations for {{ restaurant_name }}</h1>
 
   <div id="form-container">
     <h2>Filter by Preferences</h2>
@@ -167,7 +166,6 @@
       }
     });
 
-  console.log(`{{ pref_list|safe }}`);
   const prefListApp = new Vue({
     el: "#pref-list",
     data: {

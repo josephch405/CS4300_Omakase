@@ -53,3 +53,16 @@ img {
 .fa-trash-alt {
   cursor: pointer;
 }
+
+#pref-list {
+  width: 100%;
+}
+
+#title {
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+#form-container {
+  margin-bottom: 3rem;
+}
