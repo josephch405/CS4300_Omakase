@@ -37,3 +37,19 @@ body {
 img {
   max-width: 9em;
 }
+
+#likes-dislikes {
+  justify-content: space-between;
+}
+
+#likes, #dislikes {
+  width: 45%;
+}
+
+.table {
+  color: white;
+}
+
+.fa-trash-alt {
+  cursor: pointer;
+}
