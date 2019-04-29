@@ -207,6 +207,8 @@
             isLike: isLike,
           });
         }
+        $(`input[name='${classPrefix}-restaurant-name']`).val("");
+        $(`input[name='${classPrefix}-menu-item-name']`).val("");
       })
       .fail(function() {
         alert("Invalid menu item");
