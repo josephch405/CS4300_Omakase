@@ -8,14 +8,9 @@
   src: url("https://fonts.googleapis.com/css?family=Arima+Madurai:700|Cinzel+Decorative|Cormorant:600|Lato|Ovo|Quicksand:300");
 }
 
-.container {
-  background-color: #353535;
-}
-
 #project-name {
   font-size: 55px;
   font-family: 'Cinzel Decorative';
-  color: #353535;
   margin-bottom: 1em;
   text-align: center;
 }

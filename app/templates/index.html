@@ -28,69 +28,6 @@
              placeholder="e.g. {{ restaurant_suggestion }}"
              required>
     </div>
-    <div class="form-group">
-      <label for="menu-item-name">
-        Add dishes you've liked/disliked:
-      </label>
-      <div class="input-group">
-        <input type="text"
-              name="menu-item-restaurant-name"
-              class="form-control"
-              placeholder="e.g. {{ restaurant_suggestion }}">
-        <div class="input-group-prepend input-group-append">
-          <div class="input-group-text">'s&nbsp;&nbsp;</div>
-        </div>
-        <input type="text"
-              name="menu-item-name"
-              class="form-control"
-              placeholder="e.g. {{ menu_item_suggestion }}">
-        <button id="add-menu-item-btn" type="button" class="btn btn-info input-group-addon">
-          <i class="fas fa-plus"></i>
-        </button>
-      </div>
-    </div>
-    <div class="form-group">
-      <div id="pref-list" class="card p-3">
-      {% raw %}
-        <h3 class="mb-3">Preference List</h3>
-        <h6 class="text-center" v-if="preferences.length === 0">
-          Currently empty :( Try adding to this list with the input above!
-        </h6>
-        <table class="table">
-          <tbody>
-            <tr v-for="(pref, index) in preferences">
-              <td>{{ pref["restaurant"] }}</td>
-              <td>{{ pref["menuItem"] }}</td>
-              <td>${{ pref["price"].toFixed(2) }}</td>
-              <td><i class="fa-thumbs-up"
-                     v-bind:class="{ fas: preferences[index]['like'], far: !preferences[index]['like'] }"
-                     v-on:click="handleThumbsUp(index)">
-              </i></td>
-              <td><i class="fa-thumbs-down"
-                     v-bind:class="{ fas: preferences[index]['dislike'], far: !preferences[index]['dislike'] }"
-                     v-on:click="handleThumbsDown(index)">
-              </i></td>
-              <td><i class="fas fa-trash-alt"
-                     v-on:click="handleDelete(index)">
-              </i></td>
-            </tr>
-          </tbody>
-        </table>
-        <div class="d-none">
-          <input type="checkbox"
-                 name="likes"
-                 v-for="pref in preferences"
-                 v-bind:value="pref.id"
-                 v-bind:checked="pref.like">
-          <input type="checkbox"
-                 name="dislikes"
-                 v-for="pref in preferences"
-                 v-bind:value="pref.id"
-                 v-bind:checked="pref.dislike">
-        </div>
-      {% endraw %}
-      </div>
-    </div>
     <div class="form-group align-self-center">
       <button type="submit" class="btn btn-success">
         Get Recommendations!
