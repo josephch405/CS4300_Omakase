@@ -64,7 +64,9 @@ def search():
     dislikes = [int(item) for item in request.form.getlist("dislikes")]
     pref_list = request.form.get("prefList", [])
 
-    biz = list(find_best_restaurants(restaurant)["name"].values)[0]
+    bizes = find_best_restaurants(restaurant)
+    biz = list(bizes["name"].values)[0]
+    yelp_id = list(bizes["id"].values)[0]
     results, scores = rocchio_top_n(likes, dislikes, biz)
 
     menu_items = (
@@ -86,6 +88,7 @@ def search():
         restaurant_name=biz,
         menu_items=menu_items,
         pref_list=pref_list,
+        yelp_id=yelp_id,
     )
 
 
